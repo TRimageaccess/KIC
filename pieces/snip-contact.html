@@ -1,0 +1,112 @@
+<div class="viewport" id="contact_vp">
+<div id="contact_logobox"><img src="images/DSLG and IA Logos.jpg" alt="DLSG and Image Access Logos"></div>
+<div id="contact_headsetpeople"><img src="images/headset_people.jpg" alt="several support personnel wearing telephone headsets"></div>
+<div id="contact_techvanbox"><img src="images/service_tech_with_van.png" alt="Van with service Technician"></div>
+<div id="contact_large_image">
+  <img src="images/parking_lot.jpg" alt="street level view of DLSG headquarters">
+  <p class="contact image_overlay title"> DLSG is a division of Image Access, Inc. </p>
+  <p class="contact image_overlay address"> 543 NW 77th Street, Boca Raton, FL 33487 </p>
+  <p class="contact image_overlay subtitle"> Image Access, Inc. </p>
+  <img src="images/contact-lower.jpg" alt="collage of corporate images">
+</div>
+
+<div id="contact_infobox">
+  <div class="tag">
+    <p class="tag"> Call </p>
+    <p class="tag little"> or </p> 
+    <p class="tag"> Email</p>
+  </div>
+  <div class="phone">
+    <p class="phone"> 800.378.5432 </p>
+    <p class="email_link"> <a href="mailto:contactus@dlsg.com">ContactUs@DLSG.com</a> </p>
+  </div>
+  <div class="button">
+    <a href="mailto:contactus@dlsg.com"> <img src="images/Email-green.jpg" alt="email button"></a>
+    <p class="caption large"> Contact Us </p>
+  </div>
+</div>
+
+<div id="contact_instructobox">
+  <p> To receive more information,  contact us directly at <br> 800.378.5432 or complete the form below and submit. </p>
+  <p class="caption"> Note: a red asterisk, (<span class="redflag">*</span>), denotes a required field. </p>       
+</div>
+
+<div class="formset">
+<form class="contactform" id="commentForm" action="script/formmail.asp" method="post" >
+			 <input name="_recipients"  type="hidden" value="contactus@dlsg.net">
+			 <input name="_subject"     type="hidden" value="Message from the contact.html web-form">
+			 <input name="_redirectUrl" type="hidden" value="/thankyou.html">
+  
+<% Session("MyBotCheckID234") = Now() %>
+
+ <div id="contact_fieldset1" class="fieldset"><fieldset>
+  <legend> &emsp; About You &emsp; </legend>
+  <p>
+   <label for="fname">First Name</label>
+   <em>*</em><input id="fname" name="fname" size="25" class="required" minlength="2" />
+  </p>
+  <p>
+   <label for="lname">Last Name</label>
+   <em>*</em><input id="lname" name="lname" size="25" class="required" minlength="2" />
+  </p>
+  <p>
+   <label for="title">Title</label>
+   <em> &emsp; </em><input id="title" name="title" size="25" />
+  </p>
+  <p>
+   <label for="email">E-Mail</label>
+   <em>*</em><input id="email" name="email" size="25"  class="required email" />
+  </p>
+ </fieldset></div>
+ 
+ <div id="contact_fieldset2" class="fieldset"><fieldset>
+  <legend> &emsp; About Your Organization &emsp; </legend>
+  <div class="fieldgroup1">
+    <p>
+     <label for="company">Company</label>
+     <em> &emsp; </em><input id="company" name="company" size="25" />
+    </p>
+    <p>
+     <label for="telephone">Telephone #</label>
+     <em>*</em><input id="telephone" name="telephone" size="25" class="required phoneUS" />
+    </p>
+    <p>
+     <label for="fax">Fax #</label>
+     <em> &emsp; </em><input id="fax" name="fax" size="25" />
+    </p>
+    <p>
+     <label for="url">Website</label>
+     <em> &emsp; </em><input id="url" name="url" size="25"  class="url" value="" />
+    </p>
+    <p>
+     <label for="comment">Comments<br><span class="slanty">(3000 char. limit)</span></label>
+     <em> &emsp; </em><textarea id="comment" name="comment" maxlength="3000"></textarea>
+    </p>
+    <p>
+     <input class="submit" type="image" src="images/Submit-green100.png" alt="Submit"/>
+    </p>
+  </div>
+  <div class="fieldgroup2">
+    <p>
+     <label for="address">Address</label>
+     <em> &emsp; </em><input id="address" name="address" size="25" />
+    </p>
+    <p>
+     <label for="city">City</label>
+     <em> &emsp; </em><input id="city" name="city" size="25" />
+    </p>
+    <p>
+     <label for="state">State</label>
+     <em> &emsp; </em><input id="state" name="state" size="25" />
+    </p>
+    <p>
+     <label for="zip">ZIP</label>
+     <em> &emsp; </em><input id="zip" name="zip" size="25" />
+    </p>
+  </div>
+  
+ </fieldset></div>
+</form></div>
+<hr>
+</div>
+
