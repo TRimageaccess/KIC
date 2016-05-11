@@ -1,0 +1,134 @@
+.infoblock__top {
+    overflow: hidden;
+}
+
+.infoblock .top__logo {
+    max-width: 340px;
+    float: left;
+}
+
+.top__h1 {
+    text-align: center;
+    color: #000;
+    text-shadow: none;
+    font-size: 64px;
+    line-height: 74px;
+    margin: 0;
+}
+
+.top__h2 {
+    text-align: center;
+    color: #8ca1c9;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.infoblock__center {
+    overflow: hidden;
+    margin-top: -110px;
+}
+
+.infoblock .center__img {
+    float: right;
+    width: 58%;
+    padding-left: 20px;
+}
+
+.center__text--padding {
+    text-align: justify;
+    padding-top: 150px;
+    position: relative;
+}
+
+.center__text--margin {
+    text-align: justify;
+    padding-top: 65px;
+    position: absolute;
+    width: 53%;
+}
+
+.infoblock__nav {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.infoblock .nav__li {
+    float: left;
+    width: 38%;
+}
+
+.infoblock .nav__img {
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.infoblock .li--width {
+    width: 80%;
+}
+
+.nav__li li:first-child {
+    list-style: none;
+}
+
+.infoblock ul.blue-bullet li:first-child:before {
+    background: transparent !important;
+}
+
+.nav__li--margin {
+    margin-left: 20px;
+}
+
+.infoblock .infoblock__bottom {
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+
+.infoblock__bottom li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 33%;
+}
+
+.infoblock__bottom li p {
+    text-align: center;
+}
+
+.infoblock .bottom__img {
+    width: 24%;
+    margin-left: 25px;
+}
+
+.infoblock .bottom__a {
+    width: 20%;
+    position: relative;
+    top: -15px;
+}
+
+.bottom__a a {
+    font-size: 26px;
+    color: #454733;
+    margin-bottom: 10px;
+}
+
+.a--rel {
+    position: absolute;
+    bottom: 76px;
+    font-size: 30px;
+    color: #8c897d;
+    width: 230%;
+    right: 0;
+}
+
+.brochure-block-wrap {
+    width: 1160px;
+    margin: 0;
+    box-shadow: 2px 3px 5px 5px #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 20px;
+}

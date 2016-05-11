@@ -1,0 +1,1194 @@
+
+.infoblock .infoblock__rows {
+
+}
+
+.infoblock .rows__row {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.infoblock .infoblock__huge-header {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 8.4rem;
+    text-align: center;
+    text-shadow: none;
+    color: black;
+}
+
+.infoblock .huge-header__image {
+    height: 20%;
+    width: 20%;
+}
+
+.infoblock .infoblock__sub-header {
+    text-align: center;
+    padding-bottom: 15px;
+    color: black;
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT first page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .rows__row--kat {
+    padding: 0 5px;
+}
+
+.infoblock .infoblock__sub-header--bold {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+}
+
+.infoblock .infoblock__sub-header--italic {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+}
+
+.infoblock .figure__image {
+    width: 100%;
+    height: 100%;
+}
+
+.infoblock .image-title {
+    position: relative;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+}
+
+.infoblock .image-text {
+    margin-left: 4%;
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-size: 1.5rem;
+}
+
+.infoblock .image-title--stacks-view {
+    margin-left: 30%;
+    margin-bottom: -28px;
+}
+
+.infoblock .figure__image--120 {
+    width: 120%;
+    height: 120%;
+}
+
+.infoblock .image-bottom-header {
+    font-weight: normal;
+    margin-left: 15%;
+    margin-top: -122px;
+    padding-bottom: 12px;
+    width: 50%;
+}
+
+.infoblock .row--kat__right-middle-block {
+
+}
+
+.infoblock .right-middle-block__text {
+    width: 40%;
+    text-align: right;
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    position: relative;
+    margin-top: 45px;
+    left: -4%;
+}
+
+.infoblock .right-middle-block__image {
+    width: 59%;
+}
+
+.infoblock .infoblock__kat-phones {
+    height: 670px;
+    background: url("../images/KIC_KAT/kat_phones.png") no-repeat;
+    background-size: 100% 670px;
+    margin-top: -148px;
+    margin-bottom: 105px;
+}
+
+.infoblock .image-title--search-screen {
+    top: 15px;
+    left: 15%;
+}
+
+.infoblock .image-title--bibliography-view {
+    text-align: right;
+    right: 30%;
+    top: 130px;
+}
+
+.infoblock .image-title--shelf-view {
+    left: 13%;
+    top: 288px;
+}
+
+.infoblock .kat-phones__note--left {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.infoblock .note--left__top {
+    position: relative;
+    left: 1%;
+    top: 50px;
+    width: 38%;
+}
+
+.infoblock .note--left__bottom {
+    position: relative;
+    left: 1%;
+    top: 300px;
+    width: 25%;
+}
+
+.infoblock .kat-phones__note--right {
+    font-size: 1.4rem;
+    font-family: AvenirLTStdBookOblique;
+    position: relative;
+    left: 81%;
+    top: 140px;
+    padding: 15px 0;
+    width: 17%;
+}
+
+.infoblock .infoblock__reading-list {
+    border-radius: 5px;
+    background-color: #DEDEDE;
+    position: relative;
+    margin-top: -370px;
+    left: 52%;
+    width: 47%;
+}
+
+.infoblock .reading-list__header {
+    position: relative;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 1.7rem;
+    left: 14%;
+    top: 5px;
+    margin-bottom: -20px;
+}
+
+.infoblock .reading-list__footer {
+    position: relative;
+    margin-top: -30px;
+    left: 15%;
+}
+
+.infoblock .reading-list__professor-info-block {
+    position: relative;
+    font-size: 1.5rem;
+    left: 1%;
+    margin-top: -85px;
+    padding-bottom: 55px;
+    line-height: 1rem;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT second page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__header {
+    color: black;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 4.4rem;
+    text-shadow: none;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 4.4rem;
+}
+
+.infoblock .infoblock__image {
+    width: 75%;
+    height: 75%;
+    margin: 35px 0 35px 13%
+}
+
+.infoblock .infoblock__sub-header--APIWTW {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    margin-bottom: -30px;
+    margin-left: 12%;
+    width: 75%;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.infoblock .infoblock__centered-text {
+    margin: -15px 0 -25px 12%;
+    width: 75%;
+}
+
+.infoblock .infoblock__bottom-text {
+    position: relative;
+    left: 42%;
+    margin-top: -135px;
+    padding-bottom: 100px;
+    width: 41%;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT third page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__sub-header--STW {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    margin-bottom: -25px;
+    margin-left: 12%;
+    width: 75%;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT fourth page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__sub-header--WIYS {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    text-align: center;
+    margin-left: 12%;
+    width: 75%;
+}
+
+.infoblock .infoblock__image--WIYS {
+    width: 100%;
+    height: 100%;
+    margin-left: 3%;
+}
+
+.infoblock .infoblock__centered-text--WIYS {
+    margin-left: 12%;
+    width: 75%;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT fifth page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .text-rows__text-row {
+    display: inline-block;
+    padding: 0 3%;
+    width: 49%;
+    vertical-align: top;
+}
+
+.infoblock .infoblock__sub-header--PYPC-FBL {
+    margin-top: 185px;
+    padding-bottom: 40px;
+    font-size: 3.5rem;
+}
+
+.infoblock .infoblock__sub-header--PYPC-SBDB {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 3.2rem;
+    margin-top: 165px;
+    margin-bottom: 20px;
+}
+
+.infoblock .infoblock__sub-header--MBDE {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    margin-top: -25px;
+    margin-left: 12%;
+    width: 80%;
+}
+
+.infoblock .search-screen__image-title--PYPC {
+    position: relative;
+    left: 35%;
+    margin-bottom: -65px
+}
+
+.infoblock .image-title--PYPC {
+    position: relative;
+    left: 42%;
+    margin-bottom: -45px;
+}
+
+.infoblock .bibliography-view-screen__bvs-info-block {
+    margin-top: -260px;
+    padding-bottom: 25px;
+}
+
+.infoblock .bvs-info-block__text {
+    position: relative;
+    width: 28%;
+    left: 71%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.infoblock .search-screen__info {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    position: relative;
+    margin-top: -410px;
+    left: 70%;
+    width: 25%;
+}
+
+.infoblock .professor-photo__text {
+    position: relative;
+    left: 70%;
+    margin-top: -250px;
+    padding-top: 5px;
+}
+
+.infoblock .faculty-book-lists__text-rows {
+    margin-bottom: -45px;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT sixth page *******************************************/
+/*************************************************************************************************************/
+
+.beautiful-girl-bg {
+    box-sizing: border-box;
+    background: url("../images/KIC_KAT/kat_6_img_bg.png") no-repeat;
+    background-size: cover;
+}
+
+.infoblock .rows__row--collage {
+    width: 60%;
+}
+
+.infoblock .collage__info {
+    width: 38%;
+    position: relative;
+    left: 21%;
+    margin-bottom: -150px;
+}
+
+.infoblock .infoblock__sub-header--GHH {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    margin-left: 12%;
+    width: 74%;
+}
+
+.infoblock .infoblock__kit-kat-go {
+
+}
+
+.infoblock .kit-kat-go__image-title--kic-stations {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    position: relative;
+    left: 17%;
+    margin-bottom: -22px;
+    padding-bottom: 20px;
+}
+
+.infoblock .kit-kat-go__image-title--kic-srs {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    position: relative;
+    left: 63%;
+    margin-top: -320px;
+    padding-bottom: 325px;
+}
+
+.infoblock .image-text--SW {
+    width: 26%;
+    position: relative;
+    left: 0;
+    margin-left: 0;
+    margin-top: -225px;
+    padding-bottom: 15px;
+    font-family: AvenirLTStdBook;
+}
+
+.infoblock .bvs-section__image-title {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    position: relative;
+    left: 45%;
+    margin-top: -255px;
+    padding-bottom: 200px;
+}
+
+.infoblock .bvs-section__image-text {
+    position: relative;
+    width: 23%;
+    left: 77%;
+    margin-top: -115px;
+    padding-bottom: 100px;
+}
+
+/*************************************************************************************************************/
+/************************************************* KAT seventh page ******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__blocks {
+
+}
+
+.infoblock .blocks__block-item {
+    display: inline-block;
+    height: 185px;
+    width: 50%;
+    margin: 30px 2%;
+    vertical-align: top;
+}
+
+.infoblock .blocks__block-item--1 {
+    background: url("../images/KIC_KAT/kat_7_img_1.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 159px;
+    width: 450px;
+}
+
+.infoblock .blocks__block-item--2 {
+    background: url("../images/KIC_KAT/kat_7_img_2.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 166px;
+    width: 450px;
+    margin-left: 7%;
+}
+
+.infoblock .blocks__block-item--3 {
+    background: url("../images/KIC_KAT/kat_7_img_3.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 195px;
+    width: 485px;
+}
+
+.infoblock .blocks__block-item--4 {
+    background: url("../images/KIC_KAT/kat_7_img_4.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 246px;
+    width: 508px;
+    margin-top: -16px;
+}
+
+.infoblock .blocks__block-item--5 {
+    background: url("../images/KIC_KAT/kat_7_img_5.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 181px;
+    width: 500px;
+}
+
+.infoblock .blocks__block-item--6 {
+    background: url("../images/KIC_KAT/kat_7_img_6.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 194px;
+    width: 490px;
+}
+
+.infoblock .blocks__block-item--7 {
+    background: url("../images/KIC_KAT/kat_7_img_7.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    margin-left: 30%;
+    height: 172px;
+    width: 500px;
+}
+
+.infoblock .block__title {
+    margin-left: 118px;
+    padding-top: 0;
+}
+
+.infoblock .block__title--1 {
+    margin-left: 100px;
+    padding-top: 17px;
+}
+
+.infoblock .block__title--2 {
+    margin-top: 2px;
+    margin-left: 100px;
+}
+
+.infoblock .block__title--3 {
+    margin-top: 0;
+    margin-left: 104px;
+}
+
+.infoblock .block__title--4 {
+    padding-top: 44px;
+    margin-top: 52px;
+}
+
+.infoblock .block__title--5 {
+    padding-top: 32px;
+    margin-left: 110px;
+}
+
+.infoblock .block__title--6 {
+    padding-top: 32px;
+}
+
+.infoblock .block__title--7 {
+    padding-top: 12px;
+}
+
+.infoblock .block__info {
+    margin-left: 118px;
+    width: 100%;
+}
+
+.infoblock .block__info--1 {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.infoblock .block__info--2 {
+    margin-top: -6px;
+    margin-left: 100px;
+}
+
+.infoblock .block__info--3 {
+    width: 40%;
+    margin-left: 104px;
+}
+
+.infoblock .block__info--4 {
+    width: 42%;
+}
+
+.infoblock .block__info--5 {
+    width: 32%;
+    margin-left: 110px;
+}
+
+.infoblock .block__info--6 {
+    width: 46%;
+}
+
+.infoblock .block__info--7 {
+    width: 43%;
+}
+
+.temp-bg {
+    background: url("../images/KIC_KAT/kat_7_temp-bg.png") no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 1450px;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT eighth page ******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__sub-header--AYPCCE-H2 {
+    text-align: center;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 3.2rem;
+    width: 82%;
+    padding-left: 21%;
+    line-height: 3.2rem;
+}
+
+.infoblock .infoblock__sub-header--AYPCCE {
+    width: 75%;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-left: 12%;
+}
+
+.infoblock .infoblock__image-section {
+    margin-bottom: 20px;
+}
+
+.infoblock .image-section__image {
+    width: 100%;
+    height: 100%;
+}
+
+.infoblock .image-section__info {
+    width: 31%;
+    position: relative;
+    left: 44%;
+    margin-top: -135px;
+    padding-bottom: 85px;
+    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
+
+.infoblock .infoblock__requirements-section {
+    width: 87%;
+    border: 2px solid black;
+    margin: 0 auto 10px auto;
+    padding: 15px 1%;
+}
+
+.infoblock .requirements-section__req-header {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    margin: 0 0 10px 0;
+}
+
+.infoblock .requirements-section__left-row-text {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.infoblock .requirements-section__req-right-row {
+    display: inline-block;
+    width: 49%;
+}
+
+.infoblock .req-right-row__image {
+    display: inline-block;
+    width: 36%;
+    padding-left: 6%;
+}
+
+.infoblock .req-right-row__text {
+    display: inline-block;
+    width: 49%;
+    font-size: 1rem;
+    padding-left: 7%;
+}
+
+.infoblock .requirements-section__below-rows-text {
+    padding: 5px 0 15px 0;
+}
+
+.infoblock .requirements-section__req-table {
+    border: 1px solid black;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 0;
+}
+
+.infoblock .table-data__data, .table-headers__header {
+    border: 1px solid black;
+    background: none;
+    padding: 2px 5px;
+    text-align: left;
+}
+
+.infoblock .req-table__table-headers {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    text-align: center;
+}
+
+.infoblock .table-headers__header {
+    text-align: center;
+}
+
+/*.infoblock .req-table__table-headers th {*/
+/*text-align: center;*/
+/*}*/
+
+/*************************************************************************************************************/
+/************************************************** KAT ninth page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__rows {
+
+}
+
+.infoblock .rows__row--CM {
+    vertical-align: top;
+    display: block;
+    width: 100%;
+}
+
+.infoblock .row__text {
+    display: inline-block;
+    width: 49%;
+    padding: 10px 1% 10px 1%;
+    vertical-align: top;
+}
+
+.infoblock .infoblock__sub-header--CW {
+    font-size: 3.2rem;
+    padding: 10px 0;
+}
+
+.infoblock .infoblock__images {
+
+}
+
+.infoblock .images__image {
+
+}
+
+/*************************************************************************************************************/
+/************************************************** MEDIA QUERIES ********************************************/
+/*************************************************************************************************************/
+
+/* 1280, 1366 */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    /******************** PAGE 1 ********************/
+    .infoblock .infoblock__huge-header {
+        font-size: 4.5rem;
+        padding-top: 14px;
+    }
+
+    .infoblock .image-title--stacks-view {
+        margin-left: 17%;
+        padding-bottom: 12px;
+    }
+
+    .infoblock .image-bottom-header {
+        margin-top: -80px;
+        width: 47%;
+    }
+
+    .infoblock .right-middle-block__text {
+        width: 88%;
+        text-align: left;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 5px;
+        left: 14%;
+    }
+
+    .infoblock .right-middle-block__image {
+        width: 59%;
+        position: relative;
+        left: 24%;
+    }
+
+    .infoblock .infoblock__kat-phones {
+        background-size: 100% 486px;
+        margin-top: -100px;
+        margin-bottom: 0;
+    }
+
+    .infoblock .kat-phones__note--right {
+        left: 82%;
+        top: 79px;
+        padding: 5px 0;
+        width: 21%;
+        line-height: 1.5rem;
+    }
+
+    .infoblock .image-title--search-screen {
+        top: 5px;
+        left: 12%;
+    }
+
+    .infoblock .image-title--bibliography-view {
+        right: 26%;
+        top: 85px;
+    }
+
+    .infoblock .note--left__top {
+        position: relative;
+        top: 0;
+    }
+
+    .infoblock .image-title--shelf-view {
+        left: 10%;
+        top: 193px;
+    }
+
+    .infoblock .note--left__bottom {
+        top: 157px;
+        width: 25%;
+    }
+
+    .infoblock .reading-list__header {
+        position: relative;
+        font-size: 1.3rem;
+        left: 9%;
+        top: 5px;
+        margin-bottom: -14px;
+    }
+
+    .infoblock .reading-list__professor-info-block {
+        margin-top: -55px;
+        font-size: 1rem;
+        padding-bottom: 25px;
+    }
+
+    .infoblock .reading-list__footer {
+        position: relative;
+        margin-top: -23px;
+        left: 11%;
+        font-size: 1.2rem;
+    }
+
+    /******************** PAGE 2 ********************/
+    .infoblock .infoblock__bottom-text {
+        margin-top: -105px;
+        padding-bottom: 30px;
+        width: 50%;
+    }
+
+    /******************** PAGE 3 ********************/
+    .infoblock .infoblock__header {
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-top: 25px;
+    }
+
+    /******************** PAGE 4 ********************/
+    /******************** PAGE 5 ********************/
+    .infoblock .search-screen__info {
+        margin-top: -300px;
+    }
+
+    .infoblock .infoblock__sub-header--PYPC-FBL {
+        margin-top: 35px;
+        font-size: 2.5rem;
+    }
+
+    .infoblock .infoblock__sub-header--MBDE {
+        font-size: 2rem;
+    }
+
+    .infoblock .professor-photo__text {
+        margin-top: -182px;
+        padding-top: 9px;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    /******************** PAGE 6 ********************/
+    .beautiful-girl-bg {
+        background-size: 100% 91%;
+    }
+
+    .infoblock .search-screen__image-title--PYPC {
+        padding-bottom: 27px;
+    }
+
+    .infoblock .infoblock__sub-header--PYPC-SBDB {
+        margin-top: 105px;
+        margin-bottom: 65px;
+    }
+
+    .infoblock .image-title--PYPC {
+        left: 38%;
+        padding-bottom: 20px;
+    }
+
+    .infoblock .collage__info {
+        margin-bottom: -110px;
+        width: 68%;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-stations {
+        position: relative;
+        left: 13%;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs {
+        left: 58%;
+        margin-top: -215px;
+        padding-bottom: 280px;
+    }
+
+    .infoblock .bvs-section__image-title {
+        position: relative;
+        left: 42%;
+        margin-top: -188px;
+        padding-bottom: 145px;
+    }
+
+    /******************** PAGE 7 ********************/
+    .infoblock .blocks__block-item--2 {
+        margin-left: 3%;
+    }
+
+    .infoblock .blocks__block-item--4 {
+        position: relative;
+        left: -2%;
+    }
+
+    .infoblock .blocks__block-item--5 {
+        margin-top: -35px;
+    }
+
+    .infoblock .blocks__block-item--7 {
+        margin-left: 0;
+    }
+
+    /******************** PAGE 8 ********************/
+    .infoblock .infoblock__sub-header--AYPCCE {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .infoblock .infoblock__sub-header--AYPCCE-H2 {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+    }
+
+    .infoblock .image-section__info {
+        margin-top: -102px;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        padding-bottom: 35px;
+    }
+
+    .infoblock .infoblock__requirements-section {
+        padding: 15px 2%;
+    }
+
+    .infoblock .req-right-row__text {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        padding-top: 10px;
+        padding-left: 2%;
+        text-align: left;
+        width: 55%;
+    }
+
+    /******************** PAGE 9 ********************/
+
+}
+
+/* 1024 */
+@media (max-width: 1199px) {
+
+    /******************** PAGE 1 ********************/
+    .infoblock .infoblock__huge-header {
+        font-size: 4.5rem;
+        padding-top: 14px;
+    }
+
+    .infoblock .image-title--stacks-view {
+        margin-left: 17%;
+        padding-bottom: 12px;
+    }
+
+    .infoblock .image-bottom-header {
+        margin-top: -80px;
+        width: 47%;
+    }
+
+    .infoblock .right-middle-block__text {
+        width: 88%;
+        text-align: left;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 5px;
+        left: 14%;
+    }
+
+    .infoblock .right-middle-block__image {
+        width: 59%;
+        position: relative;
+        left: 24%;
+    }
+
+    .infoblock .infoblock__kat-phones {
+        background-size: 100% 486px;
+        margin-top: -100px;
+        margin-bottom: 0;
+    }
+
+    .infoblock .kat-phones__note--right {
+        left: 82%;
+        top: 73px;
+        padding: 5px 0;
+        width: 19%;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+
+    .infoblock .image-title--search-screen {
+        top: 5px;
+        left: 12%;
+    }
+
+    .infoblock .image-title--bibliography-view {
+        right: 26%;
+        top: 85px;
+    }
+
+    .infoblock .note--left__top {
+        position: relative;
+        top: -15px;
+    }
+
+    .infoblock .image-title--shelf-view {
+        left: 10%;
+        top: 193px;
+    }
+
+    .infoblock .note--left__bottom {
+        top: 143px;
+        width: 26%;
+    }
+
+    .infoblock .reading-list__header {
+        position: relative;
+        font-size: 1.3rem;
+        left: 9%;
+        top: 5px;
+        margin-bottom: -14px;
+    }
+
+    .infoblock .reading-list__professor-info-block {
+        margin-top: -55px;
+        font-size: 1rem;
+        padding-bottom: 25px;
+    }
+
+    .infoblock .reading-list__footer {
+        position: relative;
+        margin-top: -23px;
+        left: 11%;
+        font-size: 1.2rem;
+    }
+
+    /******************** PAGE 2 ********************/
+    .infoblock .infoblock__bottom-text {
+        margin-top: -105px;
+        padding-bottom: 40px;
+        width: 50%;
+    }
+
+    /******************** PAGE 3 ********************/
+    .infoblock .infoblock__header {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-top: 25px;
+    }
+
+    /******************** PAGE 4 ********************/
+    /******************** PAGE 5 ********************/
+    .infoblock .search-screen__info {
+        margin-top: -282px;
+    }
+
+    .infoblock .infoblock__sub-header--PYPC-FBL {
+        margin-top: 35px;
+        font-size: 2.5rem;
+    }
+
+    .infoblock .infoblock__sub-header--MBDE {
+        font-size: 2rem;
+    }
+
+    .infoblock .professor-photo__text {
+        margin-top: -172px;
+        padding-top: 9px;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    /******************** PAGE 6 ********************/
+    .beautiful-girl-bg {
+        background-size: 100% 91%;
+    }
+
+    .infoblock .search-screen__image-title--PYPC {
+        padding-bottom: 27px;
+    }
+
+    .infoblock .infoblock__sub-header--PYPC-SBDB {
+        margin-top: 105px;
+        margin-bottom: 65px;
+    }
+
+    .infoblock .image-title--PYPC {
+        left: 38%;
+        padding-bottom: 20px;
+    }
+
+    .infoblock .collage__info {
+        margin-bottom: -110px;
+        width: 48%;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-stations {
+        position: relative;
+        left: 13%;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs {
+        left: 58%;
+        margin-top: -220px;
+        padding-bottom: 280px;
+    }
+
+    .infoblock .bvs-section__image-title {
+        position: relative;
+        left: 40%;
+        margin-top: -176px;
+        padding-bottom: 145px;
+    }
+
+    /******************** PAGE 7 ********************/
+    .infoblock .blocks__block-item--2 {
+        margin-left: 3%;
+    }
+
+    .infoblock .blocks__block-item--4 {
+        position: relative;
+        left: -2%;
+    }
+
+    .infoblock .blocks__block-item--5 {
+        margin-top: -35px;
+    }
+
+    .infoblock .blocks__block-item--7 {
+        margin-left: 0;
+    }
+
+    /******************** PAGE 8 ********************/
+    .infoblock .infoblock__sub-header--AYPCCE {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .infoblock .infoblock__sub-header--AYPCCE-H2 {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+    }
+
+    .infoblock .image-section__info {
+        margin-top: -92px;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        padding-bottom: 35px;
+    }
+
+    .infoblock .infoblock__requirements-section {
+        padding: 15px 2%;
+    }
+
+    .infoblock .req-right-row__text {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        padding-top: 10px;
+        padding-left: 2%;
+        text-align: left;
+        width: 55%;
+    }
+
+}
+
+/* empty, for tablets */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+.infoblock img {
+    width: 100%;
+}
+
+.infoblock * {
+    box-sizing: border-box;
+}
+
+.brochure-block-wrap {
+    width: 1200px;
+    margin: 0;
+    box-shadow: 2px 3px 5px 5px #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

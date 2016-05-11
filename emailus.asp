@@ -35,112 +35,146 @@
   <body>
   <div class="container">
   
-  <nav>
+    <nav>
+        <div class="list-nav-wrap">
+            <div class="list-nav-offset">
+                <div class="list-nav">
+                    <ul>
+                        <li>
+                            <a href="main.html">Home</a>
+                        </li>
 
-  <div class="list-nav-wrap">
-    <div class="list-nav-offset">
-      <div class="list-nav">
-        <ul>
-          <li>
-          <a href="main.html">Home</a>
-          </li>
-          
-          <li>
-          <a href="kic.html">KIC Family</a>
-          <ul>              
-            <li>
-            <a href="kic-click.html">KIC Click&trade; & Click Mini</a>
-            </li>
-            <li>
-            <a href="kic-bookeye4v3.html">KIC Bookeye 4 V1, V2, V3</a>
-            </li>                        
-            <li>
-            <a href="kic-bookeye3r2.html">KIC Bookeye 3 R2</a>
-            </li>
-            <li>
-            <a href="kic-widetek25.html">KIC WideTEK 25</a>
-            </li>
-            <li>
-            <a href="kic-widetek25.html">KIC WideTEK 36/36DS/42/48</a>
-            </li>            
-            <li>
-            <a href="kic-bookedge.html">KIC BookEdge</a>
-            </li>
-          </ul>
-          </li>
-          
-          <li>
-            <a href="build-your-kic.html">Build a KIC</a>
-          </li>
-          
-          <li>
-            <a href="kic.html#KIC_Fleet">IT Tools</a>
-          </li>
-          
-          <li>
-          <a href="opus-freeflow.html"> OPUS </a>
-          <ul>
-            <li>
-            <a href="opus-freeflow.html">Opus FreeFlow Family </a>
-            </li>
-            <li>
-            <a href="opus-workflow.html">Opus WorkFlow Family </a>
-            </li>
-          </ul>
-          </li>
-          
-          <li>
-          <a href="bscan.html">BSCAN ILL</a>
-          <ul>
-            <li>
-            <a href="bscan.html">BSCAN ILL Family </a>
-            </li>
-            <li>
-            <a href="build-your-bscan-ill.html">Build Your BSCAN ILL</a>
-            </li>
-            <li>
-            <a href="bscan-bookedge.html">BSCAN ILL BookEdge</a>
-            </li>
-            <li>
-            <a href="bscan-bookeye4v3.html">BSCAN ILL Bookeye 4 V3</a>
-            </li>
-            <li>
-            <a href="bscan-bookeye4v2.html">BSCAN ILL Bookeye 4 V2</a>
-            </li> 
-            <li>
-            <a href="bscan-bookeye4v1.html">BSCAN ILL Bookeye 4 V1A</a>
-            </li>                       
-            <li>
-            <a href="bscan-bookeye3r2.html">BSCAN ILL Bookeye 3 R2</a>
-            </li>            
-            <li>
-            <a href="bscan-widetek25.html">BSCAN ILL WideTEK 25</a>
-            </li>
-          </ul>
-          </li>
-          
-          <li>
-          <a href="events.html">News &amp; Events</a>
-          </li>
-          
-          <li>
-          <a href="gallery.html">Gallery</a>
-          </li>
-          
-          <li>
-          <a href="build-your-kic.html">How to Order</a>
-          </li>
+                        <li>
+                            <a href="kic.html">KIC Family</a>
+                            <ul>
+                                <li>
+                                    <a href="kic-click.html">KIC Click&trade; & Click Mini</a>
+                                </li>
+                                <li>
+                                    <a href="kic-bookeye4v3.html">KIC Bookeye 4 V1, V2, V3</a>
+                                </li>
+                                <li>
+                                    <a href="kic-bookeye3r2.html">KIC Bookeye 3 R2</a>
+                                </li>
+                                <li>
+                                    <a href="kic-widetek25.html">KIC WideTEK 25</a>
+                                </li>
+                                <li>
+                                    <a href="kic-widetek25.html">KIC WideTEK 36/36DS/42/48</a>
+                                </li>
+                                <li>
+                                    <a href="kic-bookedge.html">KIC BookEdge</a>
+                                </li>
+                                <li>
+                                    <a href="kic-fleet-manager.html">KIC Fleet Manager</a>
+                                </li>
+                                <li>
+                                    <a href="kic-kat.html">KAT Knowledge Access Tool</a>
+                                </li>
+                                <li>
+                                    <a href="kic-reservation-app.html">KIC Reservation App (a KAT Feature)</a>
+                                </li>
+                                <li>
+                                    <a href="self-serve-book-printing.html">Self-Serve Book Printing</a>
+                                </li>
+                            </ul>
+                        </li>
 
-          <li>
-          <a href="contact.asp">Contact Us</a>
-          </li>          
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-  
-  </nav><div class="viewport" id="contact_vp">
+                        <li>
+                            <a href="kic.html#KIC_Fleet">IT Tools</a>
+                        </li>
+
+                        <li>
+                            <a href="opus-freeflow.html"> OPUS </a>
+                            <ul>
+                                <li>
+                                    <a href="opus-freeflow.html">Opus FreeFlow Family </a>
+                                </li>
+                                <li>
+                                    <a href="opus-workflow.html">Opus WorkFlow Family </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="bscan.html">BSCAN ILL</a>
+                            <ul>
+                                <li>
+                                    <a href="bscan.html">BSCAN ILL Family </a>
+                                </li>
+                                <li>
+                                    <a href="build-your-bscan-ill.html">Build Your BSCAN ILL</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-bookedge.html">BSCAN ILL BookEdge</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-bookeye4v3.html">BSCAN ILL Bookeye 4 V3</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-bookeye4v2.html">BSCAN ILL Bookeye 4 V2</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-bookeye4v1.html">BSCAN ILL Bookeye 4 V1A</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-bookeye3r2.html">BSCAN ILL Bookeye 3 R2</a>
+                                </li>
+                                <li>
+                                    <a href="bscan-widetek25.html">BSCAN ILL WideTEK 25</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Service & Support</a>
+                            <ul>
+                                <li><a href="check-order-status.html">Check Order Status</a></li>
+                                <li><a href="open-check-a-service-ticket.html">Open/Check a Service Ticket</a></li>
+                                <li><a href="contact-service-department.html">Contact Service Department</a></li>
+                                <li><a href="maintenance-argeements.html">Maintenance Agreements</a></li>
+                                <li><a href="the-service-and-support-team.html">The Service & Support Team</a></li>
+                                <li><a href="the-digitization-advisory-team.html">The Digitization Advisory Team</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="events.html">News &amp; Events</a>
+                        </li>
+
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                            <ul>
+                                <li>
+                                    <a href="gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="customers.html">Customers</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="build-your-kic.html">How to Order</a>
+                            <ul>
+                                <li>
+                                    <a href="build-your-kic.html">Build a KIC</a>
+                                </li>
+                                <li>
+                                    <a href="build-your-bscan-ill.html">Build a BSCAN</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="contact.asp">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+  <div class="viewport" id="contact_vp">
 
 <div class="support-address">
   <img src="images/DSLG and IA Logos.jpg" alt="">

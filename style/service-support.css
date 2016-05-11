@@ -1,0 +1,329 @@
+.infoblock {
+    width: 100%;
+    overflow: hidden;
+}
+
+fieldset {
+    border: none;
+}
+
+/*check service ticket*/
+.infoblock__content-holder {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content-holder__forms {
+    width: 60%;
+    float: left;
+    padding: 0 20px;
+}
+
+.content-holder__pictures {
+    width: 30%;
+    float: right;
+}
+
+input {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    height: 30px;
+    padding: 2px 5px;
+    color: #202020;
+    display: block;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 5px 2px;
+}
+
+button {
+    background: #33b74b;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff;
+    border: none;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 5px 10px;
+}
+
+#Wrapp {
+    left: 30%;
+    top: 7%;
+    position: fixed;
+    background-color: rgba(64, 154, 213, 0.8);
+    width: 60%;
+    height: 81%;
+    z-index: 10000;
+    border-radius: 10px;
+}
+
+#tt {
+    position: relative;
+    background-color: #fff;
+    width: 200px;
+    padding: 25px;
+    height: 80px;
+    border: none;
+    margin: 17% auto;
+    border-radius: 10px;
+}
+
+.infoblock .close {
+    text-shadow: none;
+    color: #02307E;
+}
+
+.bottom-img {
+    margin: 15px auto 0;
+    width: 80% !important;
+    height: 80%;
+    display: block;
+}
+
+.brochure-title-left {
+    color: #000;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: left;
+    padding: 14px 0 10px;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .content-holder__forms {
+        width: 50%;
+    }
+
+    .content-holder__pictures {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .service-bg {
+        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
+        padding: 20px 20px 270px 20px;
+        background-size: contain;
+    }
+
+    .double-check-order-status__form {
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+
+}
+
+/*check service ticket end*/
+
+/*check order status*/
+.service-bg {
+    background: url("../images/serviceSupportBG.png") no-repeat 0 219px;
+    padding: 20px 20px 514px 20px;
+    background-size: 95%;
+}
+
+.infoblock__double-check-order-status {
+    width: 100%;
+    overflow: hidden;
+}
+
+.double-check-order-status__form {
+    width: 41%;
+    float: left;
+    padding: 0 50px;
+}
+
+.border-right {
+    border-right: 1px solid #000;
+}
+
+#Wrapp {
+    display: none;
+    left: 30%;
+    top: 7%;
+    position: fixed;
+    background-color: rgba(64, 154, 213, 0.8);
+    width: 60%;
+    height: 92%;
+    z-index: 10000;
+    border-radius: 10px;
+}
+
+#tt {
+    position: relative;
+    background-color: #fff;
+    width: 200px;
+    padding: 25px;
+    height: 80px;
+    border: none;
+    margin: 17% auto;
+    border-radius: 10px;
+}
+
+.infoblock .close {
+    text-shadow: none;
+    color: #02307E;
+}
+
+.check-order-status-plane {
+    margin-top: -140px;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .service-bg {
+        background: url("../images/serviceSupportBG.png") no-repeat 0 300px;
+        padding: 20px 20px 363px 20px;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .service-bg {
+        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
+        padding: 20px 20px 375px 20px;
+        background-size: contain;
+    }
+
+    .double-check-order-status__form {
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+
+}
+
+/*check order status end*/
+
+/*contact service department*/
+body {
+    margin: 0;
+    color: #000;
+    background: #fff;
+
+}
+
+/* General reset */
+form, fieldset {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+img {
+    border-style: none;
+}
+
+input, select, textarea {
+    vertical-align: middle;
+
+}
+
+a:hover {
+}
+
+/* General settings */
+#wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.gallery-holder, .gallery-holder1 {
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+}
+
+.list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.list li {
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.list li.first. {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.list img {
+    height: auto;
+    float: left;
+    width: 100%;
+}
+
+.list_tabs {
+    margin: 0;
+    padding: 10px 0 0;
+    list-style: none;
+    left: 50%;
+    position: relative;
+    float: left;
+}
+
+.list_tabs li {
+    float: left;
+    right: 50%;
+    position: relative;
+    padding: 0 5px;
+}
+
+#slide-switcher {
+    margin: 0;
+    padding: 10px 0 40px;
+    list-style: none;
+    left: 50%;
+    position: relative;
+    float: left;
+}
+
+#slide-switcher li a {
+    width: auto;
+    height: auto;
+    background: none;
+}
+
+#slide-switcher li img {
+    display: block;
+}
+
+/*contact service department end*/
+
+.brochure-block-wrap {
+    width: 1200px;
+    margin: 0;
+    box-shadow: 2px 3px 5px 5px #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.brochure-block-wrap-check {
+    width: 1160px;
+    margin: 0;
+    box-shadow: 2px 3px 5px 5px #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
