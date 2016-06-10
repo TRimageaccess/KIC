@@ -4,6 +4,14 @@
 }
 
 /*new marcup*/
+.brochure-block-wrap-check {
+    width: 1200px;
+    margin: 0;
+    box-shadow: 2px 3px 5px 5px #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 0 20px 0;
+}
 
 .wrapper-gallery {
     overflow: hidden;
