@@ -216,11 +216,11 @@ td{height:auto;color:#000;padding:.1em 4px;display:table-cell;vertical-align:mid
 .pane_text_overlay.quote.product_tag9 h2 {font:14px "Arial Black",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-weight:bold;font-size:37.5pt;line-height:100%;}
 .pane_text_overlay.quote.slide_tag h2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-weight:bold;font-size:50pt;line-height:100%;}
 .pane_text_overlay.quote.slide_tag2 h2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:37pt;line-height:100%;}
-.pane_text_overlay.quote.slide_tag2 p {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:27pt;line-height:105%;}
+.pane_text_overlay.quote.slide_tag2 p {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:25pt;line-height:105%;}
 .pane_text_overlay.quote.slide_tag3 p {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:23pt;line-height:105%;}
 .pane_text_overlay.quote.slide_tag4 p {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:23pt;line-height:105%;}
 .pane_text_overlay.quote.slide_tag5 p {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:18pt;line-height:105%;}
-.pane_text_overlay.quote.slide_tag6 h2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:44pt;}
+.pane_text_overlay.quote.slide_tag6 h2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:34pt;}
 .pane_text_overlay.quote.slide_tag7 h2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-weight:bold;font-size:21pt;line-height:95%;}
 .pane_text_overlay.quote.slide_tag8 h2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-weight:bold;font-size:22pt;line-height:95%;}
 .pane_text_overlay.quote.slide_tag9 h1 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-weight:bold;font-size:95pt;line-height:95%;}
@@ -336,24 +336,24 @@ td{height:auto;color:#000;padding:.1em 4px;display:table-cell;vertical-align:mid
 #quote-074{top:430px;left:510px;width:250px;}
 #quote-075{top:430px;left:852px;width:200px;}
 #quote-076{top: 9px;left: 20px;}
-#quote-077{top: 240px;left: 558px;width:200px;}
-#quote-078{top: 264px;left: 558px;width:155px;}
-#quote-079{top: 240px;left: 823px;width:230px;}
-#quote-080{top: 264px;left: 823px;width:230px;}
+#quote-077{top: 200px;left: 558px;width:200px;}
+#quote-078{top: 224px;left: 558px;width:155px;}
+#quote-079{top: 200px;left: 823px;width:230px;}
+#quote-080{top: 224px;left: 823px;width:230px;}
 #quote-081{top: 100px;left: 468px;}
 #quote-082{top: 229px;left: 94px;width:290px;}
-#quote-083{top: 571px;left: 52px;width:540px;}
+#quote-083{top: 545px;left: 42px;width:540px;}
 #quote-084{top: 163px;left: 118px;width:290px;color:white;}
-#quote-085{top: 583px;left: 267px;width:585px;}
+#quote-085{top: 540px;left: 290px;width:585px;}
 #quote-086{top: 312px;left: 530px;width:290px;}
-#quote-087{top: 391px;left: 432px;width:450px;}
+#quote-087{top: 410px;left: 432px;width:450px;}
 #quote-088{top: 599px;left: 51px;width:555px;}
 #quote-089{top: 630px;left: 103px;width:555px;}
 #quote-090{top: 665px;left: 138px;width:640px;color:rgb(45,82,164);}
 #quote-091{top:660px;left: 145px;}
 #quote-092{top:660px;left:442px;}
 #quote-093{top:660px;left:815px;}
-#quote-094{top:277px;left:594px;}
+#quote-094{top:307px;left:594px;}
 #quote-095{top:207px;left:675px;}
 #quote-096{top:193px;left:608px;color:rgb(45,82,164);}
 #quote-097{top:80px;left:604px;}
@@ -496,12 +496,12 @@ span.mildHL {text-decoration:underline;font-style:italic;}
 #contact_fieldset2 .fieldgroup1 input.submit {position:absolute; top:205px;left:670px; margin:0;}
 #contact_fieldset2 .fieldgroup2 {position:absolute; top:60px;left:375px; margin:0; width:400px;}
 #contact_fieldset2 .slanty {font-size:80%;}
-div#quote-114 {position: absolute; top: 400px; left: 315px; width: 30%;}
+div#quote-114 {position: absolute; top: 360px; left: 315px; width: 30%;}
 div#quote-114 p {color: #fff; line-height: 18px}
-div#quote-113 {position: absolute; top: 205px; left: 90px;}
+div#quote-113 {position: absolute; top: 165px; left: 90px;}
 div#quote-113 h2 {font-size: 26px; color: rgb(59,85,242);}
 div#quote-112 {position: absolute; top: 20px; left: 90px;}
 div#quote-112 h2 {font-size: 26px; line-height: 28px; width: 50%; color: rgb(59,85,242);}
-div#kic-slide-features1 {position: absolute; top: 260px; left: 350px; background: none; border: none;}
+div#kic-slide-features1 {position: absolute; top: 220px; left: 350px; background: none; border: none;}
 div#kic-slide-features1 ul {font-size: 20px; line-height: 22px;}
-.g5-slide img {padding-top: 40px;}
+.g5-slide.logo-fix {padding-top: 40px;}
