@@ -47,6 +47,7 @@
     url('../fonts/LatoRegular.ttf') format('truetype'),
     url('../fonts/LatoRegular.svg#LatoRegular') format('svg');
 }
+
 .infoblock .infoblock__rows {
 
 }
@@ -57,26 +58,61 @@
     width: 49%;
 }
 
+.infoblock .infoblock__rows--phones {
+    position: relative;
+    bottom: 450px;
+}
+
+.infoblock .rows--phones--dozen-p {
+    padding-top: 25px;
+}
+
+.infoblock .row--kat__p {
+    position: relative;
+    bottom: 300px;
+}
+
+.infoblock .infoblock__rows--huge-header-block {
+    margin: 20px 0;
+}
+
+.infoblock .rows__row--kat-logo {
+    width: 37%;
+}
+
+.infoblock .rows__row--kat-logo-desc {
+    width: 62%;
+}
+
 .infoblock .infoblock__huge-header {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    font-size: 8.4rem;
+    font-family: AudiowideRegular, helvetica, arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 7rem;
+    line-height: 7.2rem;
     text-align: center;
     text-shadow: none;
     color: black;
+    padding-bottom: 5px;
 }
 
 .infoblock .huge-header__image {
-    height: 20%;
-    width: 20%;
+    margin-top: 10px;
 }
 
 .infoblock .infoblock__sub-header {
     text-align: center;
     padding-bottom: 15px;
     color: black;
-    font-size: 2.6rem;
-    line-height: 2.6rem;
+    font-size: 2.3rem;
+    line-height: 2.5rem;
 }
+
+.infoblock .infoblock__sub-header--kat-header {
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    float: right;
+}
+
 
 /*************************************************************************************************************/
 /************************************************** KAT first page *******************************************/
@@ -87,11 +123,11 @@
 }
 
 .infoblock .infoblock__sub-header--bold {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: LatoBlack; /* font-weight: bold; */
 }
 
 .infoblock .infoblock__sub-header--italic {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: LatoItalic; /* font-style: italic; */
 }
 
 .infoblock .figure__image {
@@ -101,18 +137,21 @@
 
 .infoblock .image-title {
     position: relative;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: LatoBlack; /* font-weight: bold; */
 }
 
 .infoblock .image-text {
     margin-left: 4%;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: LatoItalic;
+    /* font-style: italic; */
     font-size: 1.5rem;
+    margin-top: -20px;
 }
 
 .infoblock .image-title--stacks-view {
-    margin-left: 30%;
-    margin-bottom: -28px;
+    position: relative;
+    bottom: 250px;
+    left: 32%;
 }
 
 .infoblock .figure__image--120 {
@@ -122,10 +161,11 @@
 
 .infoblock .image-bottom-header {
     font-weight: normal;
-    margin-left: 15%;
-    margin-top: -122px;
+    margin-left: 12%;
+    margin-top: -44px;
     padding-bottom: 12px;
     width: 50%;
+    text-align: justify;
 }
 
 .infoblock .row--kat__right-middle-block {
@@ -133,12 +173,13 @@
 }
 
 .infoblock .right-middle-block__text {
-    width: 40%;
+    width: 34%;
     text-align: right;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: LatoItalic;
+    /* font-style: italic; */
     position: relative;
     margin-top: 45px;
-    left: -4%;
+    left: 5%;
 }
 
 .infoblock .right-middle-block__image {
@@ -149,7 +190,7 @@
     height: 670px;
     background: url("../images/KIC_KAT/kat_phones.png") no-repeat;
     background-size: 100% 670px;
-    margin-top: -148px;
+    margin-top: -528px;
     margin-bottom: 105px;
 }
 
@@ -160,17 +201,17 @@
 
 .infoblock .image-title--bibliography-view {
     text-align: right;
-    right: 30%;
-    top: 130px;
+    left: 46%;
+    top: 150px;
 }
 
 .infoblock .image-title--shelf-view {
-    left: 13%;
-    top: 288px;
+    top: 330px;
+    right: 6%;
 }
 
 .infoblock .kat-phones__note--left {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: LatoItalic; /* font-style: italic; */
     text-align: center;
     font-size: 1.4rem;
 }
@@ -191,10 +232,10 @@
 
 .infoblock .kat-phones__note--right {
     font-size: 1.4rem;
-    font-family: AvenirLTStdBookOblique;
+    font-family: LatoItalic;
     position: relative;
     left: 81%;
-    top: 140px;
+    top: 158px;
     padding: 15px 0;
     width: 17%;
 }
@@ -210,7 +251,7 @@
 
 .infoblock .reading-list__header {
     position: relative;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: LatoBlack; /* font-weight: bold; */
     font-size: 1.7rem;
     left: 14%;
     top: 5px;
@@ -219,8 +260,9 @@
 
 .infoblock .reading-list__footer {
     position: relative;
-    margin-top: -30px;
-    left: 15%;
+    /* margin-top: -30px; */
+    left: 11%;
+    top: 25px;
 }
 
 .infoblock .reading-list__professor-info-block {
@@ -238,7 +280,7 @@
 
 .infoblock .infoblock__header {
     color: black;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: LatoBlack; /* font-weight: bold; */
     font-size: 4.4rem;
     text-shadow: none;
     margin-bottom: 25px;
@@ -254,23 +296,22 @@
 }
 
 .infoblock .infoblock__sub-header--APIWTW {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
-    margin-bottom: -30px;
-    margin-left: 12%;
+    font-family: LatoItalic; /* font-style: italic; */
+    margin-left: 17%;
     width: 75%;
     font-size: 2rem;
     line-height: 2rem;
 }
 
 .infoblock .infoblock__centered-text {
-    margin: -15px 0 -25px 12%;
+    margin: -15px 0 -25px 17%;
     width: 75%;
 }
 
 .infoblock .infoblock__bottom-text {
     position: relative;
     left: 42%;
-    margin-top: -135px;
+    margin-top: -156px;
     padding-bottom: 100px;
     width: 41%;
 }
@@ -280,12 +321,14 @@
 /*************************************************************************************************************/
 
 .infoblock .infoblock__sub-header--STW {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: LatoItalic;
+    /* font-style: italic; */
     margin-bottom: -25px;
-    margin-left: 12%;
+    margin-left: 14%;
     width: 75%;
     font-size: 2rem;
     line-height: 2rem;
+    text-align: center;
 }
 
 /*************************************************************************************************************/
@@ -293,9 +336,10 @@
 /*************************************************************************************************************/
 
 .infoblock .infoblock__sub-header--WIYS {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: LatoItalic; /* font-style: italic; */
     text-align: center;
     margin-left: 12%;
+    margin-bottom: 20px;
     width: 75%;
 }
 
@@ -328,14 +372,14 @@
 }
 
 .infoblock .infoblock__sub-header--PYPC-SBDB {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: LatoBlack; /* font-weight: bold; */
     font-size: 3.2rem;
     margin-top: 165px;
     margin-bottom: 20px;
 }
 
 .infoblock .infoblock__sub-header--MBDE {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: LatoItalic; /* font-style: italic; */
     margin-top: -25px;
     margin-left: 12%;
     width: 80%;
@@ -371,9 +415,10 @@
 }
 
 .infoblock .search-screen__info {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: LatoItalic; /* font-style: italic; */
     position: relative;
-    margin-top: -410px;
+    margin-top: -455px;
+    padding-bottom: 45px;
     left: 70%;
     width: 25%;
 }
@@ -411,7 +456,7 @@
 }
 
 .infoblock .infoblock__sub-header--GHH {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: LatoItalic; /* font-style: italic; */
     text-align: center;
     font-size: 2rem;
     padding-bottom: 10px;
@@ -424,7 +469,7 @@
 }
 
 .infoblock .kit-kat-go__image-title--kic-stations {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: LatoBlack; /* font-weight: bold; */
     position: relative;
     left: 17%;
     margin-bottom: -22px;
@@ -434,7 +479,7 @@
 }
 
 .infoblock .kit-kat-go__image-title--kic-srs {
-    font-family: AvenirLTStdBlack;
+    font-family: LatoBlack;
     font-weight: bold;
     font-size: 1.4rem;
     position: relative;
@@ -450,15 +495,15 @@
     margin-left: 30px;
     margin-top: -225px;
     padding-bottom: 15px;
-    font-family: AvenirLTStdBook;
+    font-family: LatoRegular;
 }
 
 .infoblock .bvs-section__image-title {
-    font-family: AvenirLTStdBlack;
+    font-family: LatoBlack;
     font-weight: bold;
     position: relative;
     left: 45%;
-    margin-top: -280px;
+    margin-top: -287px;
     padding-bottom: 200px;
     font-size: 1.4rem;
 }
@@ -634,7 +679,7 @@
 
 .infoblock .infoblock__sub-header--AYPCCE-H2 {
     text-align: center;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: LatoBlack; /* font-weight: bold; */
     font-size: 3.2rem;
     width: 82%;
     padding-left: 21%;
@@ -661,7 +706,7 @@
     width: 31%;
     position: relative;
     left: 44%;
-    margin-top: -135px;
+    margin-top: -155px;
     padding-bottom: 85px;
     transform: rotate(-7deg);
     -webkit-transform: rotate(-7deg);
@@ -678,7 +723,7 @@
 }
 
 .infoblock .requirements-section__req-header {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: LatoBlack; /* font-weight: bold; */
     text-align: center;
     font-size: 2.5rem;
     color: black;
@@ -731,7 +776,7 @@
 }
 
 .infoblock .req-table__table-headers {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: LatoBlack; /* font-weight: bold; */
     text-align: center;
 }
 
