@@ -47,7 +47,7 @@
     z-index: 54;
     top: 100%;
     left: -9999px;
-    width: 14em;
+    width: 18em;
 }
 
 .list-nav ul ul ul {
@@ -103,13 +103,13 @@
     color: #111;
     background-color: #bcb;
     background-color: rgba(204, 221, 204, 0.7);
-    width: 14em;
+    width: 18em;
 }
 
 .list-nav li:hover li a:hover, .list-nav li:hover li:hover a {
     color: #eee;
     background-color: #aca;
-    width: 14.5em;
+    width: 18.5em;
 }
 
 /* third level*/
