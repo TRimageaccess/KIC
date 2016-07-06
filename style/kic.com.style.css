@@ -137,7 +137,7 @@ ul.copyright li.copy a{font:bold 13px "Lucida Sans Unicode",arial,helvetica,sans
 #thankyou p{font-size:100%;}
 #thankyou_upper{position:absolute;width:600px;height:200px;top:50px;left:300px;}
 #thankyou_lower{position:absolute;width:600px;height:300px;top:570px;left:300px;}
-#thankyou_01{position:absolute;top:300px;left:300px;}
+#thankyou_01{position:absolute;top:210px;left:300px;}
 #thankyou_02{position:absolute;top:350px;left:100px;}
 #thankyou_03{position:absolute;top:20px;left:900px;}
 .simple_overlay{display:none;z-index:100;background-color:#333;width:880px;min-height:400px;border:1px solid #666;box-shadow:0 0 90px #000;}
