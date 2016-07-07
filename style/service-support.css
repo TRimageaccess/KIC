@@ -71,33 +71,6 @@ button {
     cursor: pointer;
 }
 
-#Wrapp {
-    left: 30%;
-    top: 7%;
-    position: fixed;
-    background-color: rgba(64, 154, 213, 0.8);
-    width: 60%;
-    height: 81%;
-    z-index: 10000;
-    border-radius: 10px;
-}
-
-#tt {
-    position: relative;
-    background-color: #fff;
-    width: 200px;
-    padding: 25px;
-    height: 80px;
-    border: none;
-    margin: 17% auto;
-    border-radius: 10px;
-}
-
-.infoblock .close {
-    text-shadow: none;
-    color: #02307E;
-}
-
 .bottom-img {
     margin: 15px auto 0;
     width: 80% !important;
@@ -163,32 +136,84 @@ button {
     border-right: 1px solid #000;
 }
 
-#Wrapp {
-    display: none;
-    left: 30%;
-    top: 7%;
-    position: fixed;
-    background-color: rgba(64, 154, 213, 0.8);
-    width: 60%;
-    height: 92%;
-    z-index: 10000;
-    border-radius: 10px;
-}
-
-#tt {
-    position: relative;
-    background-color: #fff;
-    width: 200px;
-    padding: 25px;
-    height: 80px;
+.double-check-order-status__form a.service-support-button {
+    background: #33b74b;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff;
     border: none;
-    margin: 17% auto;
-    border-radius: 10px;
+    width: 100px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
 }
 
-.infoblock .close {
-    text-shadow: none;
-    color: #02307E;
+.content-holder__forms a.service-support-button {
+    background: #33b74b;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff;
+    border: none;
+    width: 250px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.overlayy {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+}
+
+.overlayy:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    color: #333;
+    text-align: center;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
 }
 
 .check-order-status-plane {
@@ -363,7 +388,7 @@ a:hover {
 }
 
 .infoblock .infoblock__advisors-header-h2 {
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    text-align: center;
     font-size: 3.6rem;
     line-height: 3.8rem;
     padding: 15px 0 25px 25px;
@@ -394,9 +419,11 @@ a:hover {
     box-shadow: 0 10px 20px #000;
     margin-bottom: 10%;
 }
+
 .infoblock__advisors-image {
     margin-top: 130px;
 }
+
 @media all and (min-width: 1400px) and (max-width: 1600px) {
     .infoblock .infoblock__support-team-header-h2 {
         left: 37%;

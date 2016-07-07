@@ -1,17 +1,38 @@
 .infoblock ul {
     padding: 0 0 0 24px;
-    font-size: 1.4rem;
-    line-height: 1.2rem;
+    font-size: 14px;
+    line-height: 16px;
+    list-style: none;
+}
+
+.infoblock__window {
+    width: 100%;
+}
+
+.infoblock__hand-usb-block {
+    width: 93%;
+    margin: 0px 2% 100px;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
 }
 
 .brochure-title-center {
-    font-weight: bold;
-    font-size: 36px;
-    text-align: center;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock ul li {
     line-height: 1.8rem;
+}
+
+.brochure-title-center {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 36px;
+    line-height: 38px;
+    text-align: center;
+    padding: 20px 0 10px;
 }
 
 .frame7-content {
@@ -21,9 +42,9 @@
 }
 
 .frame7-content__dlos {
-    width: 40%;
+    width: 39%;
     float: left;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .dlos__logo {
@@ -31,10 +52,9 @@
     padding-top: 10px;
 }
 
-.dlos-hend {
+.dlos-hand {
     float: left;
-    width: 100%;
-    max-width: 110px;
+    width: 30%;
 }
 
 .dlos__logo img,
@@ -67,12 +87,13 @@
     background-size: 14px;
     width: 16px;
     height: 16px;
+    list-style: none;
 }
 
 .dlos-logo {
     font-size: 1.7rem;
     text-transform: uppercase;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     line-height: 1.9rem;
 }
 
@@ -81,7 +102,6 @@
     width: 60%;
     text-align: left;
     font-size: 1.4rem;
-    padding-bottom: 20px;
 }
 
 .wrapper-for-img {
@@ -89,28 +109,32 @@
     position: relative;
 }
 
+.little-font {
+    font-size: 12px;
+    line-height: 20px;
+}
+
 .saw {
     text-align: center;
     margin-bottom: 35px;
 }
 
-.saw .saw-hend {
+.saw .saw-hand {
     width: 40px;
 }
 
 .saw h3 {
-    font-size: 3rem;
-    line-height: 3.2rem;
+    font-size: 30px;
+    line-height: 32px;
     color: #000;
     margin: 0;
     padding-bottom: 10px;
-    font-weight: bold;
 }
 
 .saw__green-text {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     font-style: italic;
-    font-size: 1.7rem;
-    line-height: 1.9rem;
     background: #fefffd;
     background: -moz-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
     background: -webkit-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
@@ -126,7 +150,7 @@
 
 .saw__block {
     width: 95%;
-    margin: -10px auto 30px;
+    margin: -10px 0 0 14px;
     padding: 15px;
     border: 1px solid #000;
     border-radius: 4px;
@@ -147,16 +171,16 @@
     padding: 10px 4px 0 4px;
 }
 
-.block__ul li {
+.infoblock .block__ul li {
     color: #5d5d5d;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
     margin-left: 25px;
 }
 
 .block__ul li:first-child {
-    font-size: 1.6rem;
-    line-height: 1.8rem;
+    font-size: 14px;
+    line-height: 16px;
     margin-left: 0;
     font-weight: bold;
 }
@@ -176,12 +200,14 @@
     padding: 0 10px 0 0;
     width: 100%;
     height: 100%;
-    max-width: 260px;
+    max-width: 220px;
 }
 
 .inform__images-second {
-    margin-left: -175px;
-    padding-bottom: 30px;
+    margin-left: -105px;
+    padding-bottom: 5px;
+    z-index: 1;
+    position: relative;
 }
 
 img.photo__img {
@@ -203,11 +229,12 @@ img.flash-hand {
 
 .text-section {
     padding-bottom: 80px;
+    margin-left: 20px;
 }
 
 .complex-header {
-    font-size: 5rem;
-    line-height: 5.2rem;
+    font-size: 50px;
+    line-height: 52px;
     font-weight: bold;
     display: block;
     margin: -50px auto 0;
@@ -217,7 +244,7 @@ img.flash-hand {
 .complex-header__bottom {
     font-size: 3.8rem;
     line-height: 4rem;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     display: block;
     margin-top: -10px;
 }
@@ -231,13 +258,20 @@ img.flash-hand {
     float: left;
     width: 50%;
     padding-top: 30px;
+    text-align: left;
 }
 
 .DLOS_Icon {
     padding-bottom: 5px;
 }
 
-
+.brochure-block-wrap {
+    width: 1200px;
+    margin: 0;
+    box-shadow: 2px 3px 5px 5px #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
 @media all and (max-width: 1680px) and (min-width: 1024px) {
     .frame7-content__inform {
@@ -250,7 +284,7 @@ img.flash-hand {
         padding-top: 0;
     }
 
-    .dlos-hend {
+    .dlos-hand {
         max-width: 128px;
         margin-left: 80px;
     }
@@ -301,12 +335,4 @@ img.flash-hand {
     .dlos__logo ul {
         width: auto;
     }
-}
-
-.window-img {
-    width: 100%;
-}
-
-.dlos__ul {
-    list-style: none;
 }

@@ -7,12 +7,12 @@
 .list-nav li{margin:0; position:relative; display:inline; float:left; }
 .list-nav li:hover ul{left:10%; z-index:54; }
 .list-nav ul ul li:hover ul{display:block; top:0; left:100%; }
-.list-nav li a,.list-nav li li a, .list-nav li li li a{font:bold 16px/18px arial,helvetica,sans-serif;display:block;color:#000;text-decoration:none;width:auto; padding:.15em 1.8em .15em 1.8em;z-index:53;}
+.list-nav li a,.list-nav li li a, .list-nav li li li a{font:bold 16px/18px arial,helvetica,sans-serif;display:block;color:#000;text-decoration:none;width:auto; padding:.15em .8em .15em .8em;z-index:53;}
 .list-nav li li a, .list-nav li li li a{background-color:#aba; background-color:rgba(170,187,170,0.7);   border:1px solid;border-color:#ccc #888 #555 #bbb;padding:.15em 1em .15em 1em;z-index:55;  line-height:36px;}
 .list-nav a:hover,.list-nav li:hover a{color:#fff; }
 /* second level*/
-.list-nav li:hover li a{color:#111; background-color:#bcb; background-color:rgba(204,221,204,0.7); width:14em; }
-.list-nav li:hover li a:hover,.list-nav li:hover li:hover a{color:#eee; background-color:#aca; width:14.5em; }
+.list-nav li:hover li a{color:#111; background-color:#bcb; background-color:rgba(204,221,204,0.7); width:18em; }
+.list-nav li:hover li a:hover,.list-nav li:hover li:hover a{color:#eee; background-color:#aca; width:18.5em; }
 /* third level*/
 .list-nav li:hover li:hover li a{color:#000; background-color:#cdc; background-color:rgba(238,255,238,0.7); width:16em;}
 .list-nav li:hover li:hover li a:hover,.list-nav li:hover li:hover li:hover a{color:#000; background-color:#bcb; width:16.5em; }
