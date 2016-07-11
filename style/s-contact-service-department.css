@@ -16,24 +16,24 @@
 .wrapper-gallery {
     overflow: hidden;
     padding-left: 60px;
-    padding-top: 4%;
+    padding-top: 50px;
 }
 
 .wrapper-gallery__img {
     float: right;
-    padding-right: 6%;
-    padding-top: 8%;
+    padding-right: 75px;
+    padding-top: 95px;
 }
 
 .wrapper-gallery__title {
-    font-size: 3rem;
-    line-height: 3.2rem;
+    font-size: 41px;
+    line-height: 43px;
 }
 
 .contact--box {
     padding: 0 0 15px 22px;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
+    font-size: 24px;
+    line-height: 26px;
 }
 
 .wrapper-gallery__contact {
@@ -65,23 +65,23 @@
 
 /*end ofnew marcup*/
 .infoblock__email {
-    font-size: 2.6rem;
-    line-height: 2.8rem;
+    font-size: 26px;
+    line-height: 28px;
     display: block;
     color: #4eb1ff;
     margin: 10px 0;
 }
 
 .infoblock__phone {
-    font-size: 2.4rem;
-    line-height: 2.6rem;
+    font-size: 24px;
+    line-height: 26px;
     display: block;
     color: #4eb1ff;
     margin: 20px 0;
 }
 
 .slider {
-    width: 63%;
+    width: 718px;
     position: relative;
 }
 
@@ -156,31 +156,4 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 1400px) {
-    .wrapper-gallery {
-        padding-left: 20px;
-    }
 
-    .wrapper-gallery__img {
-        float: right;
-        padding: 3% 0 0 0;
-    }
-
-    .slick-prev {
-        top: -75px;
-    }
-
-    .slick-next {
-        top: -75px;
-    }
-
-    .contact--box {
-        font-size: 2.2rem;
-        line-height: 2.4rem;
-    }
-
-    .wrapper-gallery__title {
-        font-size: 2.7rem;
-        line-height: 2.9rem;
-    }
-}
