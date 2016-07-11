@@ -14,20 +14,18 @@ fieldset {
 
 /*check service ticket*/
 .infoblock__content-holder {
-    width: 90%;
-    margin: 0 auto;
     overflow: hidden;
 }
 
 .content-holder__forms {
-    width: 60%;
+    width: 725px;
     float: left;
     padding: 0 20px;
 }
 
 .content-holder__pictures {
     padding: 15px 15px 0 0;
-    width: 35%;
+    width: 420px;
     float: right;
 }
 
@@ -38,8 +36,8 @@ fieldset {
 }
 
 input {
-    font-size: 1.6rem;
-    line-height: 3rem;
+    font-size: 16px;
+    line-height: 30px;
     height: 30px;
     padding: 2px 5px;
     color: #202020;
@@ -73,8 +71,6 @@ button {
 
 .bottom-img {
     margin: 15px auto 0;
-    width: 80% !important;
-    height: 80%;
     display: block;
 }
 
@@ -86,43 +82,17 @@ button {
     padding: 14px 0 10px;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
-    .content-holder__forms {
-        width: 50%;
-    }
-
-    .content-holder__pictures {
-        width: 50%;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
-        padding: 20px 20px 270px 20px;
-        background-size: contain;
-    }
-
-    .double-check-order-status__form {
-        padding: 0;
-    }
-}
-
-@media (max-width: 991px) {
-
-}
-
 /*check service ticket end*/
 
 /*check order status*/
 .service-bg {
     background: url("../images/serviceSupportBG.png") no-repeat 0 219px;
     padding: 20px 20px 514px 20px;
-    background-size: 95%;
+    background-size: 1160px;
 }
 
 .infoblock__double-check-order-status {
-    width: 100%;
+    /*width: 100%;*/
     overflow: hidden;
 }
 
@@ -159,10 +129,9 @@ button {
     -webkit-border-radius: 3px;
     color: #fff;
     border: none;
-    width: 250px;
     font-size: 1.4rem;
     line-height: 2rem;
-    padding: 5px;
+    padding: 5px 10px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -206,7 +175,7 @@ button {
     top: 20px;
     right: 30px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: bold;
     text-decoration: none;
     color: #333;
@@ -220,29 +189,6 @@ button {
     margin-top: -140px;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 300px;
-        padding: 20px 20px 363px 20px;
-        background-size: contain;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
-        padding: 20px 20px 375px 20px;
-        background-size: contain;
-    }
-
-    .double-check-order-status__form {
-        padding: 0;
-    }
-}
-
-@media (max-width: 991px) {
-
-}
 
 /*check order status end*/
 
