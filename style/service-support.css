@@ -86,32 +86,6 @@ button {
     padding: 14px 0 10px;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
-    .content-holder__forms {
-        width: 50%;
-    }
-
-    .content-holder__pictures {
-        width: 50%;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
-        padding: 20px 20px 270px 20px;
-        background-size: contain;
-    }
-
-    .double-check-order-status__form {
-        padding: 0;
-    }
-}
-
-@media (max-width: 991px) {
-
-}
-
 /*check service ticket end*/
 
 /*check order status*/
@@ -218,30 +192,6 @@ button {
 
 .check-order-status-plane {
     margin-top: -140px;
-}
-
-@media (min-width: 1200px) and (max-width: 1399px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 300px;
-        padding: 20px 20px 363px 20px;
-        background-size: contain;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
-        padding: 20px 20px 375px 20px;
-        background-size: contain;
-    }
-
-    .double-check-order-status__form {
-        padding: 0;
-    }
-}
-
-@media (max-width: 991px) {
-
 }
 
 /*check order status end*/
@@ -422,26 +372,4 @@ a:hover {
 
 .infoblock__advisors-image {
     margin-top: 130px;
-}
-
-@media all and (min-width: 1400px) and (max-width: 1600px) {
-    .infoblock .infoblock__support-team-header-h2 {
-        left: 37%;
-        top: 6px;
-    }
-
-}
-
-@media all and (max-width: 1400px) {
-    .infoblock .infoblock__support-team-header-h2 {
-        left: 27%;
-        top: 5px
-    }
-}
-
-@media all and (max-width: 1200px) {
-    .infoblock .infoblock__support-team-header-h2 {
-        left: 29%;
-        top: -3px
-    }
 }
