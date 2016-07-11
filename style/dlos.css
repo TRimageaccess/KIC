@@ -5,20 +5,6 @@
     list-style: none;
 }
 
-.infoblock__window {
-    width: 100%;
-}
-
-.infoblock__hand-usb-block {
-    width: 93%;
-    margin: 0px 2% 100px;
-    padding: 15px;
-    border: 1px solid #000;
-    border-radius: 4px;
-    display: inline-block;
-    text-align: center;
-}
-
 .brochure-title-center {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
@@ -33,6 +19,23 @@
     line-height: 38px;
     text-align: center;
     padding: 20px 0 10px;
+}
+
+.computer__paragraph {
+    text-align: left;
+    width: 68%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.window-img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo__paragraph {
+    width: 1140px;
+    padding-bottom: 20px;
 }
 
 .frame7-content {
@@ -57,8 +60,7 @@
     width: 30%;
 }
 
-.dlos__logo img,
-.dlos__logo ul {
+.dlos__logo img {
     width: 90%;
 }
 
@@ -66,6 +68,12 @@
     margin: -7px 0 0 -15px;
     text-align: left;
     width: 25%;
+}
+
+.budget-tool__paragraph {
+    text-align: left;
+    width: 48%;
+    margin: 0 auto;
 }
 
 .dlos__ul {
@@ -88,13 +96,6 @@
     width: 16px;
     height: 16px;
     list-style: none;
-}
-
-.dlos-logo {
-    font-size: 1.7rem;
-    text-transform: uppercase;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
-    line-height: 1.9rem;
 }
 
 .frame7-content__inform {
@@ -133,7 +134,7 @@
 
 .saw__green-text {
     font-size: 1.2rem;
-    line-height: 1.4rem;
+    line-height: 1.8rem;
     font-style: italic;
     background: #fefffd;
     background: -moz-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
@@ -149,8 +150,18 @@
 }
 
 .saw__block {
+    width: 70%;
+    margin: -10px 0 0 150px;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+}
+
+.saw__block-top {
     width: 95%;
-    margin: -10px 0 0 14px;
+    margin: -10px 0 0 0;
     padding: 15px;
     border: 1px solid #000;
     border-radius: 4px;
@@ -228,12 +239,12 @@ img.flash-hand {
 }
 
 .text-section {
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     margin-left: 20px;
 }
 
 .complex-header {
-    font-size: 50px;
+    font-size: 64px;
     line-height: 52px;
     font-weight: bold;
     display: block;
@@ -242,15 +253,14 @@ img.flash-hand {
 }
 
 .complex-header__bottom {
-    font-size: 3.8rem;
-    line-height: 4rem;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 3.5rem;
+    line-height: 2rem;
     display: block;
     margin-top: -10px;
 }
 
 .wrap-text {
-    width: 70%;
+    width: 94%;
     margin: 0 auto;
 }
 
@@ -263,76 +273,4 @@ img.flash-hand {
 
 .DLOS_Icon {
     padding-bottom: 5px;
-}
-
-.brochure-block-wrap {
-    width: 1200px;
-    margin: 0;
-    box-shadow: 2px 3px 5px 5px #ddd;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-@media all and (max-width: 1680px) and (min-width: 1024px) {
-    .frame7-content__inform {
-        width: 100%;
-    }
-
-    .frame7-content__dlos {
-        width: 100%;
-        padding-bottom: 20px;
-        padding-top: 0;
-    }
-
-    .dlos-hand {
-        max-width: 128px;
-        margin-left: 80px;
-    }
-
-    .DLOS_Icon {
-        max-width: 280px;
-    }
-
-    .infoblock ul li {
-        line-height: 2.3rem;
-    }
-
-    .saw__block {
-        padding: 15px 0 60px 0;
-    }
-
-    .complex-header__bottom {
-        font-size: 3.2rem;
-        line-height: 3.4rem;
-    }
-
-    .complex-header {
-        font-size: 4rem;
-    }
-
-    .wrap-list {
-        width: 100%;
-        min-height: 200px;
-    }
-}
-
-@media all and (max-width: 1280px) and (min-width: 1024px) {
-    .wrap-list {
-        min-height: 225px;
-    }
-
-    .block__ul li:first-child {
-        font-size: 1.5rem;
-    }
-}
-
-@media all and (max-width: 1024px) {
-    .infoblock ul,
-    .dlos__logo {
-        float: left;
-    }
-
-    .dlos__logo ul {
-        width: auto;
-    }
 }
