@@ -87,8 +87,8 @@
 .infoblock .infoblock__huge-header {
     font-family: AudiowideRegular, helvetica, arial, sans-serif;
     text-transform: uppercase;
-    font-size: 7rem;
-    line-height: 7.2rem;
+    font-size: 95px;
+    line-height: 95px;
     text-align: center;
     text-shadow: none;
     color: black;
@@ -103,13 +103,11 @@
     text-align: center;
     padding-bottom: 15px;
     color: black;
-    font-size: 2.3rem;
-    line-height: 2.5rem;
+    font-size: 32px;
+    line-height: 32px;
 }
 
 .infoblock .infoblock__sub-header--kat-header {
-    font-size: 2.2rem;
-    line-height: 2.4rem;
     float: right;
 }
 
@@ -141,17 +139,17 @@
 }
 
 .infoblock .image-text {
-    margin-left: 4%;
+    margin-left: 40px;
     font-family: LatoItalic;
     /* font-style: italic; */
-    font-size: 1.5rem;
+    font-size: 21px;
     margin-top: -20px;
 }
 
 .infoblock .image-title--stacks-view {
     position: relative;
     bottom: 250px;
-    left: 32%;
+    left: 175px;
 }
 
 .infoblock .figure__image--120 {
@@ -161,7 +159,7 @@
 
 .infoblock .image-bottom-header {
     font-weight: normal;
-    margin-left: 12%;
+    margin-left: 60px;
     margin-top: -44px;
     padding-bottom: 12px;
     width: 50%;
@@ -179,7 +177,7 @@
     /* font-style: italic; */
     position: relative;
     margin-top: 45px;
-    left: 5%;
+    left: 25px;
 }
 
 .infoblock .right-middle-block__image {
@@ -195,46 +193,46 @@
 }
 
 .infoblock .image-title--search-screen {
-    top: 15px;
-    left: 15%;
+    top: 10px;
+    left: 190px;
 }
 
 .infoblock .image-title--bibliography-view {
     text-align: right;
-    left: 46%;
+    left: 530px;
     top: 150px;
 }
 
 .infoblock .image-title--shelf-view {
     top: 330px;
-    right: 6%;
+    right: 75px;
 }
 
 .infoblock .kat-phones__note--left {
     font-family: LatoItalic; /* font-style: italic; */
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 18px;
 }
 
 .infoblock .note--left__top {
     position: relative;
-    left: 1%;
+    left: 10px;
     top: 50px;
     width: 38%;
 }
 
 .infoblock .note--left__bottom {
     position: relative;
-    left: 1%;
+    left: 10px;
     top: 300px;
     width: 25%;
 }
 
 .infoblock .kat-phones__note--right {
-    font-size: 1.4rem;
+    font-size: 19px;
     font-family: LatoItalic;
     position: relative;
-    left: 81%;
+    left: 980px;
     top: 158px;
     padding: 15px 0;
     width: 17%;
@@ -251,9 +249,10 @@
 
 .infoblock .reading-list__header {
     position: relative;
-    font-family: LatoBlack; /* font-weight: bold; */
-    font-size: 1.7rem;
-    left: 14%;
+    font-family: LatoBlack;
+    /* font-weight: bold; */
+    font-size: 23px;
+    left: 55px;
     top: 5px;
     margin-bottom: -20px;
 }
@@ -261,17 +260,17 @@
 .infoblock .reading-list__footer {
     position: relative;
     /* margin-top: -30px; */
-    left: 11%;
+    left: 33px;
     top: 25px;
 }
 
 .infoblock .reading-list__professor-info-block {
     position: relative;
-    font-size: 1.5rem;
-    left: 1%;
+    font-size: 21px;
+    left: 15px;
     margin-top: -85px;
     padding-bottom: 55px;
-    line-height: 1rem;
+    line-height: 10px;
 }
 
 /*************************************************************************************************************/
@@ -281,12 +280,12 @@
 .infoblock .infoblock__header {
     color: black;
     font-family: LatoBlack; /* font-weight: bold; */
-    font-size: 4.4rem;
+    font-size: 60px;
     text-shadow: none;
     margin-bottom: 25px;
     text-align: center;
     padding: 15px 0;
-    line-height: 4.4rem;
+    line-height: 60px;
 }
 
 .infoblock .infoblock__image {
@@ -296,21 +295,22 @@
 }
 
 .infoblock .infoblock__sub-header--APIWTW {
-    font-family: LatoItalic; /* font-style: italic; */
-    margin-left: 17%;
+    font-family: LatoItalic;
+    /* font-style: italic; */
+    margin-left: 204px;
     width: 75%;
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 27px;
+    line-height: 27px;
 }
 
 .infoblock .infoblock__centered-text {
-    margin: -15px 0 -25px 17%;
+    margin: -15px 0 -25px 204px;
     width: 75%;
 }
 
 .infoblock .infoblock__bottom-text {
     position: relative;
-    left: 42%;
+    left: 504px;
     margin-top: -156px;
     padding-bottom: 100px;
     width: 41%;
@@ -324,10 +324,10 @@
     font-family: LatoItalic;
     /* font-style: italic; */
     margin-bottom: -25px;
-    margin-left: 14%;
+    margin-left: 168px;
     width: 75%;
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 27px;
+    line-height: 27px;
     text-align: center;
 }
 
@@ -338,7 +338,7 @@
 .infoblock .infoblock__sub-header--WIYS {
     font-family: LatoItalic; /* font-style: italic; */
     text-align: center;
-    margin-left: 12%;
+    margin-left: 144px;
     margin-bottom: 20px;
     width: 75%;
 }
@@ -346,11 +346,11 @@
 .infoblock .infoblock__image--WIYS {
     width: 100%;
     height: 100%;
-    margin-left: 3%;
+    margin-left: 36px;
 }
 
 .infoblock .infoblock__centered-text--WIYS {
-    margin-left: 12%;
+    margin-left: 144px;
     width: 75%;
 }
 
@@ -360,7 +360,7 @@
 
 .infoblock .text-rows__text-row {
     display: inline-block;
-    padding: 0 3%;
+    padding: 0 36px;
     width: 49%;
     vertical-align: top;
 }
@@ -368,12 +368,12 @@
 .infoblock .infoblock__sub-header--PYPC-FBL {
     margin-top: 185px;
     padding-bottom: 40px;
-    font-size: 3.5rem;
+    font-size: 48px;
 }
 
 .infoblock .infoblock__sub-header--PYPC-SBDB {
     font-family: LatoBlack; /* font-weight: bold; */
-    font-size: 3.2rem;
+    font-size: 44px;
     margin-top: 165px;
     margin-bottom: 20px;
 }
@@ -381,24 +381,24 @@
 .infoblock .infoblock__sub-header--MBDE {
     font-family: LatoItalic; /* font-style: italic; */
     margin-top: -25px;
-    margin-left: 12%;
+    margin-left: 144px;
     width: 80%;
 }
 
 .infoblock .search-screen__image-title--PYPC {
     position: relative;
-    left: 35%;
+    left: 420px;
     margin-bottom: -65px;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 19px;
 }
 
 .infoblock .image-title--PYPC {
     position: relative;
-    left: 42%;
+    left: 504px;
     margin-bottom: -45px;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 19px;
 }
 
 .infoblock .bibliography-view-screen__bvs-info-block {
@@ -409,7 +409,7 @@
 .infoblock .bvs-info-block__text {
     position: relative;
     width: 28%;
-    left: 71%;
+    left: 852px;
     padding: 10px;
     margin-top: 10px;
 }
@@ -419,13 +419,13 @@
     position: relative;
     margin-top: -455px;
     padding-bottom: 45px;
-    left: 70%;
+    left: 840px;
     width: 25%;
 }
 
 .infoblock .professor-photo__text {
     position: relative;
-    left: 72%;
+    left: 864px;
     margin-top: -275px;
     padding-top: 5px;
 }
@@ -451,16 +451,17 @@
 .infoblock .collage__info {
     width: 38%;
     position: relative;
-    left: 21%;
+    left: 252px;
     margin-bottom: -150px;
 }
 
 .infoblock .infoblock__sub-header--GHH {
-    font-family: LatoItalic; /* font-style: italic; */
+    font-family: LatoItalic;
+    /* font-style: italic; */
     text-align: center;
-    font-size: 2rem;
+    font-size: 27px;
     padding-bottom: 10px;
-    margin-left: 12%;
+    margin-left: 144px;
     width: 74%;
 }
 
@@ -469,21 +470,22 @@
 }
 
 .infoblock .kit-kat-go__image-title--kic-stations {
-    font-family: LatoBlack; /* font-weight: bold; */
+    font-family: LatoBlack;
+    /* font-weight: bold; */
     position: relative;
-    left: 17%;
+    left: 204px;
     margin-bottom: -22px;
     padding-bottom: 20px;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 19px;
 }
 
 .infoblock .kit-kat-go__image-title--kic-srs {
     font-family: LatoBlack;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 19px;
     position: relative;
-    left: 67%;
+    left: 804px;
     margin-top: -360px;
     padding-bottom: 325px;
 }
@@ -502,16 +504,16 @@
     font-family: LatoBlack;
     font-weight: bold;
     position: relative;
-    left: 45%;
+    left: 540px;
     margin-top: -287px;
     padding-bottom: 200px;
-    font-size: 1.4rem;
+    font-size: 19px;
 }
 
 .infoblock .bvs-section__image-text {
     position: relative;
     width: 23%;
-    left: 77%;
+    left: 924px;
     margin-top: -115px;
     padding-bottom: 100px;
 }
@@ -528,7 +530,7 @@
     display: inline-block;
     height: 185px;
     width: 50%;
-    margin: 30px 2%;
+    margin: 30px 24px;
     vertical-align: top;
 }
 
@@ -546,7 +548,7 @@
     position: relative;
     height: 166px;
     width: 450px;
-    margin-left: 7%;
+    margin-left: 84px;
 }
 
 .infoblock .blocks__block-item--3 {
@@ -586,7 +588,7 @@
     background: url("../images/KIC_KAT/kat_7_img_7.png") no-repeat;
     background-size: contain;
     position: relative;
-    margin-left: 30%;
+    margin-left: 360px;
     height: 172px;
     width: 500px;
 }
@@ -688,9 +690,9 @@
 
 .infoblock .infoblock__sub-header--AYPCCE {
     width: 75%;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    margin-left: 12%;
+    font-size: 34px;
+    line-height: 34px;
+    margin-left: 144px;
 }
 
 .infoblock .infoblock__image-section {
@@ -705,7 +707,7 @@
 .infoblock .image-section__info {
     width: 31%;
     position: relative;
-    left: 44%;
+    left: 528px;
     margin-top: -155px;
     padding-bottom: 85px;
     transform: rotate(-7deg);
@@ -719,7 +721,7 @@
     width: 87%;
     border: 2px solid black;
     margin: 0 auto 10px auto;
-    padding: 15px 1%;
+    padding: 15px 12px;
 }
 
 .infoblock .requirements-section__req-header {
@@ -745,14 +747,14 @@
 .infoblock .req-right-row__image {
     display: inline-block;
     width: 36%;
-    padding-left: 6%;
+    padding-left: 30px;
 }
 
 .infoblock .req-right-row__text {
     display: inline-block;
     width: 49%;
-    font-size: 1rem;
-    padding-left: 7%;
+    font-size: 14px;
+    padding-left: 35px;
 }
 
 .infoblock .requirements-section__below-rows-text {
@@ -805,12 +807,12 @@
 .infoblock .row__text {
     display: inline-block;
     width: 49%;
-    padding: 10px 1% 10px 1%;
+    padding: 10px 12px;
     vertical-align: top;
 }
 
 .infoblock .infoblock__sub-header--CW {
-    font-size: 3.2rem;
+    font-size: 43px;
     padding: 10px 0;
 }
 
@@ -825,460 +827,6 @@
 /*************************************************************************************************************/
 /************************************************** MEDIA QUERIES ********************************************/
 /*************************************************************************************************************/
-
-/* 1280, 1366 */
-@media (min-width: 1200px) and (max-width: 1399px) {
-
-    /******************** PAGE 1 ********************/
-    .infoblock .infoblock__huge-header {
-        font-size: 4.5rem;
-        padding-top: 14px;
-    }
-
-    .infoblock .image-title--stacks-view {
-        margin-left: 17%;
-        padding-bottom: 12px;
-    }
-
-    .infoblock .image-bottom-header {
-        margin-top: -80px;
-        width: 47%;
-    }
-
-    .infoblock .right-middle-block__text {
-        width: 88%;
-        text-align: left;
-        position: relative;
-        margin-top: 0;
-        margin-bottom: 5px;
-        left: 14%;
-    }
-
-    .infoblock .right-middle-block__image {
-        width: 59%;
-        position: relative;
-        left: 24%;
-    }
-
-    .infoblock .infoblock__kat-phones {
-        background-size: 100% 486px;
-        margin-top: -100px;
-        margin-bottom: 0;
-    }
-
-    .infoblock .kat-phones__note--right {
-        left: 82%;
-        top: 79px;
-        padding: 5px 0;
-        width: 21%;
-        line-height: 1.5rem;
-    }
-
-    .infoblock .image-title--search-screen {
-        top: 5px;
-        left: 12%;
-    }
-
-    .infoblock .image-title--bibliography-view {
-        right: 26%;
-        top: 85px;
-    }
-
-    .infoblock .note--left__top {
-        position: relative;
-        top: 0;
-    }
-
-    .infoblock .image-title--shelf-view {
-        left: 10%;
-        top: 193px;
-    }
-
-    .infoblock .note--left__bottom {
-        top: 157px;
-        width: 25%;
-    }
-
-    .infoblock .reading-list__header {
-        position: relative;
-        font-size: 1.3rem;
-        left: 9%;
-        top: 5px;
-        margin-bottom: -14px;
-    }
-
-    .infoblock .reading-list__professor-info-block {
-        margin-top: -55px;
-        font-size: 1rem;
-        padding-bottom: 25px;
-    }
-
-    .infoblock .reading-list__footer {
-        position: relative;
-        margin-top: -23px;
-        left: 11%;
-        font-size: 1.2rem;
-    }
-
-    /******************** PAGE 2 ********************/
-    .infoblock .infoblock__bottom-text {
-        margin-top: -105px;
-        padding-bottom: 30px;
-        width: 50%;
-    }
-
-    /******************** PAGE 3 ********************/
-    .infoblock .infoblock__header {
-        font-size: 3rem;
-        line-height: 3rem;
-        margin-top: 25px;
-    }
-
-    /******************** PAGE 4 ********************/
-    /******************** PAGE 5 ********************/
-    .infoblock .search-screen__info {
-        margin-top: -300px;
-    }
-
-    .infoblock .infoblock__sub-header--PYPC-FBL {
-        margin-top: 35px;
-        font-size: 2.5rem;
-    }
-
-    .infoblock .infoblock__sub-header--MBDE {
-        font-size: 2rem;
-    }
-
-    .infoblock .professor-photo__text {
-        margin-top: -182px;
-        padding-top: 9px;
-        font-size: 1rem;
-        line-height: 1rem;
-    }
-
-    /******************** PAGE 6 ********************/
-    .beautiful-girl-bg {
-        background-size: 100% 91%;
-    }
-
-    .infoblock .search-screen__image-title--PYPC {
-        padding-bottom: 27px;
-    }
-
-    .infoblock .infoblock__sub-header--PYPC-SBDB {
-        margin-top: 105px;
-        margin-bottom: 65px;
-    }
-
-    .infoblock .image-title--PYPC {
-        left: 38%;
-        padding-bottom: 20px;
-    }
-
-    .infoblock .collage__info {
-        margin-bottom: -110px;
-        width: 68%;
-    }
-
-    .infoblock .kit-kat-go__image-title--kic-stations {
-        position: relative;
-        left: 13%;
-    }
-
-    .infoblock .kit-kat-go__image-title--kic-srs {
-        left: 58%;
-        margin-top: -215px;
-        padding-bottom: 280px;
-    }
-
-    .infoblock .bvs-section__image-title {
-        position: relative;
-        left: 42%;
-        margin-top: -188px;
-        padding-bottom: 145px;
-    }
-
-    /******************** PAGE 7 ********************/
-    .infoblock .blocks__block-item--2 {
-        margin-left: 3%;
-    }
-
-    .infoblock .blocks__block-item--4 {
-        position: relative;
-        left: -2%;
-    }
-
-    .infoblock .blocks__block-item--5 {
-        margin-top: -35px;
-    }
-
-    .infoblock .blocks__block-item--7 {
-        margin-left: 0;
-    }
-
-    /******************** PAGE 8 ********************/
-    .infoblock .infoblock__sub-header--AYPCCE {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-    }
-
-    .infoblock .infoblock__sub-header--AYPCCE-H2 {
-        font-size: 2.2rem;
-        line-height: 2.2rem;
-    }
-
-    .infoblock .image-section__info {
-        margin-top: -102px;
-        font-size: 1.2rem;
-        line-height: 1.2rem;
-        padding-bottom: 35px;
-    }
-
-    .infoblock .infoblock__requirements-section {
-        padding: 15px 2%;
-    }
-
-    .infoblock .req-right-row__text {
-        font-size: 1.2rem;
-        line-height: 1.2rem;
-        padding-top: 10px;
-        padding-left: 2%;
-        text-align: left;
-        width: 55%;
-    }
-
-    /******************** PAGE 9 ********************/
-
-}
-
-/* 1024 */
-@media (max-width: 1199px) {
-
-    /******************** PAGE 1 ********************/
-    .infoblock .infoblock__huge-header {
-        font-size: 4.5rem;
-        padding-top: 14px;
-    }
-
-    .infoblock .image-title--stacks-view {
-        margin-left: 17%;
-        padding-bottom: 12px;
-    }
-
-    .infoblock .image-bottom-header {
-        margin-top: -80px;
-        width: 47%;
-    }
-
-    .infoblock .right-middle-block__text {
-        width: 88%;
-        text-align: left;
-        position: relative;
-        margin-top: 0;
-        margin-bottom: 5px;
-        left: 14%;
-    }
-
-    .infoblock .right-middle-block__image {
-        width: 59%;
-        position: relative;
-        left: 24%;
-    }
-
-    .infoblock .infoblock__kat-phones {
-        background-size: 100% 486px;
-        margin-top: -100px;
-        margin-bottom: 0;
-    }
-
-    .infoblock .kat-phones__note--right {
-        left: 82%;
-        top: 73px;
-        padding: 5px 0;
-        width: 19%;
-        line-height: 1.5rem;
-        text-align: left;
-    }
-
-    .infoblock .image-title--search-screen {
-        top: 5px;
-        left: 12%;
-    }
-
-    .infoblock .image-title--bibliography-view {
-        right: 26%;
-        top: 85px;
-    }
-
-    .infoblock .note--left__top {
-        position: relative;
-        top: -15px;
-    }
-
-    .infoblock .image-title--shelf-view {
-        left: 10%;
-        top: 193px;
-    }
-
-    .infoblock .note--left__bottom {
-        top: 143px;
-        width: 26%;
-    }
-
-    .infoblock .reading-list__header {
-        position: relative;
-        font-size: 1.3rem;
-        left: 9%;
-        top: 5px;
-        margin-bottom: -14px;
-    }
-
-    .infoblock .reading-list__professor-info-block {
-        margin-top: -55px;
-        font-size: 1rem;
-        padding-bottom: 25px;
-    }
-
-    .infoblock .reading-list__footer {
-        position: relative;
-        margin-top: -23px;
-        left: 11%;
-        font-size: 1.2rem;
-    }
-
-    /******************** PAGE 2 ********************/
-    .infoblock .infoblock__bottom-text {
-        margin-top: -105px;
-        padding-bottom: 40px;
-        width: 50%;
-    }
-
-    /******************** PAGE 3 ********************/
-    .infoblock .infoblock__header {
-        font-size: 3rem;
-        line-height: 3rem;
-        padding-top: 25px;
-    }
-
-    /******************** PAGE 4 ********************/
-    /******************** PAGE 5 ********************/
-    .infoblock .search-screen__info {
-        margin-top: -282px;
-    }
-
-    .infoblock .infoblock__sub-header--PYPC-FBL {
-        margin-top: 35px;
-        font-size: 2.5rem;
-    }
-
-    .infoblock .infoblock__sub-header--MBDE {
-        font-size: 2rem;
-    }
-
-    .infoblock .professor-photo__text {
-        margin-top: -172px;
-        padding-top: 9px;
-        font-size: 1rem;
-        line-height: 1rem;
-    }
-
-    /******************** PAGE 6 ********************/
-    .beautiful-girl-bg {
-        background-size: 100% 91%;
-    }
-
-    .infoblock .search-screen__image-title--PYPC {
-        padding-bottom: 27px;
-    }
-
-    .infoblock .infoblock__sub-header--PYPC-SBDB {
-        margin-top: 105px;
-        margin-bottom: 65px;
-    }
-
-    .infoblock .image-title--PYPC {
-        left: 38%;
-        padding-bottom: 20px;
-    }
-
-    .infoblock .collage__info {
-        margin-bottom: -110px;
-        width: 48%;
-    }
-
-    .infoblock .kit-kat-go__image-title--kic-stations {
-        position: relative;
-        left: 13%;
-    }
-
-    .infoblock .kit-kat-go__image-title--kic-srs {
-        left: 58%;
-        margin-top: -220px;
-        padding-bottom: 280px;
-    }
-
-    .infoblock .bvs-section__image-title {
-        position: relative;
-        left: 40%;
-        margin-top: -176px;
-        padding-bottom: 145px;
-    }
-
-    /******************** PAGE 7 ********************/
-    .infoblock .blocks__block-item--2 {
-        margin-left: 3%;
-    }
-
-    .infoblock .blocks__block-item--4 {
-        position: relative;
-        left: -2%;
-    }
-
-    .infoblock .blocks__block-item--5 {
-        margin-top: -35px;
-    }
-
-    .infoblock .blocks__block-item--7 {
-        margin-left: 0;
-    }
-
-    /******************** PAGE 8 ********************/
-    .infoblock .infoblock__sub-header--AYPCCE {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-    }
-
-    .infoblock .infoblock__sub-header--AYPCCE-H2 {
-        font-size: 2.2rem;
-        line-height: 2.2rem;
-    }
-
-    .infoblock .image-section__info {
-        margin-top: -92px;
-        font-size: 1.2rem;
-        line-height: 1.2rem;
-        padding-bottom: 35px;
-    }
-
-    .infoblock .infoblock__requirements-section {
-        padding: 15px 2%;
-    }
-
-    .infoblock .req-right-row__text {
-        font-size: 1.2rem;
-        line-height: 1.2rem;
-        padding-top: 10px;
-        padding-left: 2%;
-        text-align: left;
-        width: 55%;
-    }
-
-}
-
-/* empty, for tablets */
-@media (min-width: 1200px) and (max-width: 1399px) {
-
-}
 
 .infoblock img {
     width: 100%;
