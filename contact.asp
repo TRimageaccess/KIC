@@ -1,20 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!doctype html>
 <html lang="en-US">
-  <head>
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="-1" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=1280" />
-    <title>KIC.COM - Knowledge Imaging Centers
-    </title>
+<head>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="-1"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KIC.COM - Knowledge Imaging Centers</title>
+    <link rel="icon" href="images/favicon.png">
     <link href="style/kic.com.style.css" rel="stylesheet" type="text/css" />
     <link href="style/bro-con.css" rel="stylesheet" type="text/css" />
     <link href="style/kic.com.list-nav.css" rel="stylesheet" type="text/css" />
     <link href="style/scroll-slide.css" rel="stylesheet" type="text/css" />
     <link href="style/tabs.css" rel="stylesheet" type="text/css" />
     <link href="style/slidetabs.css" rel="stylesheet" type="text/css" />
-        <link href="style/smoothDivScroll.css" rel="Stylesheet" type="text/css" />
+    <link href="style/smoothDivScroll.css" rel="Stylesheet" type="text/css" />
 
 <script type="text/javascript" src="script/jquery.min.js"></script>
 <script type="text/javascript" src="script/jquery.tools.min.1.2.7.full.js"></script>
@@ -23,7 +23,7 @@
 <script type="text/javascript" src="script/jquery-ui-1.8.23.custom.min.js"></script>
 <script type="text/javascript" src="script/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="script/jquery.kinetic.js"></script>
-<script type="text/javascript" src="script/jquery.smoothdivscroll-1.3-min.js"></script>    
+<script type="text/javascript" src="script/jquery.smoothdivscroll-1.3-min.js"></script>
 
 <script type="text/javascript" src="script/jquery.validate.min.js"></script>
 <script type="text/javascript" src="script/jquery.validate-methods.min.js"></script>
@@ -200,7 +200,7 @@
     <p class="email_link"> <a href="mailto:contactus@dlsg.com">ContactUs@DLSG.com</a> </p>
   </div>
   <div class="button">
-    <a href="mailto:contactus@dlsg.com"> <img src="images/Email-green.jpg" alt="email button"></a>
+    <a href="mailto:contactus@dlsg.com"> <img src="images/Email-green.JPG" alt="email button"></a>
     <p class="caption large"> Contact Us </p>
   </div>
 </div>
@@ -443,7 +443,7 @@
 </div>
 <div class="list-nav-wrap">
   <div class="list-nav-offset">
-    <div class="list-nav">
+    <div class="list-nav list-nav-footer">
       <ul class="copyright">
         <li>
         <p>

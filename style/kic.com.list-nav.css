@@ -2,9 +2,11 @@
     min-height: 24px;
     width: 1200px;
     margin: 0 0 5px 0;
-    background: #a2b3a1;
-    background-image: url(../images/greengreenstrip-text.png);
-    background-repeat: repeat-x;
+    background: -moz-linear-gradient(top, #c9eadb, #449a5a);
+    background: -webkit-linear-gradient(top, #c9eadb, #449a5a);
+    background: -o-linear-gradient(top, #c9eadb, #449a5a);
+    background: -ms-linear-gradient(top, #c9eadb, #449a5a);
+    background: linear-gradient(top, #c9eadb, #449a5a);
     border-radius: 4px;
     box-shadow: 2px 3px 2px 1px #ddd;
 }
@@ -26,10 +28,14 @@
     clear: left;
     float: left;
     right: 50%;
-    padding: 0px;
+    padding: 0;
     text-align: left;
     z-index: 51;
     width: 1140px;
+}
+
+.list-nav-footer {
+    width: 866px;
 }
 
 .list-nav ul {
@@ -75,7 +81,7 @@
 }
 
 .list-nav li a, .list-nav li li a, .list-nav li li li a {
-    font: bold 16px/18px arial, helvetica, sans-serif;
+    font: bold 16px/20px arial, helvetica, sans-serif;
     display: block;
     color: #000;
     text-decoration: none;
@@ -130,7 +136,7 @@
     margin: 5px auto 2px auto;
     width: 989px;
     border: 1px solid #888;
-    border-bottom: 0px;
+    border-bottom: 0;
     border-radius: 5px 5px 0 0;
 }
 
