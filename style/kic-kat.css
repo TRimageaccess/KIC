@@ -366,7 +366,7 @@
 }
 
 .infoblock .infoblock__sub-header--PYPC-FBL {
-    margin-top: 185px;
+    margin-top: 200px;
     padding-bottom: 40px;
     font-size: 48px;
 }
@@ -374,13 +374,13 @@
 .infoblock .infoblock__sub-header--PYPC-SBDB {
     font-family: LatoBlack; /* font-weight: bold; */
     font-size: 44px;
-    margin-top: 165px;
+    margin-top: 200px;
     margin-bottom: 20px;
 }
 
 .infoblock .infoblock__sub-header--MBDE {
     font-family: LatoItalic; /* font-style: italic; */
-    margin-top: -25px;
+    margin-top: 0;
     margin-left: 144px;
     width: 80%;
 }
@@ -525,7 +525,9 @@
 .infoblock .infoblock__blocks {
 
 }
-
+#KAT_Captures_Your_Library h1 {
+    font-size: 50px;
+}
 .infoblock .blocks__block-item {
     display: inline-block;
     height: 185px;
@@ -569,7 +571,7 @@
 }
 
 .infoblock .blocks__block-item--5 {
-    background: url("../images/KIC_KAT/kat_7_img_5.png") no-repeat;
+    background: url("../images/KIC_KAT/kat_7_img_5.png") no-repeat 0 10px;
     background-size: contain;
     position: relative;
     height: 181px;
@@ -596,6 +598,7 @@
 .infoblock .block__title {
     margin-left: 118px;
     padding-top: 0;
+    font-size: 18px;
 }
 
 .infoblock .block__title--1 {

@@ -3290,6 +3290,40 @@ div#kic-slide-features1 ul {
     padding-top: 40px;
 }
 
+.g5-slide.logo-fix #quote-077 {
+    top: 235px;
+    left: 558px;
+    width: 200px;
+}
+
+.g5-slide.logo-fix #quote-078 {
+    top: 265px;
+    left: 558px;
+    width: 155px;
+}
+
+.g5-slide.logo-fix #quote-079 {
+    top: 235px;
+    left: 823px;
+    width: 230px;
+}
+
+.g5-slide.logo-fix #quote-080 {
+    top: 265px;
+    left: 823px;
+    width: 230px;
+}
+
+.g5-slide.logo-fix #quote-081 {
+    top: 140px;
+    left: 515px;
+}
+.full-slide-image {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+}
 #thankyou_01 img {
     width: 80%;
 }

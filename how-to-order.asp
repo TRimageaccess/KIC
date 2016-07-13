@@ -34,7 +34,6 @@
   </head>
   <body>
   <div class="container">
-  
     <nav>
         <div class="list-nav-wrap">
             <div class="list-nav-offset">
@@ -189,7 +188,7 @@
   </p>
   <p> To receive more information, please contact our sales department at 800-378-5432 or fill out the form to the right. </p>
   <p class="caption"> Note: a red asterisk, (<span class="redflag">*</span>), denotes a required field. </p>  
-  <img src="images/Collage_3_Products.jpg" alt="" width="300">   
+  <img src="images/Collage_3_Products.jpg" alt="" width="288">
 </div>
 
 <div class="page-title">
