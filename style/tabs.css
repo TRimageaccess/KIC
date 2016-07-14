@@ -51,7 +51,7 @@
 
 /* link inside the tab. uses a background image */
 .tabs a {
-    background: url(../images/tabs.png) no-repeat -652px 0;
+    background: url(http://upload.ted-kteam.com/KIC/images/tabs.png) no-repeat -652px 0;
     font-size: 11px;
     display: block;
     height: 30px;
@@ -364,7 +364,7 @@ span.feature-label {
 }
 
 #product-content ul {
-    list-style-image: url(../images/green-bullet.png);
+    list-style-image: url(http://upload.ted-kteam.com/KIC/images/green-bullet.png);
     margin: 0 75px;
 }
 

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KIC.COM - Knowledge Imaging Centers</title>
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="http://upload.ted-kteam.com/KIC/images/favicon.png">
     <link href="style/kic.com.style.css" rel="stylesheet" type="text/css" />
     <link href="style/bro-con.css" rel="stylesheet" type="text/css" />
     <link href="style/kic.com.list-nav.css" rel="stylesheet" type="text/css" />
@@ -178,15 +178,15 @@
         </div>
     </nav>
   <div class="viewport" id="contact_vp">
-<div id="contact_logobox"><img src="images/DSLG and IA Logos.jpg" alt="DLSG and Image Access Logos"></div>
-<div id="contact_headsetpeople"><img src="images/headset_people.jpg" alt="several support personnel wearing telephone headsets"></div>
-<div id="contact_techvanbox"><img src="images/service_tech_with_van.png" alt="Van with service Technician"></div>
+<div id="contact_logobox"><img src="http://upload.ted-kteam.com/KIC/images/DSLG and IA Logos.jpg" alt="DLSG and Image Access Logos"></div>
+<div id="contact_headsetpeople"><img src="http://upload.ted-kteam.com/KIC/images/headset_people.jpg" alt="several support personnel wearing telephone headsets"></div>
+<div id="contact_techvanbox"><img src="http://upload.ted-kteam.com/KIC/images/service_tech_with_van.png" alt="Van with service Technician"></div>
 <div id="contact_large_image">
-  <img src="images/parking_lot.jpg" alt="street level view of DLSG headquarters">
+  <img src="http://upload.ted-kteam.com/KIC/images/parking_lot.jpg" alt="street level view of DLSG headquarters">
   <p class="contact image_overlay title"> DLSG is a division of Image Access, Inc. </p>
   <p class="contact image_overlay address"> 543 NW 77th Street, Boca Raton, FL 33487 </p>
   <p class="contact image_overlay subtitle"> Image Access, Inc. </p>
-  <img src="images/contact-lower.jpg" alt="collage of corporate images">
+  <img src="http://upload.ted-kteam.com/KIC/images/contact-lower.jpg" alt="collage of corporate images">
 </div>
 
 <div id="contact_infobox">
@@ -200,7 +200,7 @@
     <p class="email_link"> <a href="mailto:contactus@dlsg.com">ContactUs@DLSG.com</a> </p>
   </div>
   <div class="button">
-    <a href="mailto:contactus@dlsg.com"> <img src="images/Email-green.JPG" alt="email button"></a>
+    <a href="mailto:contactus@dlsg.com"> <img src="http://upload.ted-kteam.com/KIC/images/Email-green.JPG" alt="email button"></a>
     <p class="caption large"> Contact Us </p>
   </div>
 </div>
@@ -262,7 +262,7 @@
      <em> &emsp; </em><textarea id="comment" name="comment" maxlength="3000"></textarea>
     </p>
     <p>
-     <input class="submit" type="image" src="images/Submit-green100.png" alt="Submit"/>
+     <input class="submit" type="image" src="http://upload.ted-kteam.com/KIC/images/Submit-green100.png" alt="Submit"/>
     </p>
   </div>
   <div class="fieldgroup2">
@@ -448,7 +448,7 @@
         <li>
         <p>
           <a href="http://www.imageaccess.com" target="_blank">Image Access, USA</a>
-          <img src="images/flag-us.jpg" alt="">
+          <img src="http://upload.ted-kteam.com/KIC/images/flag-us.jpg" alt="">
         </p>
         </li>
         <li class="copy">
@@ -457,7 +457,7 @@
         <li>
         <p>
           <a href="http://www.imageaccess.de" target="_blank">Image Access, Europe</a>
-          <img src="images/flag-eu.jpg" alt="">
+          <img src="http://upload.ted-kteam.com/KIC/images/flag-eu.jpg" alt="">
         </p>
         </li>
       </ul>
@@ -468,9 +468,9 @@
   <table>
     <tr> <td>
         <a href="http://validator.w3.org/check?uri=referer" target="_blank">
-          <img src="images/valid-html401.png" alt="valid html" width="88" height="31"></a></td> <td>Designed for web standards compliance</td> <td>
+          <img src="http://upload.ted-kteam.com/KIC/images/valid-html401.png" alt="valid html" width="88" height="31"></a></td> <td>Designed for web standards compliance</td> <td>
         <a href="http://validator.w3.org/check?uri=referer" target="_blank">
-          <img src="images/valid-css.png" alt="valid css" width="88" height="31"></a></td>
+          <img src="http://upload.ted-kteam.com/KIC/images/valid-css.png" alt="valid css" width="88" height="31"></a></td>
     </tr>
   </table>
 </div>

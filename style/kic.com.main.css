@@ -1,4 +1,4 @@
-body div.container {overflow:visible;}
+/*body div.container {overflow:visible;}*/
 #mainslideshow {height:720px;width:1200px;}
 div.cycle-slideshow .cycle-pager {top:680px;}
 #main_pager {top:750px;}
@@ -135,10 +135,10 @@ div.g5-slide.first {display:block;}
 #progress { position: absolute; bottom: 0; height: 2px; width: 0px; background: #0c5; z-index: 500; display:none;}
 div.slidecontrol{position:absolute; height:32px;width:50px;border: 1px solid #888;border-radius:5px;background:#eee;background:rgba(0,239,0,0.1);cursor: pointer;background-repeat:no-repeat;border:0px;background-position:10px 1px;}
 div.slidecontrol p { font-size:24pt;margin:40px 0;}
-div.slidecontrol.prevButton {top:300px;left:-27px;height:125px;  background-image:url("../images/green_buttons_prev.png");background-position:0px 50px;display:none;}
-div.slidecontrol.nextButton {top:300px;left:1205px;height:50px;  background-image:url("../images/green_buttons_next.png");background-position:0px 50px;display:none;}
-div.slidecontrol.pauseButton {top:753px;left:10px;background-image:url("../images/green_buttons_pause.png");}
-div.slidecontrol.playButton {top:753px;left:70px;background-image:url("../images/green_buttons_play.png");}
+div.slidecontrol.prevButton {top:300px;left:-27px;height:125px;  background-image:url("http://upload.ted-kteam.com/KIC/images/green_buttons_prev.png");background-position:0px 50px;display:none;}
+div.slidecontrol.nextButton {top:300px;left:1205px;height:50px;  background-image:url("http://upload.ted-kteam.com/KIC/images/green_buttons_next.png");background-position:0px 50px;display:none;}
+div.slidecontrol.pauseButton {top:753px;left:10px;background-image:url("http://upload.ted-kteam.com/KIC/images/green_buttons_pause.png");}
+div.slidecontrol.playButton {top:753px;left:70px;background-image:url("http://upload.ted-kteam.com/KIC/images/green_buttons_play.png");}
 
 
 

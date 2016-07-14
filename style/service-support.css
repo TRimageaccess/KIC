@@ -86,7 +86,7 @@ button {
 
 /*check order status*/
 .service-bg {
-    background: url("../images/serviceSupportBG.png") no-repeat 0 219px;
+    background: url("http://upload.ted-kteam.com/KIC/images/serviceSupportBG.png") no-repeat 0 219px;
     padding: 20px 20px 514px 20px;
     background-size: 1160px;
 }
