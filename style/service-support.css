@@ -172,8 +172,8 @@ button {
 
 .popup .close {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: -15px;
+    right: 1px;
     transition: all 200ms;
     font-size: 3rem;
     font-weight: bold;
