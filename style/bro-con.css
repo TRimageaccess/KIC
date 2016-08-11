@@ -9,7 +9,7 @@ h1.block-tag{visibility:hidden;position:absolute;top:-15px;left:10px;width:auto;
 .brochure-block img{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
 .brochure-block .two-col{width:1200px;}
 .brochure-block .two-col .left-col{width:500px;float:left;margin-left:75px;}
-.brochure-block .two-col .left-col2{width:555px;float:left;margin-left:loca35px;}
+.brochure-block .two-col .left-col2{width:555px;float:left;margin-left:35px;}
 .brochure-block .two-col .right-col{width:500px;float:right;margin-right:75px;}
 .brochure-block .two-col .right-col2{width:548px;float:right;margin-right:40px;}
 .brochure-block .two-col div div{width:99%;float:left;}
@@ -151,7 +151,7 @@ div.dn_arrow{width:46px;height:80px;background:url(http://upload.ted-kteam.com/K
 #K-23 h1 {font-size:30px;text-align:left;line-height:98%;}
 #K-23 div.c01 {height:750px;}
 #K-23 div.c02 {height:450px;}
-#K-23 div.c01 h1.block-title.c01 {padding-top:50px;margin-left:200px;} 
+#K-23 div.c01 h1.block-title.c01 {padding-top:50px;margin-left:200px;}
 #K-23 div.c01 h1.block-title.c02 {margin-left:420px;}
 #K-23 div.c01 p {margin-left:200px;font-size:16px;}
 #K-23 div.c01 p.c01 {padding-top:380px;}
@@ -943,7 +943,31 @@ div.dn_arrow{width:46px;height:80px;background:url(http://upload.ted-kteam.com/K
 #CCM-1205 {position:absolute;top: 134px;left: 609px; width: 130px;}
 #CCM-1206 {position:absolute;top: 134px;left: 804px; width: 130px;}
 #CCM-1207 {position:absolute;top: 134px;left: 991px; width: 130px;}
-
+#CCM-13 {position: relative;font-family:Calibri;min-height: 1400px;height: 1400px;}
+#CCM-13 h2 {text-align: center;font-size: 70px;}
+#CCM-13 span {text-align:center;display:block;color:#21abcc;font-style:italic;font-size:42px;margin-top:-12px;padding-bottom:30px;}
+#CCM-13 p {font-family:Calibri;font-size:29px;line-height:33px;width:88%;}
+#CCM-13 p:nth-of-type(1){padding-left:80px;width:86%;}
+#CCM-13 p:nth-of-type(2){position:absolute;top:375px;left: 440px;width: 58%;}
+#CCM-13 p:nth-of-type(3){position:absolute;top:620px;left: 520px;width: 49%;}
+#CCM-13 img:nth-of-type(2){padding:20px 0 0 80px;}
+#CCM-13 img:nth-of-type(1){position:absolute;bottom: 100px;right: 90px;}
+#CCM-13 h3{position: absolute;top:820px;left:525px;font-size:35px;}
+#CCM-13 p:nth-of-type(4){position:absolute;top:880px;left:520px;width:34%;}
+#CCM-13 p:nth-of-type(5){position:absolute;bottom:90px;left:410px;width:37%;}
+#CCM-14 {position: relative;font-family:Calibri;min-height: 1700px;height: 1700px;overflow:hidden;}
+#CCM-14 p:nth-of-type(1) img{float:right;padding:0px 70px 5px 40px;}
+#CCM-14 p:nth-of-type(2) img{float: left;padding:20px 40px 10px 0;margin-left:-40px;}
+#CCM-14 p:nth-of-type(4) img{float:right;padding:10px 0 0 20px;}
+#CCM-14 h3{padding-left: 85px;font-size:35px;margin-bottom:0;}
+#CCM-14 p{font-family:Calibri;font-size:29px;line-height:33px;padding-left:85px;}
+#CCM-14 p:nth-of-type(1){width:90%;}
+#CCM-14 p:nth-of-type(2){padding-top:30px;width: 86%;}
+#CCM-14 p:nth-of-type(3){padding-left:0;margin:0 auto;display:block;width:87%;}
+#CCM-14 p:nth-of-type(4){padding-top:40px;width:83%;}
+#CCM-14 span{color:#21abcc;font-size:26px;width:50%;display:block;margin:0 auto;font-weight:bold;font-style:italic;padding-top:30px;line-height:28px;font-family:Arial}
+#CCM-14 ul{font-size:22px;position:absolute;bottom:30px;padding-left:70px;line-height:18px;width:100%;margin:0;}
+#CCM-14 li{padding-left:20px;}
 #BE4-01 h2.blue-header-1{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:26px;font-weight:bold;}
 #BE4-0101 {position:absolute;top: 133px;left: 500px;}
 #BE4-0102 {position:absolute;top: 185px;left: 575px; width: 480px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:32px;font-weight:normal;}
@@ -1192,4 +1216,3 @@ div.dn_arrow{width:46px;height:80px;background:url(http://upload.ted-kteam.com/K
 #BE4-1205 {position:absolute;top: 134px;left: 619px; width: 130px;}
 #BE4-1206 {position:absolute;top: 134px;left: 812px; width: 130px;}
 #BE4-1207 {position:absolute;top: 134px;left: 1000px; width: 130px;}
-
