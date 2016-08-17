@@ -197,8 +197,8 @@
 
 #product-5tab div.panes div.compliancep {
     width: 650px;
-    min-height: 110px;
-    margin: 8px 0 8px 166px;
+    min-height: 120px;
+    margin: 0 0 8px 166px;
     padding: 5px 5px;
 }
 
@@ -208,7 +208,6 @@
     min-height: 50px;
     background-color: #fff;
     float: left;
-    margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 8px;
     padding-right: 10px;
@@ -220,6 +219,10 @@
 #product-5tab div.panes div.product-tab-img img {
     border: 0 solid #ddd;
     border-radius: 3px;
+}
+
+#product-5tab div.panes div.product-tab-img img.compliance {
+    padding: 10px 33px;
 }
 
 #product-5tab div.panes h2.product-techspec {
