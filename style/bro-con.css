@@ -1216,3 +1216,13 @@ div.dn_arrow{width:46px;height:80px;background:url(http://upload.ted-kteam.com/K
 #BE4-1205 {position:absolute;top: 134px;left: 619px; width: 130px;}
 #BE4-1206 {position:absolute;top: 134px;left: 812px; width: 130px;}
 #BE4-1207 {position:absolute;top: 134px;left: 1000px; width: 130px;}
+.brochure-block--new-text {
+    position: absolute;
+    width: 46%;
+    top: 330px;
+    left: 67px;
+}
+
+.brochure-block--beat-img{
+    text-align: center;
+}
