@@ -1226,3 +1226,42 @@ div.dn_arrow{width:46px;height:80px;background:url(http://upload.ted-kteam.com/K
 .brochure-block--beat-img{
     text-align: center;
 }
+/*free flow*/
+.infoblock .logos {
+    width: 45%;
+}
+
+.infoblock .infoblock_book {
+    width: 30%;
+    float: left;
+}
+
+.infoblock .infoblock_scanpages {
+    width: 40%;
+    margin-top: 3%;
+    float: right;
+}
+
+.infoblock .infoblock_book_2 {
+    width: 70%;
+    float: right;
+}
+
+.infoblock_inscription {
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+.infoblock__opus-freeflow-freedom {
+    color: #2c89c6;
+    line-height: 38px;
+    font-size: 36px;
+}
+
+.infoblock_photos_documents {
+    padding-bottom: 5px;
+    display: block;
+    font-size: 24px;
+    line-height: 26px;
+}

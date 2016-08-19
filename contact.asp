@@ -178,7 +178,7 @@
         </div>
     </nav>
   <div class="viewport" id="contact_vp">
-<div id="contact_logobox"><img src="http://upload.ted-kteam.com/KIC/images/DSLG and IA Logos.jpg" alt="DLSG and Image Access Logos"></div>
+<div id="contact_logobox"><img width="300" height="80" src="http://upload.ted-kteam.com/IA/images/logo/DSLG-and-IA-Logos.png" alt="DLSG and Image Access Logos"></div>
 <div id="contact_headsetpeople"><img src="http://upload.ted-kteam.com/KIC/images/headset_people.jpg" alt="several support personnel wearing telephone headsets"></div>
 <div id="contact_techvanbox"><img src="http://upload.ted-kteam.com/KIC/images/service_tech_with_van.png" alt="Van with service Technician"></div>
 <div id="contact_large_image">
@@ -200,7 +200,7 @@
     <p class="email_link"> <a href="mailto:contactus@dlsg.com">ContactUs@DLSG.com</a> </p>
   </div>
   <div class="button">
-    <a href="mailto:contactus@dlsg.com"> <img src="http://upload.ted-kteam.com/KIC/images/Email-green.JPG" alt="email button"></a>
+    <a href="mailto:contactus@dlsg.com"> <img src="http://upload.ted-kteam.com/KIC/images/Email-green.jpg" alt="email button"></a>
     <p class="caption large"> Contact Us </p>
   </div>
 </div>
