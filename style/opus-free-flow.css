@@ -1,0 +1,565 @@
+.infoblock .padding-bottom--none {
+    padding-bottom: 0;
+}
+
+.infoblock ul.blue-bullet li {
+    position: relative;
+    list-style: none;
+    line-height: 1.3em;
+    font-size: 140%;
+    color: #000;
+}
+
+
+.infoblock ul.blue-bullet li:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -23px;
+    background: url(http://upload.ted-kteam.com/DLSG/images/green-bullet.png) no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.infoblock ul.green-bullet li:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -23px;
+    background: url("http://upload.ted-kteam.com/IA/images/GreenBullet.png") no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.infoblock .h3_class_tittle {
+    color: #000;
+    font-size: 24px;
+    line-height: 26px;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    display: block;
+    clear: both;
+    text-align: left;
+    padding-top: 15px;
+
+}
+
+.infoblock .infoblock__opus-freeflow-content-stabilization-left-block {
+    float: left;
+    width: 45%;
+    margin-top: -6%;
+}
+
+.infoblock .brochure-title-center {
+    color: #000;
+    font-size: 36px;
+    line-height: 38px;
+    text-align: center;
+    padding: 20px 0 10px;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+}
+
+.infoblock .title__subtitle {
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    clear: both;
+    display: block;
+}
+
+.infoblock__opus-freeflow-freedom {
+    color: #2c89c6;
+    line-height: 38px;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 36px;
+}
+
+.infoblock_photos_documents {
+    font-family: 'LatoBoldItalic', sans-serif, helvetica, arial;
+    padding-bottom: 5px;
+    display: block;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.infoblock_inscription {
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+.infoblock .logos {
+    width: 45%;
+}
+
+.infoblock .brochure-overflow {
+    overflow: hidden;
+    position: relative;
+}
+
+.infoblock .infoblock_scanpages {
+    width: 40%;
+    margin-top: 3%;
+    float: right;
+}
+
+.infoblock .infoblock_book {
+    width: 30%;
+    float: left;
+}
+
+.infoblock .infoblock_book_2 {
+    width: 70%;
+    float: right;
+}
+
+.infoblock .infoblock_banner {
+    width: 48%;
+    margin-top: -1%;
+    float: right;
+    clear: both;
+}
+
+.infoblock .infoblock_do_before_1 {
+    border: solid 3px;
+    border-radius: 2%;
+    padding: 1%;
+    text-align: center;
+    color: black;
+
+}
+
+.infoblock_curve_collection {
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #000;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+}
+
+.infoblock .infoblock_do_before_2 {
+    border: solid 3px;
+    border-radius: 2%;
+    padding: 1%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.hierarchical {
+    text-align: center;
+    font-size: x-large;
+}
+
+.infoblock .OAI_tittle_left {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.metadata_capture {
+    font-size: 24px;
+    font-weight: 600;
+    float: left;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.OAI5 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.infoblock .table1_freeflow {
+    width: 70%;
+    float: right;
+
+}
+
+.infoblock .table2_freeflow {
+    width: 40%;
+    float: left;
+}
+
+.infoblock .opus_output {
+    text-align: center;
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.infoblock .opus_output_block4 {
+    font-size: 18px;
+    line-height: 2px;
+    font-weight: 600;
+    float: left;
+}
+
+.infoblock .opus_output_block5 {
+    float: left;
+    font-size: 18px;
+    line-height: 2px;
+    font-weight: 600;
+    margin-left: 1%;
+}
+
+.images_metadata {
+    margin-left: 1%;
+}
+
+.infoblock .content_stabilization {
+    margin-top: -1%;
+    padding: 1%;
+}
+
+.infoblock .content-stabilization__enumeration {
+    float: left;
+    padding-left: 24px;
+}
+
+.infoblock .content-stabilization__enumeration div {
+    float: left;
+    width: 48%;
+}
+
+.infoblock .content-stabilization__enumeration div ul {
+    float: left;
+    width: 48%;
+}
+
+.infoblock .content-stabilization__enumeration div p {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.infoblock .content_stabilization1 {
+    width: 47%;
+    float: left;
+}
+
+.infoblock .content_stabilization2 {
+    width: 47%;
+    float: right;
+}
+
+.infoblock .content_stabilization3 {
+    width: 44%;
+}
+
+.infoblock .content_stabilization4 {
+    width: 45%;
+    float: right;
+    margin-top: -4%;
+}
+
+.infoblock .content_stabilization5 {
+    margin-left: 4%;
+    margin-top: -30%;
+    width: 18%;
+}
+
+.infoblock .content_stabilization6 {
+    margin-left: 4%;
+}
+
+.infoblock .content_stabilization7 {
+    margin-left: 4%;
+}
+
+.infoblock .content_stabilization8 {
+    margin-left: 4%;
+}
+
+.infoblock .content_stabilization9 {
+    margin-left: 4%;
+}
+
+.infoblock .content_stabilization10 {
+    margin-left: 4%;
+}
+
+.infoblock .content_stabilization11 {
+    margin-left: 4%;
+}
+
+.infoblock .content_stabilization12 {
+    margin-left: 4%;
+}
+
+.infoblock .content_stabilization13 {
+    width: 45%;
+}
+
+.infoblock .little_label_for_image_metadata {
+    font-size: 12px;
+    line-height: 14px;
+    float: left;
+}
+
+.infoblock .free_logo_logo1 {
+    width: 97%;
+}
+
+.versus {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.versus3 {
+    color: black;
+    font-size: 36px;
+    line-height: 38px;
+    margin-right: 2%;
+
+}
+
+.versus4 {
+    color: black;
+    font-size: 36px;
+    line-height: 38px;
+    margin-left: 2%;
+}
+
+.table_1 {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    line-height: 24px;
+    overflow: visible;
+}
+
+.table_1 td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding-left: 5px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.table_1 .table_center_label {
+    text-align: center;
+}
+
+.table_2 {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.table_2 .table_center_label {
+    text-align: center;
+}
+
+.table_2 td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.infoblock .bottom_label {
+    text-align: center;
+    font-weight: 700;
+    clear: both;
+    padding-top: 15px;
+}
+
+.infoblock .text_block1_page1 {
+    width: 49%;
+    float: left;
+}
+
+.infoblock .text_block2_page1 {
+    width: 49%;
+    float: right;
+}
+
+.infoblock .block_hierarchical_metadata {
+    width: 100%;
+}
+
+.infoblock .block_hierarchical_metadata_table {
+    width: 21%;
+    float: left;
+}
+
+.infoblock .block_hierarchical_metadata_table2 {
+    width: 100%;
+    float: left;
+}
+
+.infoblock .block_hierarchical_metadata_table3 {
+    float: right;
+    width: 58%;
+}
+
+.infoblock .block_hierarchical_metadata_table4 {
+    float: left;
+    width: 48%;
+}
+
+.infoblock .block_hierarchical_metadata_table5 {
+    float: right;
+    width: 48%;
+}
+
+.infoblock .brochure-title-center-free-flow {
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
+    font-size: 36px;
+    line-height: 38px;
+    text-align: center;
+    padding: 14px 0 10px;
+}
+
+.infoblock .opus_output_absolute_text {
+    width: 329px;
+    position: absolute;
+    bottom: 125px;
+}
+
+.infoblock .table_blur_freflow_background {
+    background: #449a5a;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 22px;
+    padding-left: 5px;
+}
+
+.infoblock .infoblock__opus-freeflow-logo {
+    width: 35%;
+    padding-left: 5%;
+}
+
+.infoblock .infoblock__opus-freeflow-freedom2 {
+    color: #959595;
+    line-height: 30px;
+    font-size: 28px;
+    display: block;
+}
+
+.infoblock .infoblock__opus-freeflow-photos {
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    font-size: 20px;
+    line-height: 22px;
+    color: #959595;
+}
+
+.infoblock .infoblock__opus-freeflow-features-label {
+    float: right;
+    width: 33%;
+    text-align: center;
+    margin-right: 10%;
+    padding-top: 3%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-textblock {
+    margin-left: 0;
+    width: 50%;
+    float: left;
+    padding-top: 2%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-diagram {
+    float: right;
+    width: 30%;
+    margin-right: 12%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-textblock-part2 {
+    margin-left: 0;
+    width: 92%;
+    float: left;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-scanning {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    float: left;
+    width: 48%;
+    margin-top: 10px;
+    overflow: visible;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-scanning td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 4px;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-scanning th {
+    font-size: 20px;
+    background: #449a5a;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    padding: 4px;
+    color: white;
+}
+
+.infoblock .infoblock__opusfreeflow-page6 {
+    margin-top: 2%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Image_Treatment {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    float: right;
+    width: 48%;
+    margin-top: 10px;
+    overflow: visible;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Image_Treatment td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 4px;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Image_Treatment th {
+    font-size: 20px;
+    background: #449a5a;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    padding: 4px;
+    color: white;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Collection {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+    overflow: visible;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Collection td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 4px;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Collection th {
+    font-size: 20px;
+    background: #449a5a;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    padding: 4px;
+    color: white;
+}
+
+.infoblock .brochure-title-center-special {
+    color: #000;
+    font-size: 36px;
+    line-height: 38px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+}
+
+.infoblock .infoblock__opus-freeflow-features-clear-fix {
+    clear: both;
+}
+

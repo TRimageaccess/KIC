@@ -1265,3 +1265,26 @@ div.dn_arrow{width:46px;height:80px;background:url(http://upload.ted-kteam.com/K
     font-size: 24px;
     line-height: 26px;
 }
+
+/*new opus ff*/
+.brochure-block-new{
+    width: 1050px;
+    margin-left: 75px;
+}
+
+.brochure-block-new .block-title{
+    margin: 0 0 0.5em 0;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1.2em;
+    color: #333;
+    z-index: 10;
+}
+.infoblock p {
+    margin-bottom: 3px;
+    padding-bottom: 10px;
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 150%;
+    color: #000;
+}
