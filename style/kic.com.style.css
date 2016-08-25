@@ -2710,18 +2710,25 @@ div.cycle div {
     opacity: 1.0;
 }
 
-#Events_exhibits {
+.Events_exhibits {
     position: absolute;
     overflow: visible;
-    bottom: 0px;
-    right: 0px;
+    right: 0;
     width: 285px;
-    height: 450px;
+    height: 330px;
     padding: 10px;
     padding-right: 0;
     z-index: 2;
     border: 1px solid #888;
     border-radius: 4px;
+}
+
+.Events_exhibits--top {
+    top: 0;
+}
+
+.Events_exhibits--bottom{
+    bottom: 0;
 }
 
 .event_header {
@@ -2730,24 +2737,24 @@ div.cycle div {
 }
 
 .event_header h2 {
-    font-size: 200%;
+    font-size: 150%;
     font-style: italic;
     text-align: center;
     text-decoration: none;
-    margin: 2px 0px 5px 0px;
-    padding: 0;
+    margin: 2px 0 5px 0;
+    padding:6px 0;
     background: #eee;
     background: rgba(239, 239, 239, 0.7);
     border: 1px solid #888;
     border-radius: 4px;
 }
 
-#EventScroll {
+.EventScroll {
     position: absolute;
     overflow-y: scroll;
     bottom: 5px;
     right: 5px;
-    height: 410px;
+    height: 290px;
     width: 750px;
     margin-right: 0;
 }
@@ -2769,7 +2776,7 @@ div.cycle div {
 }
 
 .event_item img {
-    border: 0px solid #888;
+    border: 0 solid #888;
     border-radius: 3px;
     z-index: 15;
     margin: 0;
@@ -2786,7 +2793,11 @@ div.cycle div {
     border: 1px solid #888;
     border-radius: 4px;
     position: absolute;
-    bottom: 5px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     right: 245px;
     width: 400px;
     z-index: 55;
@@ -3317,16 +3328,18 @@ div#kic-slide-features1 ul {
     top: 140px;
     left: 515px;
 }
+
 .full-slide-image {
     display: block;
     margin: 0 auto;
     width: auto;
     height: 100%;
 }
+
 #thankyou_01 img {
     width: 80%;
 }
 
-.img-drop{
+.img-drop {
     width: 250px;
 }

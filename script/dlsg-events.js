@@ -39,11 +39,7 @@ var scrollToUpcomingEvent = function(){
   	        
   });   
 
-  if( foundFirstDate == -1 )
-  {
-    foundFirstDate = 1 ;  //no upcomming event - force to scroll to last event
-  }
-            
+
   if( foundFirstDate != -1 )
   {
       var sumHeight = 0;
@@ -57,9 +53,9 @@ var scrollToUpcomingEvent = function(){
         eventItemCount++ ;	      	
       }); 
                    
-      $('#EventScroll').scrollTop(sumHeight);              
+      $('.EventScroll').scrollTop(sumHeight);
   }	        
-}
+};
 
 $(document).ready(function() {	
   
@@ -101,7 +97,7 @@ $(document).ready(function() {
     $(".event_content").hide();
     $(".event_content", this).show('fast');
   });   
-  $("#Events_exhibits").mouseleave(function(){
+  $(".Events_exhibits").mouseleave(function(){
     $(".event_content").hide('fast');
   });
   
