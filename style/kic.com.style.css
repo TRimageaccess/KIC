@@ -2423,6 +2423,50 @@ td {
     width: 950px;
 }
 
+#quote-115 {
+    top: 10px;
+    left: 590px;
+    width: 600px;
+}
+
+#quote-116 {
+    top: 10px;
+    left: 10px;
+    width: 600px;
+}
+
+#quote-117 {
+    top: 10px;
+    left: 10px;
+    width: 650px;
+}
+
+#quote-118 {
+    top: 10px;
+    left: 590px;
+    width: 600px;
+}
+
+#quote-119 {
+    top: 5px;
+    right: 10px;
+    width: 700px;
+}
+
+#quote-120 {
+    top: 10px;
+    left: 10px;
+    width: 400px;
+}
+
+#quote-121 {
+    top: 10px;
+    left: 10px;
+    width: 590px;
+}
+
+
+
 #cycle-control {
     position: absolute;
     display: block;
@@ -3342,4 +3386,39 @@ div#kic-slide-features1 ul {
 
 .img-drop {
     width: 250px;
+}
+
+#be3r2-slide-features1{
+    background: none;
+    border: none;
+    top: 345px;
+    left: 660px;
+    width: 510px;
+}
+
+.pane_text_overlay3 ul li {
+    background: url(http://upload.ted-kteam.com/KIC/images/blue-bullet.png) no-repeat 0 10px;
+    padding-left: 24px;
+}
+
+.pane_text_overlay3 ul {
+    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 170%;
+    text-align: left;
+    line-height: 38px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.pane_text_overlay3{
+    position: absolute;
+    background: #ccc;
+    background: rgba(222, 222, 222, 0.7);
+    z-index: 7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: auto;
+    display: block;
 }
