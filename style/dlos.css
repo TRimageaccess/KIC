@@ -110,8 +110,8 @@
     position: relative;
 }
 
-.little-font {
-    font-size: 12px;
+.wrapper-for-img .little-font {
+    font-size: 15px;
     line-height: 20px;
 }
 
