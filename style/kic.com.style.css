@@ -2484,6 +2484,15 @@ td {
     right: 1px;
     width: 618px;
 }
+#quote-126 {
+    top: 1px;
+    right: 1px;
+    width: 550px;
+}
+
+#quote-126 .padding-fix{
+    padding: 0;
+}
 
 #cycle-control {
     position: absolute;
