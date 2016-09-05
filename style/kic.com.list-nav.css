@@ -123,13 +123,13 @@
     color: #000;
     background-color: #cdc;
     background-color: rgba(238, 255, 238, 0.7);
-    width: 16em;
+    width: 18em;
 }
 
 .list-nav li:hover li:hover li a:hover, .list-nav li:hover li:hover li:hover a {
     color: #000;
     background-color: #bcb;
-    width: 16.5em;
+    width: 18.5em;
 }
 
 .lower-nav {
