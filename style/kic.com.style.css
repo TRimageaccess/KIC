@@ -2474,8 +2474,16 @@ td {
     right: 10px;
     width: 400px;
 }
-
-
+#quote-124 {
+    top: 10px;
+    left: 10px;
+    width: 1100px;
+}
+#quote-125 {
+    top: 1px;
+    right: 1px;
+    width: 618px;
+}
 
 #cycle-control {
     position: absolute;
