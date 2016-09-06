@@ -1,0 +1,106 @@
+/*how to order*/
+p{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.content-wrapper{
+    width: 100%;
+}
+
+.content-wrapper > div{
+    position: relative;
+    padding: 0 40px 30px;
+}
+
+.content-links{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.content-links li{
+    cursor: pointer;
+    width: 320px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    margin: 30px 38px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: inline-block;
+    height: 210px;
+    padding: 3px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.content-links .active-link{
+   border: none;
+}
+
+.tab-content{
+    display: inline-block;
+    position: relative;
+    padding:5px;
+}
+
+.tab-content-left{
+    width: 48%;
+}
+.tab-content-right{
+    width: 49%;
+}
+
+.how-to-order-title{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: normal;
+}
+
+.kic-logo-how-to-order{
+    width: 250px;
+    padding-left: 20px;
+    padding-bottom:20px;
+}
+
+.btn-absolute-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.tab-content strong {
+    font-size: 18px;
+}
+.green-bullet li {
+    position: relative;
+    list-style: none;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+.green-bullet li:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -23px;
+    background: url(http://upload.ted-kteam.com/DLSG/images/green-bullet.png) no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.tab-content-fm-img{
+    width: 45%;
+    vertical-align: middle;
+    margin-right: 13px;
+}
+
+.tab-content-fm-ul{
+    width: 48%;
+    vertical-align: middle;
+}
