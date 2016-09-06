@@ -297,7 +297,7 @@
    <em> &emsp; </em><textarea id="comment" name="comment" maxlength="3000"></textarea>
   </p>
   <p>
-   <input class="submit" type="submit" value="Submit"/>
+   <input class="submit btn-access" type="submit" value="Submit"/>
   </p>
  </fieldset></div>
 </form></div>

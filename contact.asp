@@ -262,7 +262,7 @@
      <em> &emsp; </em><textarea id="comment" name="comment" maxlength="3000"></textarea>
     </p>
     <p>
-     <input class="submit" type="image" src="http://upload.ted-kteam.com/KIC/images/Submit-green100.png" alt="Submit"/>
+     <input class="submit btn-access" type="submit" />
     </p>
   </div>
   <div class="fieldgroup2">
