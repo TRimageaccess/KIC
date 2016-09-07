@@ -1,25 +1,26 @@
 /*how to order*/
-p{
-    font-size: 18px;
+.content-wrapper p {
+    font-size: 24px;
     padding-bottom: 5px;
 }
 
-.content-wrapper{
+.content-wrapper {
     width: 100%;
 }
 
-.content-wrapper > div{
+.content-wrapper > div {
     position: relative;
     padding: 0 40px 30px;
 }
 
-.content-links{
+.content-links {
     padding: 0;
     margin: 0;
     list-style: none;
     overflow: hidden;
 }
-.content-links li{
+
+.content-links li {
     cursor: pointer;
     width: 320px;
     box-sizing: border-box;
@@ -31,56 +32,62 @@ p{
     height: 210px;
     padding: 3px;
 }
-img{
+
+.content-links img {
     width: 100%;
     height: auto;
 }
 
-
-.content-links .active-link{
-   border: none;
+.content-links .active-link {
+    border: none;
 }
 
-.tab-content{
+.tab-content {
     display: inline-block;
     position: relative;
-    padding:5px;
+    padding: 5px;
+    vertical-align: middle;
 }
 
-.tab-content-left{
+.tab-content-left {
     width: 48%;
 }
-.tab-content-right{
+
+.tab-content-right {
     width: 49%;
 }
 
-.how-to-order-title{
+.how-to-order-title {
     padding-top: 20px;
     text-align: center;
     font-size: 70px;
     font-weight: normal;
 }
 
-.kic-logo-how-to-order{
+.kic-logo-how-to-order {
     width: 250px;
     padding-left: 20px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
-.btn-absolute-bottom{
+.btn-absolute-bottom {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.tab-content strong {
-    font-size: 18px;
+.content-wrapper strong {
+    font-size: 24px;
 }
+.green-bullet{
+    margin-left: 23px;
+}
+
 .green-bullet li {
     position: relative;
     list-style: none;
     line-height: 1.2;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .green-bullet li:before {
@@ -94,13 +101,154 @@ img{
     height: 16px;
 }
 
-.tab-content-fm-img{
-    width: 45%;
+.tab-content-fm-img {
+    width: 25%;
     vertical-align: middle;
-    margin-right: 13px;
+    margin-right: 40px;
 }
 
-.tab-content-fm-ul{
+.tab-content-fm-ul {
     width: 48%;
     vertical-align: middle;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.dlos-block {
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.dlos-absolute {
+    position: absolute;
+}
+
+.dlos-absolute--top-text {
+    left: 30px;
+    bottom: 115px;
+}
+
+.dlos-absolute--bottom-text {
+    left: 75px;
+    bottom: 35px;
+}
+
+.dlos-price {
+    margin-top: 120px;
+}
+
+.dlos-block-system {
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.dlos-block-system strong {
+    display: inline-block;
+    width: 350px;
+    margin-right: 10px;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+
+.dlos-text-bottom{
+    text-align: right;
+    margin-top: 40px;
+}
+
+.dlos-sub-text {
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dlos-sub-text span {
+    padding-left: 15px;
+    display: block;
+}
+
+sup {
+    color: red;
+    font-size: 24px;
+}
+
+.dlos-block_img {
+    position: relative;
+}
+
+._20each {
+    bottom: -80px;
+    left: 281px;
+}
+
+._24each {
+    bottom: -80px;
+    right: 146px;
+}
+
+.img-padding {
+    padding-bottom: 10px;
+}
+
+.tab-content-bottom{
+    vertical-align: bottom;
+}
+
+.odam-left{
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.odam-right{
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.zero-padding{
+    padding: 0;
+    margin: 0;
+}
+
+.odam-price{
+    position: absolute;
+    bottom: 70px;
+    left: 37%;
+}
+
+.odam-price strong{
+    width: 140px;
+}
+
+.bscan-ill-logo{
+    height: 150px;
+    display: block;
+    padding: 80px 20px;
+}
+
+.bscan-ill-right-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bscan-text{
+    width: 75%;
+}
+
+.btn-ill{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.request-information{
+    text-align: center;
+    margin-bottom: 30px;
 }

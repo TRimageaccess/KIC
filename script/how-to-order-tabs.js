@@ -14,8 +14,8 @@ $(document).ready(function () {
                 $(this).addClass('active-link');
                 $('.content-wrapper > div').each(function (j) {
                     if (j == i) {
-                        $('.content-wrapper > div').hide('slow');
-                        $(this).show('slow');
+                        $('.content-wrapper > div').hide(1700);
+                        $(this).show(1700);
                     }
                 })
             }
