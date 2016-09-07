@@ -386,10 +386,13 @@
 
 .infoblock .search-screen__image-title--PYPC {
     position: absolute;
-    left: 0;
-    right: 0;
+    left: 50%;
     text-align: center;
-    top: 60px;
+    top: 34px;
+}
+
+.infoblock__search-screen img{
+    margin-bottom: 30px;
 }
 
 .infoblock .image-title--PYPC {
@@ -417,10 +420,20 @@
     font-family: LatoItalic;
     width: 44%;
     position: absolute;
-    bottom: 149px;
-    left: 42%;
+    bottom: 100px;
+    left: 47%;
 }
 
+.infoblock .screen__info-one-column{
+    width: 12%;
+    left: 55%;
+}
+
+.infoblock .screen__info-two-column{
+    width: 12%;
+    left: 79%;
+    bottom: 117px;
+}
 .infoblock .professor-photo__text {
     position: relative;
     left: 864px;
@@ -973,7 +986,7 @@ h3.block__title {
 }
 
 .infoblock__search-screen img {
-    width: 143%;
+    width: 98%;
 }
 
 #KAT_A_Picture_is_Worth_a_Thousand_Words {
