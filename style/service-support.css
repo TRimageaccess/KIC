@@ -374,6 +374,11 @@ a:hover {
     padding: 20px;
 }
 
+.chief_h2{
+    font-size: 3.4rem;
+    line-height: 3.6rem;
+}
+
 .soft-team_title{
     text-align: center;
     font-size: 60px;
@@ -465,14 +470,13 @@ a:hover {
 }
 
 .team-avatar:hover div{
-    transform: translateY(-100px);
+    transform: translateY(-110px);
 }
 
 .team-avatar div strong{
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .team-avatar div p{
-    padding-top: 6px;
     font-size: 15px;
 }
