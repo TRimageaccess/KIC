@@ -389,8 +389,8 @@ a:hover {
 
 .soft-team_left-img{
     overflow: hidden;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     float: left;
     margin-right: 20px;
@@ -424,8 +424,8 @@ a:hover {
 
 .team-avatar{
     position: relative;
-    width: 115px;
-    height: 115px;
+    width: 180px;
+    height: 180px;
     margin: 0 auto;
     border-radius: 15px;
     overflow: hidden;
@@ -440,7 +440,7 @@ a:hover {
     top:100%;
     background: green;
     height: 0;
-    transition: 1s;
+    transition: 0.8s;
     opacity: 0.3;
     border-radius: 15px;
 }
@@ -458,15 +458,21 @@ a:hover {
 
 .team-avatar div{
     transform: translateY(0);
-    transition: 1s;
-    padding: 0 5px;
+    transition: 0.7s;
+    padding: 0 25px;
+    position: relative;
+    z-index: 2;
 }
 
 .team-avatar:hover div{
-    transform: translateY(-75px);
+    transform: translateY(-100px);
+}
+
+.team-avatar div strong{
+    font-size: 17px;
 }
 
 .team-avatar div p{
     padding-top: 6px;
-    font-size: 12px;
+    font-size: 15px;
 }
