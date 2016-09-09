@@ -444,11 +444,11 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    top:100%;
-    background: green;
+    top: 100%;
+    background: #044e04;
     height: 0;
     transition: 0.8s;
-    opacity: 0.3;
+    opacity: 0.6;
     border-radius: 15px;
 }
 
@@ -477,11 +477,14 @@ a:hover {
 
 .team-avatar .green-block strong{
     font-size: 20px;
+    color: #ccc;
 }
 
 .team-avatar .green-block p{
     font-size: 15px;
+    color: #ccc;
 }
+
 
 /*slide*/
 .slide-track{
