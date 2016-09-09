@@ -360,7 +360,7 @@ span.feature-label {
 }
 
 #product-content h2 {
-    font: 16px "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font: 16px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-weight: bold;
     padding: 10px 25px;
     clear: both;
@@ -372,7 +372,7 @@ span.feature-label {
 }
 
 #product-content li {
-    font: 13.5px "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font: 13.5px 'Lato', Helvetica, Arial, Verdana, sans-serif;
 }
 
 .product-techspec #click_label {

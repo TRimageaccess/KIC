@@ -81,7 +81,7 @@
 }
 
 .list-nav li a, .list-nav li li a, .list-nav li li li a {
-    font: bold 16px/20px arial, helvetica, sans-serif;
+    font: bold 16px/20px 'Lato', helvetica, sans-serif;
     display: block;
     color: #000;
     text-decoration: none;
