@@ -371,7 +371,7 @@ a:hover {
 
 /*software and support team*/
 .soft-team{
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .chief_h2{
@@ -390,6 +390,8 @@ a:hover {
 }
 .soft-team_chief{
     overflow: hidden;
+    width: 60%;
+    margin: 20px auto;
 }
 
 .soft-team_left-img{
@@ -461,7 +463,7 @@ a:hover {
     width: 100%;
 }
 
-.team-avatar div{
+.team-avatar .green-block{
     transform: translateY(0);
     transition: 0.7s;
     padding: 0 25px;
@@ -469,14 +471,33 @@ a:hover {
     z-index: 2;
 }
 
-.team-avatar:hover div{
+.team-avatar:hover .green-block{
     transform: translateY(-110px);
 }
 
-.team-avatar div strong{
+.team-avatar .green-block strong{
     font-size: 20px;
 }
 
-.team-avatar div p{
+.team-avatar .green-block p{
     font-size: 15px;
 }
+
+/*slide*/
+.slide-track{
+    height: 180px;
+    position: relative;
+    left: 0;
+    transition: 1s;
+    width: 360px;
+}
+
+.active-slide{
+    left: -180px;
+}
+.slide-track img{
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
