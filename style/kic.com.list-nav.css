@@ -31,11 +31,11 @@
     padding: 0;
     text-align: left;
     z-index: 51;
-    width: 1140px;
+    width: 1120px;
 }
 
 .list-nav-footer {
-    width: 1050px;
+    width: 980px;
 }
 
 .list-nav ul {
@@ -86,7 +86,7 @@
     color: #000;
     text-decoration: none;
     width: auto;
-    padding: .15em .7em .15em .7em;
+    padding: .15em .8em .15em .8em;
     z-index: 53;
 }
 
@@ -115,7 +115,6 @@
 .list-nav li:hover li a:hover, .list-nav li:hover li:hover a {
     color: #eee;
     background-color: #aca;
-    width: 18.5em;
 }
 
 /* third level*/
@@ -153,7 +152,6 @@
 .lower-nav p {
     color: #888;
     font-weight: bold;
-    font-style: italic;
 }
 
 .lower-nav a {
