@@ -686,7 +686,7 @@ div.dn_arrow{width:46px;height:80px;background:url(http://upload.ted-kteam.com/K
 #CCM-0203 {position:absolute;top: 611px;left: 0px; width: 1200px;font:14px 'Lato',Helvetica,Arial,Verdana,sans-serif;font-size:33px;font-weight:bold;text-align:center;}
 #CCM-02 h2 {font:14px 'Lato',Helvetica,Arial,Verdana,sans-serif;font-size:29px;font-weight:bold;text-align:center;}
 #CCM-0204 {position:absolute;top: 653px;left: 32px; width: 220px;}
-#CCM-02 p.block_text2 {font:14px 'Lato',Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:110%;}
+#CCM-02 p.block_text2 {font:14px 'Lato',Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:110%;}
 #CCM-0205 {position:absolute;top: 697px;left: 43px; width: 655px;}
 #CCM-0206 {position:absolute;top: 813px;left: 352px; width: 290px;}
 #CCM-0207 {position:absolute;top: 857px;left: 364px; width: 373px;}
@@ -1287,4 +1287,49 @@ div.dn_arrow{width:46px;height:80px;background:url(http://upload.ted-kteam.com/K
     line-height: 1.3em;
     font-size: 150%;
     color: #000;
+}
+/*bookedge*/
+.block-title--bookedge{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 1200px;
+    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font-size: 41px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub-title-bookedge{
+    font-style: italic;
+    font-size: 22px;
+    margin: 0 auto;
+    position: absolute;
+    top: 77px;
+    left: 0;
+    right: 0;
+    width: 453px;
+    line-height: 1.1;
+}
+
+.smart-dok-text{
+    position: absolute;
+    text-align: center;
+    color: #888;
+    left: 191px;
+    top: 924px;
+    font-size: 20px;
+    width: 332px;
+    font-style: italic;
+}
+
+.bookedge-all-text{
+    position: absolute;
+    top: 806px;
+    right: 102px;
+    font-size: 13px;
+}
+
+.bookedge-all-text p{
+    line-height: 1.1;
 }
