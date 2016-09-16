@@ -1,0 +1,97 @@
+.odam *{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.odam-big-title{
+    font-size: 45px;
+    text-align: center;
+}
+
+.logo-wrapper{
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.logo-wrapper img{
+    float: left;
+    width: 32%;
+}
+
+.green-bullet{
+    list-style: none;
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.green-bullet li{
+    position: relative;
+}
+.green-bullet li:before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top:10px;
+    width: 16px;
+    height: 16px;
+    background:url(http://upload.ted-kteam.com/KIC/images/green-bullet.png) no-repeat;
+    background-size: cover;
+}
+
+.odam-little-title{
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.block-1-left{
+    display:inline-block;
+    width: 38%;
+    padding-left: 20px;
+    vertical-align: top;
+    position: relative;
+}
+.block-1-right{
+    display: inline-block;
+    width: 58%;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.odam-steep{
+    width: 35%;
+    text-align: center;
+}
+
+.odam-steep figcaption{
+    font-size: 32px;
+}
+
+.odam-block-1{
+    padding-top: 25px;
+}
+
+.block-1-left p{
+    padding-top: 110px;
+}
+
+.odam-block-2{
+    position: relative;
+    padding-top: 25px;
+}
+
+.block-2-img{
+    width: 57%;
+    height: auto;
+}
+
+.block-2-right{
+    width: 54%;
+    position: absolute;
+    top:30px;
+    right:30px;
+}
