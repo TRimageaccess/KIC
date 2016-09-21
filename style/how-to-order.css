@@ -198,6 +198,11 @@ sup {
     vertical-align: bottom;
 }
 
+.odam-img-logo{
+    width: 210px;
+    height: auto;
+}
+
 .odam-left{
     width: 24%;
     display: inline-block;
