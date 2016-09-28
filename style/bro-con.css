@@ -6485,8 +6485,9 @@ div.dn_arrow {
     position: absolute;
     top: 681px;
     left: 239px;
-    width: 304px;
+    width: 320px;
     line-height: 1 !important;
+    font-size: 14px !important;
 }
 
 #CCM-1115 {
@@ -6508,7 +6509,8 @@ div.dn_arrow {
     position: absolute;
     top: 681px;
     left: 834px;
-    width: 304px;
+    width: 320px;
+    font-size: 14px !important;
     line-height: 1 !important;
 }
 
@@ -6700,7 +6702,7 @@ div.dn_arrow {
     position: absolute;
     top: 1042px;
     left: 540px;
-    width: 290px;
+    width: 296px;
 }
 
 #CCM-1141 {

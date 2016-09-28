@@ -626,7 +626,7 @@ div.family-list li a:hover p {
 
 ul.copyright li {
     text-align: center;
-    padding: 0px 64px;
+    padding: 0 63px;
 }
 
 ul.copyright li p a {
@@ -3140,7 +3140,7 @@ span.mildHL {
 
 #newsTicker {
     position: relative;
-    height: 30px;
+    height: 25px;
     margin: 0 auto;
     width: 950px;
     overflow: hidden;
