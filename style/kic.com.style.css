@@ -672,12 +672,13 @@ ul.copyright li.copy a {
 #about_logo {
     width: 350px;
     height: 82px;
-    background-image: url(http://upload.ted-kteam.com/KIC/images/DLSG_at_IA_Logo_small.jpg);
+    background-image: url(http://upload.ted-kteam.com/KIC/images/DSLG-and-IA-Logos.png);
     background-repeat: no-repeat;
     background-position: 0px 0px;
     margin: 20px 10px;
     float: left;
     clear: right;
+    background-size: contain;
 }
 
 #about_mask1 {
