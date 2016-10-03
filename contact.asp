@@ -218,7 +218,7 @@
           </div>
       </nav>
   <div class="viewport" id="contact_vp">
-<div id="contact_logobox"><img width="300" height="80" src="http://upload.ted-kteam.com/KIC/images/logo/DSLG-and-IA-Logos.png" alt="DLSG and Image Access Logos"></div>
+<div id="contact_logobox"><img width="300" height="80" src="http://upload.ted-kteam.com/KIC/images/DSLG-and-IA-Logos.png" alt="DLSG and Image Access Logos"></div>
 <div id="contact_headsetpeople"><img src="http://upload.ted-kteam.com/KIC/images/headset_people.jpg" alt="several support personnel wearing telephone headsets"></div>
 <div id="contact_techvanbox"><img src="http://upload.ted-kteam.com/KIC/images/service_tech_with_van.png" alt="Van with service Technician"></div>
 <div id="contact_large_image">
