@@ -3813,3 +3813,13 @@ span.align-right.padding-bottom-none.feature-table {
     top: 0;
     left: 0;
 }
+
+/*preowned styles*/
+
+.overflow {
+    overflow: hidden;
+}
+
+.overflow .list-nav-wrap {
+    width: 100%;
+}
