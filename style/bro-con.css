@@ -4729,6 +4729,7 @@ div.dn_arrow {
     font-size: 46px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #CCM-01 p.block_text {
@@ -4789,6 +4790,7 @@ div.dn_arrow {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #CCM-02 p.block_text {
@@ -4815,6 +4817,7 @@ div.dn_arrow {
     font-size: 33px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #CCM-02 h2 {
@@ -4938,6 +4941,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #CCM-0302 {
@@ -5036,6 +5040,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #CCM-0402 {
@@ -5244,12 +5249,13 @@ div.dn_arrow {
 #CCM-05 #CCM-0501 {
     position: absolute;
     top: 34px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #CCM-05 h2 {
@@ -5399,6 +5405,7 @@ div.dn_arrow {
     font-size: 38px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #CCM-06 span.superscript {
