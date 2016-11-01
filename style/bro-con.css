@@ -55,7 +55,7 @@ h1.block-tag {
     font-size: 225%;
     text-align: center;
     font-style: italic;
-    color: #666;
+    color: #666 !important;
 }
 
 
@@ -815,10 +815,11 @@ div.dn_arrow {
     margin-left: 42px;
 }
 
-#K-23 h1 {
+#K-23 h2 {
     font-size: 30px;
     text-align: left;
     line-height: 98%;
+    color: #333;
 }
 
 #K-23 div.c01 {
@@ -829,12 +830,12 @@ div.dn_arrow {
     height: 450px;
 }
 
-#K-23 div.c01 h1.block-title.c01 {
+#K-23 div.c01 h2.block-title.c01 {
     padding-top: 50px;
     margin-left: 200px;
 }
 
-#K-23 div.c01 h1.block-title.c02 {
+#K-23 div.c01 h2.block-title.c02 {
     margin-left: 420px;
 }
 
@@ -851,21 +852,24 @@ div.dn_arrow {
     padding-top: 50px;
 }
 
-#K-23 div.c02 h1.block-title {
+#K-23 div.c02 h2.block-title {
     text-align: center;
-    line-height: 96%;
+    line-height: 100%;
+    font-size: 300%;
 }
 
-#K-23 div.c03 h1 {
+#K-23 div.c03 h2 {
     margin-left: 350px;
     line-height: 100%;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
-#K-23 div.c03 h1.block-title-sub {
+#K-23 div.c03 h2.block-title-sub {
     font-size: 25px;
 }
 
-#K-23 div.c03 h1.block-title-sub.c02 {
+#K-23 div.c03 h2.block-title-sub.c02 {
     font-size: 19px;
 }
 
@@ -4776,7 +4780,7 @@ div.dn_arrow {
     width: 170px;
 }
 
-#CCM-0201 {
+#CCM-02 #CCM-0201 {
     position: absolute;
     top: 32px;
     left: -15px;
@@ -4802,7 +4806,7 @@ div.dn_arrow {
     font-weight: bold;
 }
 
-#CCM-0203 {
+#CCM-02 #CCM-0203 {
     position: absolute;
     top: 611px;
     left: 0px;
@@ -5023,7 +5027,7 @@ div.dn_arrow {
     width: 92px;
 }
 
-#CCM-0401 {
+#CCM-04 #CCM-0401 {
     position: absolute;
     top: 32px;
     left: 42px;
@@ -5237,7 +5241,7 @@ div.dn_arrow {
     width: 499px;
 }
 
-#CCM-0501 {
+#CCM-05 #CCM-0501 {
     position: absolute;
     top: 34px;
     left: 0px;
@@ -5520,6 +5524,7 @@ div.dn_arrow {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #CCM-07 span.superscript {
@@ -6153,6 +6158,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #CCM-0918 {
