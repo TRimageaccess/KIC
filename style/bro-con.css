@@ -624,7 +624,9 @@ div.dn_arrow {
     margin-top: -15px;
     text-shadow: none;
 }
-
+#K-11 .block-title_h2{
+    font-style: normal;
+}
 #K-11 img {
     margin: 0 280px;
     height: 400px;
@@ -7131,6 +7133,7 @@ div.dn_arrow {
     font-size: 46px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-01 p.block_text {
@@ -7172,7 +7175,8 @@ div.dn_arrow {
     font-weight: bold
 }
 
-#BE4-0201 {
+#BE4-02 #BE4-0201 {
+    margin: 0;
     position: absolute;
     top: 32px;
     left: -15px;
@@ -7198,10 +7202,11 @@ div.dn_arrow {
     font-weight: bold;
 }
 
-#BE4-0203 {
+#BE4-02 #BE4-0203 {
     position: absolute;
     top: 611px;
-    left: 0px;
+    left: 0;
+    margin: 0;
     width: 1200px;
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 33px;
@@ -7324,18 +7329,19 @@ div.dn_arrow {
 #BE4-0301 {
     position: absolute;
     top: 37px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-0302 {
     position: absolute;
     top: 72px;
-    left: 0px;
+    left: 0;
     width: 1200px;
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-style: italic;
@@ -7417,6 +7423,7 @@ div.dn_arrow {
     top: 1320px;
     left: 1024px;
     width: 92px;
+    margin: 0;
 }
 
 #BE4-04 p.block_text6 {
@@ -7426,7 +7433,7 @@ div.dn_arrow {
     line-height: 110%;
 }
 
-#BE4-0401 {
+#BE4-04 #BE4-0401 {
     position: absolute;
     top: 32px;
     left: 42px;
@@ -7608,10 +7615,11 @@ div.dn_arrow {
     text-align: center;
 }
 
-#BE4-0501 {
+#BE4-05 #BE4-0501 {
     position: absolute;
     top: 34px;
-    left: 0px;
+    left: 0;
+    margin: 0;
     width: 1200px;
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 36px;
@@ -7723,7 +7731,7 @@ div.dn_arrow {
     width: 180px;
 }
 
-#BE4-0511 {
+#BE4-05 #BE4-0511 {
     position: absolute;
     top: 1032px;
     left: -20px;
@@ -7732,6 +7740,7 @@ div.dn_arrow {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-05 p.block_text12 {
@@ -7787,6 +7796,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-0602 {
@@ -7884,6 +7894,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-0702 {
@@ -7906,6 +7917,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-07 p.block_text16 {
@@ -7952,6 +7964,7 @@ div.dn_arrow {
     font-size: 31px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-0709 {
@@ -7974,6 +7987,7 @@ div.dn_arrow {
     font-size: 31px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-0711 {
@@ -7985,6 +7999,7 @@ div.dn_arrow {
     font-size: 31px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-0712 {
@@ -8007,6 +8022,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 #BE4-0714 {
@@ -8054,7 +8070,8 @@ div.dn_arrow {
 #BE4-0801 {
     position: absolute;
     top: 28px;
-    left: 0px;
+    left: 0;
+    margin: 0;
     width: 1200px;
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -8285,7 +8302,8 @@ div.dn_arrow {
 #BE4-0901 {
     position: absolute;
     top: 33px;
-    left: 0px;
+    left: 0;
+    margin: 0;
     width: 1200px;
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 39px;
@@ -8439,6 +8457,7 @@ div.dn_arrow {
     font-size: 39px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-0918 {
@@ -8482,6 +8501,7 @@ div.dn_arrow {
     font-size: 40px;
     font-weight: bold;
     text-align: left;
+    margin: 0;
 }
 
 #BE4-10 p.block_text25 {
@@ -8586,7 +8606,8 @@ div.dn_arrow {
 #BE4-1101 {
     position: absolute;
     top: 38px;
-    left: 0px;
+    left: 0;
+    margin: 0;
     width: 1200px;
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 41px;
@@ -8946,7 +8967,6 @@ div.dn_arrow {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-style: normal;
     font-size: 11px;
-    font-weight: normal;
     line-height: 165%;
     font-weight: bold;
 }
@@ -8954,7 +8974,8 @@ div.dn_arrow {
 #BE4-1201 {
     position: absolute;
     top: 19px;
-    left: 0px;
+    left: 0;
+    margin: 0;
     width: 1200px;
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     font-size: 41px;
