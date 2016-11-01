@@ -48,14 +48,17 @@ h1.block-tag {
     color: #333;
     z-index: 10;
 }
-
-.brochure-block h1.block-title-sub {
+#ILL-0102,
+#ILL-0103,
+.brochure-block h2.block-title-sub {
     margin: -15px .3em 25px 2em;
     font-size: 225%;
     text-align: center;
     font-style: italic;
     color: #666;
 }
+
+
 
 .brochure-block h2 {
     margin: 10px;
@@ -172,11 +175,13 @@ h1.block-tag {
     margin-left: 175px;
 }
 
-.scanner-label p {
+.scanner-label p,
+.scanner-label h1{
     font-size: 200%;
     font-style: italic;
     color: #555;
     text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
+    font-weight:normal;
 }
 
 div.rt_arrow {
@@ -900,7 +905,7 @@ div.dn_arrow {
     width: 250px;
 }
 
-#ILL-01 h1.block-title {
+#ILL-01 h2.block-title {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: left;
     font-weight: bold;
@@ -1065,7 +1070,7 @@ div.dn_arrow {
     width: 125px;
 }
 
-#ILL-02 h1.block-title {
+#ILL-02 h2.block-title {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -1073,6 +1078,7 @@ div.dn_arrow {
     font-size: 42px;
     color: black;
     line-height: 90%;
+    margin: 0;
 }
 
 #ILL-0210 {
@@ -1277,7 +1283,7 @@ div.dn_arrow {
     width: 505px;
 }
 
-#ILL-03 h1.block-title {
+#ILL-03 h2.block-title {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -1483,7 +1489,7 @@ div.dn_arrow {
     width: 100px;
 }
 
-#ILL-04 h1.block-title {
+#ILL-04 #ILL-0401 {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -1491,6 +1497,7 @@ div.dn_arrow {
     font-size: 41px;
     color: black;
     line-height: 100%;
+    margin: 0;
 }
 
 #ILL-0401 {
@@ -1676,7 +1683,7 @@ div.dn_arrow {
     width: 470px;
 }
 
-#ILL-06 h1.block-title {
+#ILL-06 #ILL-0601 {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -1684,6 +1691,7 @@ div.dn_arrow {
     font-size: 41px;
     color: black;
     line-height: 100%;
+    margin: 0;
 }
 
 #ILL-0601 {
@@ -1843,7 +1851,7 @@ div.dn_arrow {
     line-height: 110%;
 }
 
-#ILL-07 h1.block-title {
+#ILL-07 h2.block-title {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -1851,6 +1859,7 @@ div.dn_arrow {
     font-size: 42px;
     color: black;
     line-height: 100%;
+    margin: 0;
 }
 
 #ILL-0701 {
@@ -1928,7 +1937,7 @@ div.dn_arrow {
     width: 236px;
 }
 
-#ILL-07 h1.block-title2 {
+#ILL-07 h2.block-title2 {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -1936,6 +1945,7 @@ div.dn_arrow {
     font-size: 32px;
     color: black;
     line-height: 100%;
+    margin: 0;
 }
 
 #ILL-0707 {
@@ -2021,7 +2031,7 @@ div.dn_arrow {
     width: 320px;
 }
 
-#ILL-07 h1.block-title5 {
+#ILL-07 h2.block-title5 {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -2029,6 +2039,7 @@ div.dn_arrow {
     font-size: 41px;
     color: black;
     line-height: 100%;
+    margin: 0;
 }
 
 #ILL-0714 {
@@ -2222,13 +2233,14 @@ div.dn_arrow {
     width: 220px;
 }
 
-#ILL-08 h1.block-title2 {
+#ILL-08 h2.block-title2 {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: left;
     font-weight: bold;
     font-style: normal;
     font-size: 30px;
     color: black;
+    margin: 0;
     line-height: 110%;
 }
 
@@ -2278,7 +2290,7 @@ div.dn_arrow {
     width: 105px;
 }
 
-#ILL-08 h1.block-title3 {
+#ILL-08 h2.block-title3 {
     font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
     text-align: left;
     font-weight: bold;
@@ -2286,6 +2298,7 @@ div.dn_arrow {
     font-size: 28px;
     color: black;
     line-height: 110%;
+    margin: 0;
 }
 
 #ILL-0814 {
@@ -9092,4 +9105,8 @@ div.dn_arrow {
 
 .bookedge-all-text p {
     line-height: 1.1;
+}
+
+.title-hidden {
+    display: none;
 }
