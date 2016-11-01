@@ -3823,3 +3823,8 @@ span.align-right.padding-bottom-none.feature-table {
 .overflow .list-nav-wrap {
     width: 100%;
 }
+
+/*user gallery styles*/
+#flashcontent {
+    height: 100%;
+}
