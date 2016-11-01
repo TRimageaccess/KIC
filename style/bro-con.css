@@ -39,7 +39,7 @@ h1.block-tag {
     border-radius: 5px;
     z-index: 0;
 }
-
+.brochure-block .block-title_h2,
 .brochure-block h1.block-title {
     margin: 0 0 0.5em 0;
     font-size: 300%;
@@ -444,13 +444,17 @@ div.dn_arrow {
     padding-top: 10px;
 }
 
-#K-05 h1.block-title {
+#K-05 h2.block-title {
     margin-left: 200px;
     text-align: left;
     width: 800px;
+    font-size: 300%;
+    margin-bottom:0.5em;
+    line-height: 1.2em;
+    color: #333;
 }
 
-#K-05 h1.block-title-sub {
+#K-05 h2.block-title-sub {
     margin-left: 200px;
     margin-top: -15px;
     text-align: left;
@@ -570,7 +574,9 @@ div.dn_arrow {
 #K-07 h1.block-title {
     font-style: italic;
 }
-
+#k7-title1{
+    font-style: italic;
+}
 #k7-title2 {
     font-style: italic;
     margin-top: -20px;
