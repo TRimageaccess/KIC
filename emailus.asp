@@ -35,7 +35,7 @@
 </head>
 <body>
   <div class="container">
-    <div id="header"></div>
+    <header id="header"></header>
     <div class="viewport" id="contact_vp">
         <div class="support-address">
   <img src="http://upload.ted-kteam.com/KIC/images/DSLG and IA Logos.jpg" alt="">
@@ -237,7 +237,7 @@
 <p id="QID72"> ........ Each time I've had the opportunity to introduce a new student to this service, the response has generally been surprise and delight. - University of Washington </p>
   </div>
 </div>
-    <div id="footer"></div>
+    <footer id="footer"></footer>
 </div>
 <script src="script/jquery.min.js"></script>
 <script src="script/jquery.tools.min.1.2.7.full.js"></script>

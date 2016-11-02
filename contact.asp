@@ -35,7 +35,7 @@
 </head>
 <body>
 <div class="container">
-    <div id="header"></div>
+    <header id="header"></header>
     <div class="viewport" id="contact_vp">
 <div id="contact_logobox"><img width="300" height="80" src="http://upload.ted-kteam.com/KIC/images/DSLG-and-IA-Logos.png" alt="DLSG and Image Access Logos"></div>
 <div id="contact_headsetpeople"><img src="http://upload.ted-kteam.com/KIC/images/headset_people.jpg" alt="several support personnel wearing telephone headsets"></div>
@@ -224,7 +224,7 @@
 <p id="QID72"> ........ Each time I've had the opportunity to introduce a new student to this service, the response has generally been surprise and delight. - University of Washington </p>
   </div>
 </div>
-    <div id="footer"></div>
+    <footer id="footer"></footer>
 </div>
 <script src="script/jquery.min.js"></script>
 <script src="script/jquery.tools.min.1.2.7.full.js"></script>
