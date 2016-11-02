@@ -55,10 +55,12 @@ h1.block-tag {
     font-size: 225%;
     text-align: center;
     font-style: italic;
-    color: #666 !important;
+    color: #666;
 }
 
-
+.c03 h2.block-title-sub {
+    color: #666!important;
+}
 
 .brochure-block h2 {
     margin: 10px;
