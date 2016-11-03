@@ -212,7 +212,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<title>Form Mail</title>
-	<style type="text/css">
+	<style>
 		body
 		{
 			background-color: #ffffff;
