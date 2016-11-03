@@ -480,3 +480,5 @@ overflow:auto;background:#fff;border:1px solid #888;border-radius:4px;z-index:50
 span.mildHL {text-decoration:underline;font-style:italic;}
 #newsTicker {position: relative; height:30px; margin:0 auto; width:950px; overflow:hidden; }
 #newsTicker div.scrollableArea p {display:block; float: left; margin: 0; padding: 0; font-size:14pt; font-style:italic; color:#0000ff; white-space: nowrap;}
+.builder_frame_bscan {position: relative; margin: 0 auto; color: black; width: 100%; background-color: white; overflow: hidden;}
+.iframe_builder_bscan {margin:17px auto; min-width: 1200px; min-height:800px; height:1350px; border: 0;}

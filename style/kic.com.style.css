@@ -3826,3 +3826,13 @@ span.align-right.padding-bottom-none.feature-table {
 #flashcontent {
     height: 100%;
 }
+
+.builder_frame_kic{position: relative; margin: 0 auto; color: black; width: 100%; background-color: white; overflow: hidden;}
+.iframe_builder_kic{margin-top:17px; min-width: 1200px; min-height:800px; height:4750px; border: 0;}
+.customers_video_block{display: block; margin: 0 auto;}
+.dlos_usb_h3{font-weight: bold; text-align: center;}
+.saw_style {font-style: italic; text-align: center; line-height: 30px;}
+.img-IFLA img.IFLA {width: 300px;}
+.awardbox-wrapper-title-style {margin-top: 19px;}
+.span-italic {font-style: italic;}
+.width_67_percents {width: 67%;}
