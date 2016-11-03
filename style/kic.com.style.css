@@ -3334,13 +3334,6 @@ span.mildHL {
     font-size: 80%;
 }
 
-#quote-117 {
-    top: 110px;
-    left: 207px;
-    width: 500px;
-    color: rgb(130, 130, 130);
-}
-
 div#quote-114 {
     position: absolute;
     top: 360px;
@@ -3675,7 +3668,7 @@ th .table--img {
 .table__arow:before {
     content: '';
     position: absolute;
-    background: url("http://upload.ted-kteam.com/KIC/images/brochure-pictures/Arrow.png");
+    background: url("http://upload.ted-kteam.com/KIC/images/table-arrow.png");
     top: -18px;
     left: 42px;
     width: 80px;
