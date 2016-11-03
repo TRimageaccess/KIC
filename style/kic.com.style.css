@@ -2973,6 +2973,14 @@ div.cycle div {
 #commentForm input {
     margin: 4px;
     float: left;
+
+}
+
+#commentForm input[type=text],
+#commentForm input[type=tel],
+#commentForm input[type=url],
+#commentForm input[type=email] {
+    width: 204px;
 }
 
 #commentForm textarea {
