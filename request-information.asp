@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords"
-              content="Image Access, KIC, DLSG, Landing Page, ImageAccess main page, Bookeye 4 V3, Bookeye 4 V2, Bookeye 4 V1,
+              content="Image Access, KIC, KIC.COM, DLSG, Landing Page, ImageAccess main page, Bookeye 4 V3, Bookeye 4 V2, Bookeye 4 V1,
               WideTEK 12, WideTEK 25, WideTEK 36, WideTEK 36C, WideTEK 48C, WideTEK 44, WideTEK 48, WideTEK 36DS, Bookeye 4 V1-C35,
               BSCAN Software Family, Hybrid Library Technology, Business Automation, BSCAN ILL Article Scanning Software,
               BSCAN DE High Speed Data Entry, BSCAN IP Automated Image Processing, BSCAN FP Automated Forms Processing, BSCAN Standard Production Capture,
@@ -55,7 +55,7 @@
     <div class="viewport" id="hto_vp">
 
  <div class="support-address">
-  <img src="http://upload.ted-kteam.com/KIC/images/DSLG and IA Logos.jpg" alt="">
+  <img src="http://upload.ted-kteam.com/KIC/images/DSLG and IA Logos.jpg" alt="DSLG and IA Logos">
   <p class="support-address-1"> Digital Library Systems Group </p>
   <p class="support-address-2"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
   <p> Telephone: (561) 886-2900 or (800) 378-5432 <br>
@@ -64,7 +64,7 @@
   </p>
   <p> To receive more information, please contact our sales department at 800-378-5432 or fill out the form to the right. </p>
   <p class="caption"> Note: a red asterisk, (<span class="redflag">*</span>), denotes a required field. </p>  
-  <img src="http://upload.ted-kteam.com/KIC/images/Collage_3_Products.jpg" alt="" width="288">
+  <img src="http://upload.ted-kteam.com/KIC/images/Collage_3_Products.jpg" alt="Collage Products" width="288">
 </div>
 
 <div class="page-title">
