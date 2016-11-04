@@ -1,11 +1,10 @@
 .italic-dlos-sub{
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     margin: -7px 0 0 -16px;
 }
 .infoblock ul {
+    font:14px/16px 'Lato', sans-serif, helvetica, arial;
     padding: 0 0 0 24px;
-    font-size: 14px;
-    line-height: 16px;
     list-style: none;
 }
 
@@ -18,9 +17,7 @@
 }
 
 .brochure-title-center {
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
-    font-size: 36px;
-    line-height: 38px;
+    font:36px/38px 'LatoBold', sans-serif, helvetica, arial;
     text-align: center;
     padding: 20px 0 10px;
 }
@@ -106,7 +103,7 @@
     float: left;
     width: 60%;
     text-align: left;
-    font-size: 1.4rem;
+    font:1.4rem/20px 'Lato', sans-serif, helvetica, arial;
 }
 
 .wrapper-for-img {
@@ -115,8 +112,7 @@
 }
 
 .wrapper-for-img .little-font {
-    font-size: 15px;
-    line-height: 20px;
+    font:15px/20px 'Lato', sans-serif, helvetica, arial;
 }
 
 .saw {
@@ -129,17 +125,14 @@
 }
 
 .saw h3 {
-    font-size: 30px;
-    line-height: 32px;
+    font:30px/32px 'LatoBold', sans-serif, helvetica, arial;
     color: #000;
     margin: 0;
     padding-bottom: 10px;
 }
 
 .saw__green-text {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    font-style: italic;
+    font:1.2rem/1.8rem 'LatoItalic', sans-serif, helvetica, arial;
     background: #fefffd;
     background: -moz-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
     background: -webkit-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
@@ -188,16 +181,13 @@
 
 .infoblock .block__ul li {
     color: #5d5d5d;
-    font-size: 1rem;
-    line-height: 1.2rem;
+    font: 1rem/1.2rem 'Lato', sans-serif;
     margin-left: 25px;
 }
 
 .block__ul li:first-child {
-    font-size: 14px;
-    line-height: 16px;
     margin-left: 0;
-    font-weight: bold;
+    font: 1rem/1.2rem 'LatoBold', sans-serif;
 }
 
 .infoblock__photo .photo__table {
@@ -248,17 +238,14 @@ img.flash-hand {
 }
 
 .complex-header {
-    font-size: 64px;
-    line-height: 52px;
-    font-weight: bold;
+    font: 64px/52px 'LatoBold', sans-serif;
     display: block;
     margin: -50px auto 0;
     background-color: #fff;
 }
 
 .complex-header__bottom {
-    font-size: 3.5rem;
-    line-height: 2rem;
+    font: 3.5rem/2rem 'Lato', sans-serif;
     display: block;
     margin-top: -10px;
 }

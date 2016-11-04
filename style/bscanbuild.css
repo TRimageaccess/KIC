@@ -45,7 +45,7 @@
 #build_your_bscan .build-fieldset.expand.print legend{background:url(http://upload.ted-kteam.com/KIC/images/showhide-minus.green.png) 5px 5px no-repeat; }
 #build_your_bscan .build-fieldset div{float:left; height: 787px; margin:10px 10px; border:1px solid #aaa; border-radius:5px; }
 #build_your_bscan .build-fieldset div.options{width:280px; }
-#build_your_bscan .build-fieldset div.options p.label{height:25px;text-align:center; font-size:125%; font-style:italic; margin:0; background:#ddd; border:0px solid #aaa; border-radius:3px; }
+#build_your_bscan .build-fieldset div.options p.label{height:25px;text-align:center; font-size:125%; font-style:italic; margin:0; background:#ddd; border:0 solid #aaa; border-radius:3px; }
 #build_your_bscan .build-fieldset div.options div.models{height:381px; width: 100%;margin:0; border:none; }
 #build_your_bscan .build-fieldset div.options div.model{height:115px; width: 92px; margin:0; border:none; }
 #build_your_bscan .build-fieldset div.options div.model p{text-align:center; font-size:95%;}
@@ -60,21 +60,21 @@
 #build_your_bscan .build-fieldset div.options div.service {height:21px; margin: 0 0 0 7px; border:none;}
 #build_your_bscan .build-fieldset div.options div.service input{float:left; margin:5px; }
 #build_your_bscan .build-fieldset div.options div.service p{float:left; margin:5px; }
-#build_your_bscan .build-fieldset div.images{width:480px; height:500px; margin:10px 0px 10px 0px; border: 1px solid #aaa; border-radius: 5px; }
+#build_your_bscan .build-fieldset div.images{width:480px; height:500px; margin:10px 0 10px 0; border: 1px solid #aaa; border-radius: 5px; }
 #build_your_bscan .build-fieldset div.images .img-model{width:480px; height:500px; margin:0 5px; border:none; }
 #build_your_bscan .build-fieldset div.images .img-model img{width:470px; height:500px; }
 #build_your_bscan .build-fieldset div.images .active{display:block; }
 #build_your_bscan .build-fieldset div.images .inactive{display:none; }
-#build_your_bscan .build-fieldset div.images .img-heading{ position:absolute; width:auto; height:auto; min-width: 250px; max-width: 480px; min-height: 20px; margin:0px 0px; border:none; background: #c9ddff; border-radius:0px; }
+#build_your_bscan .build-fieldset div.images .img-heading{ position:absolute; width:auto; height:auto; min-width: 250px; max-width: 480px; min-height: 20px; margin:0 0; border:none; background: #c9ddff; border-radius:0; }
 #build_your_bscan .build-fieldset div.images .img-heading p{ font-weight:bold ; font-size:15pt; margin:4px 12px; }     
-#build_your_bscan .build-fieldset div.option-images{ position:relative; margin:0px; width: 480px; height: 100px; border: 1px solid #aaa; border-radius: 5px;} 
-#build_your_bscan .build-fieldset div.option-images div{margin:0px; border:0px;}
-#build_your_bscan .build-fieldset div.option-images div.optionlabel{height:auto; position: absolute; left: 170px; width: 140px; border: 1px solid #aaa; border-radius: 5px; margin:-10px 0px 0 auto; background: #fff;}
+#build_your_bscan .build-fieldset div.option-images{ position:relative; margin:0; width: 480px; height: 100px; border: 1px solid #aaa; border-radius: 5px;}
+#build_your_bscan .build-fieldset div.option-images div{margin:0; border:0;}
+#build_your_bscan .build-fieldset div.option-images div.optionlabel{height:auto; position: absolute; left: 170px; width: 140px; border: 1px solid #aaa; border-radius: 5px; margin:-10px 0 0 auto; background: #fff;}
 #build_your_bscan .build-fieldset div.option-images div.optionlabel p {text-align: center;}
 #build_your_bscan .build-fieldset div.option-images .active{display:block; }
 #build_your_bscan .build-fieldset div.option-images .inactive{display:none; }
-#build_your_bscan .build-fieldset div.option-images div.option-item{ height: 100px ;margin:0px 14px; }   
-#build_your_bscan .build-fieldset div.summary{margin: 0px 10px; width:293px; height: 652px; position:relative; float:right; overflow:hidden; background: #c9ddff;}
+#build_your_bscan .build-fieldset div.option-images div.option-item{ height: 100px ;margin:0 14px; }
+#build_your_bscan .build-fieldset div.summary{margin: 0 10px; width:293px; height: 652px; position:relative; float:right; overflow:hidden; background: #c9ddff;}
 #build_your_bscan .build-fieldset div.summary .nameplate p {font-size: 120%; text-align: center;}
 #build_your_bscan .build-fieldset div.summary div{width:100%; height:auto; margin:0; border:none; text-align:right;line-height:100%;}
 #build_your_bscan .build-fieldset div.summary .caption.sysdisc {text-align: right;font-size: 14px;margin-right:5px;}
@@ -103,9 +103,9 @@
 #build_your_bscan .build-fieldset div.summary .discount .discount input {color: #080; font-size: 120%;}
 #build_your_bscan .build-fieldset div.summary .spacer{height:10px; }
 #build_your_bscan .build-fieldset div.summary .mathbar{width: 125px;height:1px;border: 1px solid #000; float: right; margin: 2px 7px 0 0;}
-#build_your_bscan .build-fieldset div.lic_note{width:482px; height: 77px; margin: 5px 0px 3px 0px; border:none; }
+#build_your_bscan .build-fieldset div.lic_note{width:482px; height: 77px; margin: 5px 0 3px 0; border:none; }
 #build_your_bscan .build-fieldset div.lic_note p {font-size:11px;color:rgb(256,0,0); }
-#build_your_bscan .build-fieldset div.logo.dlsg{margin:0px; padding: 30px 150px 0 150px; width:180px; height: 50px; position:relative; overflow:hidden; background: #fff;border:none;}
+#build_your_bscan .build-fieldset div.logo.dlsg{margin:0; padding: 30px 150px 0 150px; width:180px; height: 50px; position:relative; overflow:hidden; background: #fff;border:none;}
 #build_your_bscan .build-fieldset div.logo.bscan{margin: 10px;width:295px; height: 126px; float: right; overflow:hidden; background: #fff;border:none;}
 #build_your_bscan .discount-box{width:600px; height:70px; margin-left:300px; border:1px solid #aaa; border-radius:5px; }
 #build_your_bscan .discount-box h3{margin:10px 20px 5px 20px; padding:0; float:left; }
