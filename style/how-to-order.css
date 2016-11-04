@@ -1,6 +1,6 @@
 /*how to order*/
 .content-wrapper p {
-    font-size: 24px;
+    font: 24px 'Lato', sans-serif;
     padding-bottom: 5px;
 }
 
@@ -60,7 +60,7 @@
 .how-to-order-title {
     padding-top: 20px;
     text-align: center;
-    font-size: 70px;
+    font: 70px/84px 'Lato', sans-serif;
     font-weight: normal;
 }
 
@@ -77,17 +77,17 @@
 }
 
 .content-wrapper strong {
-    font-size: 24px;
+    font: 24px 'Lato', sans-serif;
 }
-.green-bullet{
+
+.green-bullet {
     margin-left: 23px;
 }
 
 .green-bullet li {
     position: relative;
     list-style: none;
-    line-height: 1.3;
-    font-size: 24px;
+    font: 24px/1.3 'Lato', sans-serif;
 }
 
 .green-bullet li:before {
@@ -154,8 +154,7 @@
     margin-top: 8px;
 }
 
-
-.dlos-text-bottom{
+.dlos-text-bottom {
     text-align: right;
     margin-top: 40px;
 }
@@ -173,7 +172,7 @@
 
 sup {
     color: red;
-    font-size: 24px;
+    font: 24px 'Lato', sans-serif;
 }
 
 .dlos-block_img {
@@ -194,80 +193,80 @@ sup {
     padding-bottom: 10px;
 }
 
-.tab-content-bottom{
+.tab-content-bottom {
     vertical-align: bottom;
 }
 
-.odam-img-logo{
+.odam-img-logo {
     width: 210px;
     height: auto;
 }
 
-.odam-left{
+.odam-left {
     width: 24%;
     display: inline-block;
     text-align: center;
     vertical-align: top;
 }
 
-.odam-right{
+.odam-right {
     width: 75%;
     display: inline-block;
     vertical-align: top;
 }
 
-.zero-padding{
+.zero-padding {
     padding: 0;
     margin: 0;
 }
 
-.odam-price{
+.odam-price {
     position: absolute;
     bottom: 70px;
     left: 37%;
 }
 
-.odam-vertical{
+.odam-vertical {
     margin-top: -8px;
 }
 
-.odam-price strong{
+.odam-price strong {
     width: 140px;
 }
 
-.bscan-ill-logo{
+.bscan-ill-logo {
     height: 150px;
     display: block;
     padding: 80px 20px;
 }
 
-.bscan-ill-right-img{
+.bscan-ill-right-img {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.bscan-text{
+.bscan-text {
     width: 75%;
 }
 
-.btn-ill{
+.btn-ill {
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-.request-information{
+.request-information {
     text-align: center;
     margin-bottom: 30px;
 }
 
 .bscan-text p,
-.bscan-text li{
-    font-size: 18px;
+.bscan-text li {
+    font: 18px 'Lato', sans-serif;
 }
 
-.bscan-text li{
+.bscan-text li {
     line-height: 1.4;
 }
 
