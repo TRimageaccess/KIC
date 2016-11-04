@@ -1,6 +1,6 @@
 .brochure-block-wrap {
     width: 1200px;
-    margin: 0px;
+    margin: 0;
     box-shadow: 2px 3px 5px 5px #ddd;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -10,9 +10,9 @@ div.brochure-block {
     clear: both;
     width: 1200px;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     min-height: 10em;
-    border-radius: 0px;
+    border-radius: 0;
     position: relative;
 }
 
@@ -27,7 +27,7 @@ h1.block-tag {
     left: 10px;
     width: auto;
     padding: 6px;
-    font-style: italic;
+    font-family: "LatoItalic", sans-serif;
     text-align: center;
     color: #f00;
     color: rgba(256, 0, 0, 0.7);
@@ -39,6 +39,7 @@ h1.block-tag {
     border-radius: 5px;
     z-index: 0;
 }
+
 .brochure-block .block-title_h2,
 .brochure-block h1.block-title {
     margin: 0 0 0.5em 0;
@@ -48,18 +49,18 @@ h1.block-tag {
     color: #333;
     z-index: 10;
 }
+
 #ILL-0102,
 #ILL-0103,
 .brochure-block h2.block-title-sub {
     margin: -15px .3em 25px 2em;
-    font-size: 225%;
     text-align: center;
-    font-style: italic;
+    font: 225% "LatoBoldItalic", sans-serif;
     color: #666;
 }
 
 .c03 h2.block-title-sub {
-    color: #666!important;
+    color: #666 !important;
 }
 
 .brochure-block h2 {
@@ -138,8 +139,7 @@ h1.block-tag {
 }
 
 .brochure-block p.caption {
-    font-size: 90%;
-    font-style: italic;
+    font: 90% "LatoItalic", sans-serif;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
 }
@@ -160,8 +160,7 @@ h1.block-tag {
 }
 
 .brochure-block ul.bullet {
-    list-style-type: disc;
-    list-style-image: none;
+    list-style: disc none;
 }
 
 .brochure-block li {
@@ -178,12 +177,11 @@ h1.block-tag {
 }
 
 .scanner-label p,
-.scanner-label h1{
-    font-size: 200%;
-    font-style: italic;
+.scanner-label h1 {
+    font: 200% "LatoItalic", sans-serif;
     color: #555;
-    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
-    font-weight:normal;
+    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
+    font-weight: normal;
 }
 
 div.rt_arrow {
@@ -201,7 +199,7 @@ div.dn_arrow {
 }
 
 #K-00 img {
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 #KBE-01 {
@@ -236,11 +234,10 @@ div.dn_arrow {
 }
 
 #KBE-01 h1.block-title-sub {
-    font-size: 200%;
     margin-top: -15px;
     margin-bottom: 0;
     margin-left: 20px;
-    font-style: italic;
+    font: 200% "LatoItalic", sans-serif;
     text-align: left;
 }
 
@@ -249,7 +246,7 @@ div.dn_arrow {
 }
 
 #KBE-02 h1.block-title {
-    font-style: italic;
+    font-family: "LatoItalic", sans-serif;
 }
 
 #kbe2-title2 {
@@ -268,7 +265,7 @@ div.dn_arrow {
 
 #KBE-03 .left-col {
     width: 750px;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #KBE-03 .left-col ul {
@@ -282,11 +279,11 @@ div.dn_arrow {
 
 #KBE-03 .right-col {
     width: 300px;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 #KBE-03 .right-col img {
-    margin: 0px;
+    margin: 0;
     float: none;
 }
 
@@ -395,11 +392,10 @@ div.dn_arrow {
 }
 
 #KBE4-01 h1.block-title-sub {
-    font-size: 200%;
     margin-top: -15px;
     margin-bottom: 0;
     margin-left: 20px;
-    font-style: italic;
+    font: 200% "LatoItalic", sans-serif;
     text-align: left;
 }
 
@@ -451,7 +447,7 @@ div.dn_arrow {
     text-align: left;
     width: 800px;
     font-size: 300%;
-    margin-bottom:0.5em;
+    margin-bottom: 0.5em;
     line-height: 1.2em;
     color: #333;
 }
@@ -460,7 +456,7 @@ div.dn_arrow {
     margin-left: 200px;
     margin-top: -15px;
     text-align: left;
-    font-style: italic;
+    font-family: "LatoBoldItalic", sans-serif;
     width: 800px;
 }
 
@@ -472,7 +468,7 @@ div.dn_arrow {
     height: 200px;
     width: 200px;
     float: left;
-    margin: 0px;
+    margin: 0;
 }
 
 #K-0501 {
@@ -494,7 +490,7 @@ div.dn_arrow {
 }
 
 #K-06 {
-    margin: 0px;
+    margin: 0;
     width: 1050px;
 }
 
@@ -504,7 +500,7 @@ div.dn_arrow {
 
 #K-06 .left-col, #K-06 .right-col {
     width: 500px;
-    margin: 0px;
+    margin: 0;
 }
 
 #K-06 img {
@@ -519,8 +515,8 @@ div.dn_arrow {
 #K-06 .dn_arrow {
     width: 190px;
     height: 30px;
-    margin-left: 0px;
-    background-position: 90px 0px;
+    margin-left: 0;
+    background-position: 90px 0;
 }
 
 #K-06-pages {
@@ -554,8 +550,7 @@ div.dn_arrow {
 
 #K-07 p {
     margin-top: 10px;
-    font-size: 150%;
-    font-style: italic;
+    font: 150% "LatoItalic", sans-serif;
     text-align: center;
 }
 
@@ -574,13 +569,15 @@ div.dn_arrow {
 }
 
 #K-07 h1.block-title {
-    font-style: italic;
+    font-family: "LatoItalic", sans-serif;
 }
-#k7-title1{
-    font-style: italic;
+
+#k7-title1 {
+    font-family: "LatoItalic", sans-serif;
 }
+
 #k7-title2 {
-    font-style: italic;
+    font-family: "LatoItalic", sans-serif;
     margin-top: -20px;
 }
 
@@ -622,13 +619,15 @@ div.dn_arrow {
 
 #K-11 h2 {
     text-align: center;
-    font-style: italic;
+    font-family: "LatoItalic", sans-serif;
     margin-top: -15px;
     text-shadow: none;
 }
-#K-11 .block-title_h2{
-    font-style: normal;
+
+#K-11 .block-title_h2 {
+    font-family: "Lato", sans-serif;
 }
+
 #K-11 img {
     margin: 0 280px;
     height: 400px;
@@ -772,25 +771,25 @@ div.dn_arrow {
 
 #K-18 {
     width: 1200px;
-    margin: 0 0px;
+    margin: 0 0;
 }
 
 #K-19 {
     height: auto;
     width: 1200px;
-    margin: 0 0px;
+    margin: 0 0;
 }
 
 #K-19 h2.headline {
     width: 100%;
     text-align: center;
+
     font-size: 200%;
 }
 
 #K-19 ul.customer-list {
     width: 100%;
-    list-style-type: none;
-    list-style-image: none;
+    list-style: none none;
     margin: 30px 40px;
 }
 
@@ -811,7 +810,7 @@ div.dn_arrow {
 
 #K-21 {
     width: 1200px;
-    margin: 0 0px;
+    margin: 0 0;
 }
 
 #K-22 {
@@ -826,9 +825,8 @@ div.dn_arrow {
 }
 
 #K-23 h2 {
-    font-size: 30px;
+    font: 30px/98% "LatoBold", sans-serif;
     text-align: left;
-    line-height: 98%;
     color: #333;
 }
 
@@ -851,7 +849,7 @@ div.dn_arrow {
 
 #K-23 div.c01 p {
     margin-left: 200px;
-    font-size: 16px;
+    font: 16px/18px "Lato", sans-serif;
 }
 
 #K-23 div.c01 p.c01 {
@@ -863,24 +861,22 @@ div.dn_arrow {
 }
 
 #K-23 div.c02 h2.block-title {
+    font: 300%/100% "LatoBold", sans-serif;
     text-align: center;
-    line-height: 100%;
-    font-size: 300%;
 }
 
 #K-23 div.c03 h2 {
+    font: 30px/100% "LatoBold", sans-serif;
     margin-left: 350px;
-    line-height: 100%;
-    font-size: 30px;
     margin-bottom: 20px;
 }
 
 #K-23 div.c03 h2.block-title-sub {
-    font-size: 25px;
+    font: 25px/27px "LatoBoldItalic", sans-serif;
 }
 
 #K-23 div.c03 h2.block-title-sub.c02 {
-    font-size: 19px;
+    font: 19px/21px "LatoBoldItalic", sans-serif;
 }
 
 #fleet-01 div {
@@ -903,12 +899,8 @@ div.dn_arrow {
 }
 
 #ILL-01 p.delivery-list {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 30px/95% "LatoBold", sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 95%;
     color: rgb(32, 42, 95);
 }
 
@@ -920,11 +912,8 @@ div.dn_arrow {
 }
 
 #ILL-01 h2.block-title {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 43px/51px "LatoBoldItalic", sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 43px;
     color: black;
 }
 
@@ -943,11 +932,8 @@ div.dn_arrow {
 }
 
 #ILL-01 h2.block-title-sub {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 31px/38px "LatoBoldItalic", sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 31px;
     color: rgb(34, 63, 139);
 }
 
@@ -959,10 +945,8 @@ div.dn_arrow {
 }
 
 #ILL-01 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 20px;
-    line-height: 115%;
 }
 
 #ILL-0105 {
@@ -1008,17 +992,13 @@ div.dn_arrow {
 }
 
 #ILL-02 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: left;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #ILL-02 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: right;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #ILL-0201 {
@@ -1085,13 +1065,9 @@ div.dn_arrow {
 }
 
 #ILL-02 h2.block-title {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 42px/90% 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 42px;
     color: black;
-    line-height: 90%;
     margin: 0;
 }
 
@@ -1103,10 +1079,8 @@ div.dn_arrow {
 }
 
 #ILL-02 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #ILL-0211 {
@@ -1131,11 +1105,8 @@ div.dn_arrow {
 }
 
 #ILL-02 p.block_text5 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 16px/120% 'LatoBold', sans-serif;
     text-align: justify;
-    font-size: 16px;
-    line-height: 120%;
-    font-weight: bold;
 }
 
 #ILL-0214 {
@@ -1197,15 +1168,13 @@ div.dn_arrow {
 #ILL-0222 {
     position: absolute;
     top: 901px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-02 p.block_text6 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    text-align: justify;
-    font-size: 19px;
-    line-height: 110%;
+    font: 19px/110% 'Lato', sans-serif;
+    text-align: justify;;
 }
 
 #ILL-0223 {
@@ -1213,15 +1182,13 @@ div.dn_arrow {
     top: 947px;
     left: 155px;
     width: 510px;
-    font: 32px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #ILL-02 p.block_text7 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 27px/29px 'Lato', sans-serif;
     text-align: justify;
-    font-size: 27px;
 }
 
 #ILL-0224 {
@@ -1232,10 +1199,8 @@ div.dn_arrow {
 }
 
 #ILL-02 p.block_label2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/105% 'Lato', sans-serif;
     text-align: center;
-    font-size: 18px;
-    line-height: 105%;
 }
 
 #ILL-0225 {
@@ -1257,8 +1222,7 @@ div.dn_arrow {
     top: 1255px;
     left: 219px;
     width: 410px;
-    font: 32px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -1298,57 +1262,43 @@ div.dn_arrow {
 }
 
 #ILL-03 h2.block-title {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 41px/100% 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 41px;
     color: black;
-    line-height: 100%;
 }
 
 #ILL-0301 {
     position: absolute;
     top: 33px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-0302 {
     position: absolute;
     top: 61px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
+    font: 24px/29px 'LatoBoldItalic', sans-serif;
     text-align: center;
-    font-style: italic;
 }
 
 #ILL-03 h2.block-title {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 36px/100% 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 36px;
     color: black;
-    line-height: 100%;
 }
 
 #ILL-0303 {
     position: absolute;
     top: 917px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-03 h3.block-title3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 27px/33px 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 27px;
     color: black;
 }
 
@@ -1360,17 +1310,13 @@ div.dn_arrow {
 }
 
 #ILL-03 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: left;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #ILL-03 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #ILL-0305 {
@@ -1416,18 +1362,13 @@ div.dn_arrow {
 }
 
 #ILL-03 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: left;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #ILL-03 h3.block-title4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 25px/30px 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 25px;
     color: black;
 }
 
@@ -1474,12 +1415,8 @@ div.dn_arrow {
 }
 
 #ILL-03 p.scanner_name {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 12px/125% 'LatoBoldItalic', sans-serif;
     text-align: justify;
-    font-size: 12px;
-    font-style: italic;
-    line-height: 125%;
-    font-weight: bold;
 }
 
 #ILL-0317 {
@@ -1504,47 +1441,36 @@ div.dn_arrow {
 }
 
 #ILL-04 #ILL-0401 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 41px/100% 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 41px;
     color: black;
-    line-height: 100%;
     margin: 0;
 }
 
 #ILL-0401 {
     position: absolute;
     top: 35px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-04 h3.block-title3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 25px/30px 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 25px;
     color: black;
 }
 
 #ILL-0402 {
     position: absolute;
     top: 62px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-04 h2.block-title {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 24px/100% 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 24px;
     color: black;
-    line-height: 100%;
 }
 
 #ILL-0403 {
@@ -1555,10 +1481,8 @@ div.dn_arrow {
 }
 
 #ILL-04 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/115% 'Lato', sans-serif;
     text-align: left;
-    font-size: 20px;
-    line-height: 115%;
 }
 
 #ILL-0404 {
@@ -1597,20 +1521,14 @@ div.dn_arrow {
 }
 
 #ILL-05 h2.block-title {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 24px/100% 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 24px;
     color: black;
-    line-height: 100%;
 }
 
 #ILL-05 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/120% 'Lato', sans-serif;
     text-align: left;
-    font-size: 20px;
-    line-height: 120%;
 }
 
 #ILL-0501 {
@@ -1698,48 +1616,36 @@ div.dn_arrow {
 }
 
 #ILL-06 #ILL-0601 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 41px/100% 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 41px;
     color: black;
-    line-height: 100%;
     margin: 0;
 }
 
 #ILL-0601 {
     position: absolute;
     top: 31px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-06 h3.block-title3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 25px/110% 'LatoBoldItalic', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 25px;
-    color: black;;
-    line-height: 110%;
+    color: black;
 }
 
 #ILL-0602 {
     position: absolute;
     top: 69px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-06 h2.block-title {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 31px/100% 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 31px;
     color: black;
-    line-height: 100%;
 }
 
 #ILL-0603 {
@@ -1771,11 +1677,8 @@ div.dn_arrow {
 }
 
 #ILL-06 p.block_text1 {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
+    font: 16px/18px "LatoBoldItalic", sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 16px;
 }
 
 #ILL-0607 {
@@ -1786,13 +1689,9 @@ div.dn_arrow {
 }
 
 #ILL-06 h2.block-title2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 21px/95% 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 21px;
     color: black;
-    line-height: 95%;
 }
 
 #ILL-0608 {
@@ -1803,12 +1702,8 @@ div.dn_arrow {
 }
 
 #ILL-06 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'LatoItalic', sans-serif;
     text-align: justify;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 110%;
 }
 
 #ILL-0609 {
@@ -1858,54 +1753,39 @@ div.dn_arrow {
     top: 1310px;
     left: 623px;
     width: 585px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 110%;
+    font: 15px/110% 'LatoItalic', sans-serif;
 }
 
 #ILL-07 h2.block-title {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 42px/100% 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 42px;
     color: black;
-    line-height: 100%;
     margin: 0;
 }
 
 #ILL-0701 {
     position: absolute;
     top: 32px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-07 h3.block-title3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 25px/110% 'LatoBoldItalic', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 25px;
     color: black;
-    line-height: 110%;
 }
 
 #ILL-0702 {
     position: absolute;
     top: 62px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-07 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/110% 'Lato', sans-serif;
     text-align: left;
-    font-style: normal;
-    font-size: 19px;
-    line-height: 110%;
 }
 
 #ILL-0703 {
@@ -1916,10 +1796,8 @@ div.dn_arrow {
 }
 
 #ILL-07 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/110% 'Lato', sans-serif;
     text-align: left;
-    font-size: 19px;
-    line-height: 110%;
 }
 
 #ILL-0704 {
@@ -1930,11 +1808,8 @@ div.dn_arrow {
 }
 
 #ILL-07 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'LatoItalic', sans-serif;
     text-align: center;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 110%;
 }
 
 #ILL-0705 {
@@ -1952,46 +1827,35 @@ div.dn_arrow {
 }
 
 #ILL-07 h2.block-title2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 32px/100% 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 32px;
     color: black;
-    line-height: 100%;
     margin: 0;
 }
 
 #ILL-0707 {
     position: absolute;
     top: 797px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-07 h3.block-title4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'LatoItalic', sans-serif;
     text-align: center;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 18px;
     color: black;
-    line-height: 110%;
 }
 
 #ILL-0708 {
     position: absolute;
     top: 822px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-07 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: left;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #ILL-0709 {
@@ -2002,11 +1866,8 @@ div.dn_arrow {
 }
 
 #ILL-07 p.block_text5 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #ILL-0710 {
@@ -2017,11 +1878,8 @@ div.dn_arrow {
 }
 
 #ILL-07 p.block_text6 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'LatoItalic', sans-serif;
     text-align: left;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #ILL-0711 {
@@ -2046,48 +1904,36 @@ div.dn_arrow {
 }
 
 #ILL-07 h2.block-title5 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 41px/100% 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 41px;
     color: black;
-    line-height: 100%;
     margin: 0;
 }
 
 #ILL-0714 {
     position: absolute;
     top: 1170px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-07 h3.block-title6 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 26px/110% 'LatoItalic', sans-serif;
     text-align: center;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 26px;
     color: black;
-    line-height: 110%;
 }
 
 #ILL-0715 {
     position: absolute;
     top: 1200px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #ILL-07 p.block_text7 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 27px/100% 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 27px;
     color: black;
-    line-height: 100%;
 }
 
 #ILL-0716 {
@@ -2098,13 +1944,9 @@ div.dn_arrow {
 }
 
 #ILL-07 p.block_text8 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/100% 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 15px;
     color: black;
-    line-height: 100%;
 }
 
 #ILL-0717 {
@@ -2157,13 +1999,9 @@ div.dn_arrow {
 }
 
 #ILL-08 h3.block-title1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 29px/110% 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 29px;
     color: black;
-    line-height: 110%;
 }
 
 #ILL-0801 {
@@ -2174,12 +2012,8 @@ div.dn_arrow {
 }
 
 #ILL-08 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 17px/115% 'LatoItalic', sans-serif;
     text-align: justify;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 17px;
-    line-height: 115%;
 }
 
 #ILL-0802 {
@@ -2190,12 +2024,8 @@ div.dn_arrow {
 }
 
 #ILL-08 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 17px/110% 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 17px;
-    line-height: 110%;
 }
 
 #ILL-0803 {
@@ -2248,14 +2078,10 @@ div.dn_arrow {
 }
 
 #ILL-08 h2.block-title2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 30px/110% 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 30px;
     color: black;
     margin: 0;
-    line-height: 110%;
 }
 
 #ILL-0810 {
@@ -2266,12 +2092,8 @@ div.dn_arrow {
 }
 
 #ILL-08 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #ILL-0811 {
@@ -2289,12 +2111,8 @@ div.dn_arrow {
 }
 
 #ILL-08 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: left;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #ILL-0813 {
@@ -2305,13 +2123,9 @@ div.dn_arrow {
 }
 
 #ILL-08 h2.block-title3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 28px/110% 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 28px;
     color: black;
-    line-height: 110%;
     margin: 0;
 }
 
@@ -2323,12 +2137,8 @@ div.dn_arrow {
 }
 
 #ILL-08 p.block_text5 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 16px/115% 'LatoBold', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 115%;
 }
 
 #ILL-0815 {
@@ -2364,14 +2174,11 @@ div.dn_arrow {
 }
 
 #WF-01 h2.blue-header-1 {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 36px;
-    font-weight: bold;
+    font: 36px/38px "LatoBold", sans-serif;
 }
 
 #WF-01 h3 {
-    font-weight: bold;
+    font-family: "LatoBold", sans-serif;
 }
 
 #WF-0101 {
@@ -2386,9 +2193,7 @@ div.dn_arrow {
     left: 634px;
     width: 520px;
     text-align: center;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 34px;
-    line-height: 108%;
+    font: 34px/108% 'Lato', sans-serif;
 }
 
 #WF-0103 {
@@ -2396,19 +2201,14 @@ div.dn_arrow {
     top: 381px;
     left: 620px;
     width: 600px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 111%;
+    font: 20px/111% 'LatoItalic', sans-serif;
 }
 
 #WF-0104 {
     position: absolute;
     top: 895px;
     width: inherit;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 46px;
+    font: 46px/48px 'Lato', sans-serif;
     text-align: center;
 }
 
@@ -2434,33 +2234,25 @@ div.dn_arrow {
     position: absolute;
     top: 10px;
     width: 1200px;
-    font: 14px "Arial Black", Helvetica, Arial, Verdana, sans-serif;
-    font-size: 23px;
-    font-weight: bold;
+    font: 23px/25px "LatoBold", sans-serif;
 }
 
 #WF-0202 {
     position: absolute;
+    font: 18px/20px "LatoBold", sans-serif;
     top: 27px;
     width: 1200px;
-    font-size: 18px;
-    font-weight: bold;
     text-align: center;
 }
 
 #WF-02 p {
-    font-size: 10px;
-    line-height: 0.8em;
+    font: 10px/0.8em "Lato", sans-serif;
     padding: 0 0 0 12px;
 }
 
 #WF-02 p.stage-name {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 11px;
+    font: 11px/0.9em "LatoBold", sans-serif;
     text-align: center;
-    font-weight: bold;
-    line-height: 0.9em;
 }
 
 #WF-02 p.stage-body {
@@ -2549,27 +2341,22 @@ div.dn_arrow {
     position: absolute;
     top: 33px;
     width: inherit;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 43px;
+    font: 43px/45px 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
 }
 
 #WF-03 p.block_text {
     text-align: justify;
-    font-size: 17px;
-    line-height: 1.25em;
+    font: 17px/1.25em "Lato", sans-serif;
 }
 
 #WF-03 p.block_text2 {
     text-align: right;
-    font-size: 17px;
-    line-height: 1.25em;
+    font: 17px/1.25em "Lato", sans-serif;
 }
 
 #WF-03 p.block_header {
-    font-weight: bold;
-    font-size: 18px;
+    font: 18px/20px "LatoBold", sans-serif;
 }
 
 #WF-0302 {
@@ -2695,10 +2482,8 @@ div.dn_arrow {
     position: absolute;
     top: 1070px;
     width: inherit;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 43px;
+    font: 43px/45px 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
 }
 
 #WF-0321 {
@@ -2706,9 +2491,7 @@ div.dn_arrow {
     top: 1092px;
     left: 14px;
     width: 615px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+    font: 14px/16px 'LatoBold', sans-serif;
     line-height: 130%;
 }
 
@@ -2717,9 +2500,7 @@ div.dn_arrow {
     top: 1092px;
     left: 586px;
     width: 600px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+    font: 14px/16px 'LatoBold', sans-serif;
     line-height: 130%;
 }
 
@@ -2728,26 +2509,20 @@ div.dn_arrow {
 }
 
 #WF-04 p.block_text {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/110% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 110%;
 }
 
 #WF-04 p.thumb_title {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 17px;
-    font-weight: bold;
+    font: 17px/19px 'LatoBold', sans-serif;
 }
 
 #WF-0401 {
     position: absolute;
     top: 33px;
     width: inherit;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 43px;
+    font: 43px/45px 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
 }
 
 #WF-0402 {
@@ -2865,25 +2640,18 @@ div.dn_arrow {
 }
 
 #WF-05 p.block_text {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 20px;
-    line-height: 120%;
 }
 
 #WF-05 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/125% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 20px;
-    line-height: 125%;
 }
 
 #WF-05 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 27px/105% 'LatoItalic', sans-serif;
     text-align: left;
-    font-style: italic;
-    font-size: 27px;
-    line-height: 105%;
     color: white;
 }
 
@@ -2891,10 +2659,8 @@ div.dn_arrow {
     position: absolute;
     top: 34px;
     width: inherit;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 43px;
+    font: 43px/45px 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
 }
 
 #WF-0502 {
@@ -2922,10 +2688,8 @@ div.dn_arrow {
     position: absolute;
     top: 755px;
     width: inherit;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 43px;
+    font: 43px/45px 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
 }
 
 #WF-0506 {
@@ -2950,20 +2714,16 @@ div.dn_arrow {
 }
 
 #WF-06 p.block_text {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/125% 'Lato', sans-serif;
     text-align: left;
-    font-size: 20px;
-    line-height: 125%;
 }
 
 #WF-0601 {
     position: absolute;
     top: 34px;
     width: inherit;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 43px;
+    font: 43px/45px 'LatoBold', sans-serif;
     text-align: center;
-    font-weight: bold;
 }
 
 #WF-0602 {
@@ -2998,14 +2758,13 @@ div.dn_arrow {
     margin: 25px 0 25px 325px;
     padding: 1px 50px;
     color: #8ad;
-    font-size: 250%;
-    font-weight: bolder;
+    font: 250% "LatoBold", sans-serif;
     text-shadow: 1px 1px 3px #333;
 }
 
 #FF-01 h2 {
     margin: 0 0 0 430px;
-    font-style: italic;
+    font-family: "LatoItalic", sans-serif;
 }
 
 #FF-0201 {
@@ -3023,12 +2782,12 @@ div.dn_arrow {
 
 #FF-03 .left-col {
     width: 500px;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #FF-03 .right-col {
     width: 500px;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 #ff-t0303 .t_col1 {
@@ -3055,10 +2814,7 @@ div.dn_arrow {
 }
 
 #BE-01 h2.blue-header-1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 26px;
-    font-weight: bold;
+    font: 26px/28px 'LatoBold', sans-serif;
 }
 
 #BE-0101 {
@@ -3078,10 +2834,7 @@ div.dn_arrow {
     top: 347px;
     left: 72px;
     width: 375px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 32px;
-    font-weight: normal;
+    font: 32px/34px 'LatoItalic', sans-serif;
 }
 
 #BE-0104 {
@@ -3089,10 +2842,7 @@ div.dn_arrow {
     top: 382px;
     left: 72px;
     width: 145px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 32px;
-    font-weight: normal;
+    font: 32px/34px 'LatoItalic', sans-serif;
 }
 
 #BE-0105 {
@@ -3100,10 +2850,7 @@ div.dn_arrow {
     top: 395px;
     left: 201px;
     width: 20px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 15px;
-    font-weight: bold;
+    font: 14px/17px 'LatoBoldItalic', sans-serif;
 }
 
 #BE-0106 {
@@ -3111,18 +2858,12 @@ div.dn_arrow {
     top: 383px;
     left: 224px;
     width: 235px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 32px;
-    font-weight: normal;
+    font: 32px/34px 'LatoItalic', sans-serif;
 }
 
 #BE-01 p.block_text {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 27px/29px 'LatoBoldItalic', sans-serif;
     text-align: left;
-    font-style: italic;
-    font-size: 27px;
-    font-weight: bold;
 }
 
 #BE-0107 {
@@ -3138,16 +2879,13 @@ div.dn_arrow {
 }
 
 #BE-01 p.block_quote {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 23px/110% 'LatoBold', sans-serif;
     text-align: center;
-    font-size: 23px;
-    font-weight: bold;
     color: rgb(79, 85, 83);
-    line-height: 110%;
 }
 
 #BE-01 span.italic {
-    font-style: italic;
+    font-family: "LatoItalic", sans-serif;
 }
 
 #BE-0109 {
@@ -3158,11 +2896,8 @@ div.dn_arrow {
 }
 
 #BE-01 p.block_author {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/20px 'LatoBoldItalic', sans-serif;
     text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
     color: rgb(79, 85, 83);
 }
 
@@ -3178,24 +2913,18 @@ div.dn_arrow {
     left: 0;
     margin: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 38px;
-    font-weight: bold;
+    font: 38px/100% 'LatoBold', sans-serif;
     text-align: center;
     color: black;
-    line-height: 100%
 }
 
 #BE-01 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 115%;
-    font-weight: normal;
 }
 
 #BE-01 span.bold {
-    font-weight: bold;
+    font-family: "LatoBold", sans-serif;
 }
 
 #BE-0112 {
@@ -3227,10 +2956,8 @@ div.dn_arrow {
 }
 
 #BE-01 p.block_label {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/17px 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 15px;
-    font-weight: bold;
 }
 
 #BE-0116 {
@@ -3240,22 +2967,18 @@ div.dn_arrow {
     width: 175px;
 }
 
-#BE-02  #BE-0201 {
+#BE-02 #BE-0201 {
     position: absolute;
     top: 35px;
     left: -10px;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 36px;
-    font-weight: bold;
+    font: 36px/38px 'LatoBold', sans-serif;
     text-align: center;
 }
 
 #BE-02 p.block_text {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #BE-0202 {
@@ -3265,21 +2988,17 @@ div.dn_arrow {
     width: 1037px;
 }
 
-#BE-02  #BE-0203 {
+#BE-02 #BE-0203 {
     position: absolute;
     top: 611px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 33px;
-    font-weight: bold;
+    font: 33px/35px 'LatoBold', sans-serif;
     text-align: center;
 }
 
 #BE-02 h2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 28px;
-    font-weight: bold;
+    font: 28px/30px 'LatoBold', sans-serif;
     text-align: center;
 }
 
@@ -3291,17 +3010,13 @@ div.dn_arrow {
 }
 
 #BE-02 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #BE-02 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #BE-0205 {
@@ -3386,9 +3101,7 @@ div.dn_arrow {
     top: 37px;
     left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -3398,18 +3111,13 @@ div.dn_arrow {
     top: 72px;
     left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 24px;
-    font-weight: normal;
+    font: 24px/26px 'LatoItalic', sans-serif;
     text-align: center;
 }
 
 #BE-03 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/110% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 20px;
-    line-height: 110%;
 }
 
 #BE-0303 {
@@ -3431,18 +3139,12 @@ div.dn_arrow {
     top: 90px;
     left: 695px;
     width: 430px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 17px;
-    font-weight: normal;
-    line-height: 90%;
+    font: 17px/90% 'Lato', sans-serif;
 }
 
 #BE-03 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/110% 'Lato', sans-serif;
     text-align: left;
-    font-size: 20px;
-    line-height: 110%;
 }
 
 #BE-0306 {
@@ -3467,10 +3169,9 @@ div.dn_arrow {
 }
 
 #BE-03 p.block_text5 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/110% 'Lato', sans-serif;
     text-align: center;
-    font-size: 20px;
-    line-height: 110%;
+
 }
 
 #BE-0309 {
@@ -3485,10 +3186,7 @@ div.dn_arrow {
     top: 30px;
     left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 41px;
-    font-weight: bold;
-    text-align: center;
+    font: 41px/43px 'LatoBold', sans-serif;
     margin: 0;
 }
 
@@ -3497,17 +3195,13 @@ div.dn_arrow {
     top: 91px;
     left: 124px;
     width: 350px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE-04 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #BE-0403 {
@@ -3550,11 +3244,8 @@ div.dn_arrow {
     top: 770px;
     left: 390px;
     width: 170px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/115% 'LatoBold', sans-serif;
     text-align: center;
-    font-size: 15px;
-    line-height: 115%;
-    font-weight: bold;
 }
 
 #BE-0409 {
@@ -3562,9 +3253,7 @@ div.dn_arrow {
     top: 91px;
     left: 671px;
     width: 400px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -3580,9 +3269,7 @@ div.dn_arrow {
     top: 726px;
     left: 590px;
     width: 540px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 31px;
-    font-weight: bold;
+    font: 31px/33px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -3598,18 +3285,13 @@ div.dn_arrow {
     top: 872px;
     left: 46px;
     width: 510px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 29px;
-    font-weight: bold;
+    font: 29px/31px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE-04 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'LatoItalic', sans-serif;
     text-align: center;
-    font-style: italic;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #BE-0414 {
@@ -3645,11 +3327,7 @@ div.dn_arrow {
     top: 886px;
     left: 582px;
     width: 600px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 115%;
+    font: 15px/115% 'Lato', sans-serif;
 }
 
 #BE-0419 {
@@ -3674,11 +3352,8 @@ div.dn_arrow {
 }
 
 #BE-04 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'LatoItalic', sans-serif;
     text-align: center;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #BE-0422 {
@@ -3693,24 +3368,18 @@ div.dn_arrow {
     top: 28px;
     left: 74px;
     width: 460px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE-05 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #BE-05 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #BE-0502 {
@@ -3732,9 +3401,7 @@ div.dn_arrow {
     top: 28px;
     left: 707px;
     width: 340px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -3757,19 +3424,13 @@ div.dn_arrow {
     top: 428px;
     left: 656px;
     width: 440px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/32px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE-05 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 17px/115% 'LatoBoldItalic', sans-serif;
     text-align: center;
-    font-style: italic;
-    font-size: 17px;
-    line-height: 115%;
-    font-weight: bold;
 }
 
 #BE-0508 {
@@ -3784,11 +3445,8 @@ div.dn_arrow {
     top: 715px;
     left: 54px;
     width: 395px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/100% 'LatoBold', sans-serif;
     text-align: left;
-    line-height: 100%;
 }
 
 #BE-0511 {
@@ -3803,17 +3461,13 @@ div.dn_arrow {
     top: 915px;
     left: 59px;
     width: 350px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/32px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE-05 p.block_text5 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #BE-0513 {
@@ -3824,13 +3478,9 @@ div.dn_arrow {
 }
 
 #BE-05 p.label_gray1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
+    font: 18px/110% 'LatoItalic', sans-serif;
     text-align: center;
-    font-size: 18px;
-    font-weight: normal;
     color: rgb(138, 142, 145);
-    line-height: 110%;
 }
 
 #BE-0514 {
@@ -3841,13 +3491,9 @@ div.dn_arrow {
 }
 
 #BE-05 p.label_gray2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
+    font: 15px/115% 'LatoBold', sans-serif;
     text-align: center;
-    font-size: 15px;
-    font-weight: bold;
     color: rgb(138, 142, 145);
-    line-height: 115%;
 }
 
 #BE-0515 {
@@ -3862,25 +3508,18 @@ div.dn_arrow {
     top: 1059px;
     left: 53px;
     width: 355px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/32px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE-05 p.block_text6 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/110% 'LatoBold', sans-serif;
     text-align: justify;
-    font-size: 15px;
-    line-height: 110%;
-    font-weight: bold;
 }
 
 #BE-05 p.block_text7 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/110% 'Lato', sans-serif;
     text-align: left;
-    font-size: 15px;
-    line-height: 110%;
 }
 
 #BE-0517 {
@@ -3916,15 +3555,13 @@ div.dn_arrow {
     top: 33px;
     left: 308px;
     width: 540px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
 
 #BE-06 span.superscript {
-    font-size: 11px;
+    font: 11px/13px 'LatoBold', sans-serif;
     vertical-align: baseline;
     position: relative;
     top: -24px;
@@ -3932,10 +3569,8 @@ div.dn_arrow {
 }
 
 #BE-06 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #BE-0604 {
@@ -3967,14 +3602,12 @@ div.dn_arrow {
 }
 
 #BE-06 p.block_text2 {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
+    font: 16px/110% "Lato", sans-serif;
     text-align: left;
-    font-size: 16px;
-    line-height: 110%;
 }
 
 #BE-06 span.superscript2 {
-    font-size: 11px;
+    font: 11px/13px "LatoBold", sans-serif;
     vertical-align: baseline;
     position: relative;
     top: -17px;
@@ -3993,11 +3626,7 @@ div.dn_arrow {
     top: 201px;
     left: 593px;
     width: 622px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 120%;
+    font: 12px/120% 'LatoBold', sans-serif;
 }
 
 #BE-0610 {
@@ -4005,11 +3634,8 @@ div.dn_arrow {
     top: 503px;
     left: 591px;
     width: 535px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/100% 'LatoBold', sans-serif;
     text-align: center;
-    line-height: 100%
 }
 
 #BE-0611 {
@@ -4017,18 +3643,13 @@ div.dn_arrow {
     top: 548px;
     left: 545px;
     width: 680px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/125% 'Lato', sans-serif;
     font-style: normal;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 125%;
 }
 
 #BE-06 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #BE-0612 {
@@ -4036,9 +3657,7 @@ div.dn_arrow {
     top: 995px;
     left: 215px;
     width: 790px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -4065,10 +3684,8 @@ div.dn_arrow {
 }
 
 #BE-06 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 23px/130% 'Lato', sans-serif;
     text-align: center;
-    font-size: 23px;
-    line-height: 130%;
 }
 
 #BE-0616 {
@@ -4090,19 +3707,13 @@ div.dn_arrow {
     top: 1036px;
     left: 59px;
     width: 370px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE-07 p.block_text14 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 26px/120% 'LatoItalic', sans-serif;
     text-align: left;
-    font-size: 26px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 120%;
 }
 
 #BE-0702 {
@@ -4113,11 +3724,7 @@ div.dn_arrow {
 }
 
 #BE-07 p.block_text15 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 110%;
+    font: 20px/110% 'LatoItalic', sans-serif;
 }
 
 #BE-0703 {
@@ -4149,9 +3756,7 @@ div.dn_arrow {
     top: 32px;
     left: 42px;
     width: 495px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
@@ -4161,16 +3766,11 @@ div.dn_arrow {
     top: 64px;
     left: 79px;
     width: 530px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 29px;
-    font-weight: normal;
+    font: 29px/31px 'Lato', sans-serif;
 }
 
 #BE-08 h2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 27px;
-    font-weight: bold;
+    font: 27px/29px 'LatoBold', sans-serif;;
     text-align: left;
 }
 
@@ -4182,10 +3782,8 @@ div.dn_arrow {
 }
 
 #BE-08 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/110% 'Lato', sans-serif;
     text-align: left;
-    font-size: 20px;
-    line-height: 110%;
 }
 
 #BE-0804 {
@@ -4245,7 +3843,7 @@ div.dn_arrow {
 }
 
 #BE-08 h2#BE-0811 {
-    font-size: 22px;
+    font: 22px/24px 'LatoBold', sans-serif;
 }
 
 #BE-0812 {
@@ -4260,9 +3858,7 @@ div.dn_arrow {
     top: 875px;
     left: 640px;
     width: 162px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font: 20px/22px 'LatoBold', sans-serif;
     text-align: left
 }
 
@@ -4271,9 +3867,7 @@ div.dn_arrow {
     top: 875px;
     left: 848px;
     width: 120px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font: 20px/22px 'LatoBold', sans-serif;
     text-align: left
 }
 
@@ -4282,9 +3876,7 @@ div.dn_arrow {
     top: 875px;
     left: 1009px;
     width: 152px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font: 20px/22px 'LatoBold', sans-serif;
     text-align: left
 }
 
@@ -4328,11 +3920,7 @@ div.dn_arrow {
 }
 
 #BE-08 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: normal;
-    line-height: 115%;
+    font: 18px/115% 'LatoItalic', sans-serif;
     text-align: justify;
 }
 
@@ -4344,11 +3932,7 @@ div.dn_arrow {
 }
 
 #BE-08 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 15px;
-    font-style: italic;
-    font-weight: normal;
-    line-height: 110%;
+    font: 15px/110% 'LatoItalic', sans-serif;
     text-align: justify;
 }
 
@@ -4360,25 +3944,18 @@ div.dn_arrow {
 }
 
 #BE-09 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #BE-09 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/105% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 20px;
-    line-height: 105%;
 }
 
 #BE-09 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 30px/115% 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 30px;
-    line-height: 115%;
-    font-weight: bold;
 }
 
 #BE-0901 {
@@ -4386,9 +3963,7 @@ div.dn_arrow {
     top: 32px;
     left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -4396,11 +3971,9 @@ div.dn_arrow {
 #BE-0902 {
     position: absolute;
     top: 62px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 23px;
+    font: 23px/25px 'LatoItalic', sans-serif;
     text-align: center;
 }
 
@@ -4428,11 +4001,9 @@ div.dn_arrow {
 #BE-0906 {
     position: absolute;
     top: 636px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 36px;
-    font-weight: bold;
+    font: 36px/38px 'LatoBold', sans-serif;
     text-align: center;
 }
 
@@ -4455,18 +4026,14 @@ div.dn_arrow {
     top: 347px;
     left: 48px;
     width: 360px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+    font: 40px/42px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
 
 #BE-10 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: left;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #BE-1002 {
@@ -4502,17 +4069,13 @@ div.dn_arrow {
     top: 777px;
     left: 40px;
     width: 260px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/32px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE-10 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #BE-1007 {
@@ -4541,9 +4104,7 @@ div.dn_arrow {
     top: 1240px;
     left: 36px;
     width: 395px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/32px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -4566,25 +4127,21 @@ div.dn_arrow {
     top: 36px;
     left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+    font: 40px/42px 'LatoBold', sans-serif;
     margin: 0;
     text-align: center;
 }
 
 #BE-11 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 14px/16px 'Lato', sans-serif;
     text-align: left;
     line-height: 115%;
     font-weight: bold;
 }
 
 #BE-11 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/115% 'Lato', sans-serif;
     text-align: center;
-    font-size: 20px;
-    line-height: 115%;
 }
 
 #BE-1102 {
@@ -4597,18 +4154,16 @@ div.dn_arrow {
 #BE-1103 {
     position: absolute;
     top: 1057px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 28px;
-    font-weight: bold;
+    font: 28px/30px 'LatoBold', sans-serif;
     text-align: center;
 }
 
 #BE-1104 {
     position: absolute;
     top: 1094px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -4617,11 +4172,7 @@ div.dn_arrow {
     top: 1192px;
     left: 23px;
     width: 571px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 150%;
+    font: 12px/150% 'LatoBold', sans-serif;
 }
 
 #BE-1201 {
@@ -4629,29 +4180,19 @@ div.dn_arrow {
     top: 32px;
     left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    font-style: normal;
+    font: 40px/42px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
 
 #BE-12 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'LatoItalic', sans-serif;
     text-align: center;
-    font-size: 18px;
-    line-height: 110%;
-    font-weight: normal;
-    font-style: italic;
 }
 
 #BE-12 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/20px 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: normal;
 }
 
 #BE-1202 {
@@ -4697,28 +4238,23 @@ div.dn_arrow {
 }
 
 #CCM-01 h2.blue-header-1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 26px;
-    font-weight: bold;
+    font: 26px/28px 'LatoBold', sans-serif;
 }
 
 #CCM-01 span.superscript {
-    font-size: 14px;
+    font: 14px/16px 'LatoBold', sans-serif;
     vertical-align: baseline;
     position: relative;
     top: -17px;
     left: 3px;
-    font-weight: bold;
 }
 
 #CCM-01 span.superscript2 {
-    font-size: 10px;
+    font: 10px/12px 'LatoBold', sans-serif;
     vertical-align: baseline;
     position: relative;
     top: -7px;
-    left: 0px;
-    font-weight: bold;
+    left: 0;
 }
 
 #CCM-0101 {
@@ -4732,30 +4268,23 @@ div.dn_arrow {
     top: 247px;
     left: 634px;
     width: 498px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 32px;
-    font-weight: normal;
+    font: 32px/34px 'LatoItalic', sans-serif;
     text-align: center;
 }
 
 #CCM-0103 {
     position: absolute;
     top: 1136px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 46px;
-    font-weight: bold;
+    font: 46px/48px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
 
 #CCM-01 p.block_text {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #CCM-0104 {
@@ -4780,10 +4309,8 @@ div.dn_arrow {
 }
 
 #CCM-01 p.block_label {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/17px 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 15px;
-    font-weight: bold;
 }
 
 #CCM-0107 {
@@ -4805,18 +4332,14 @@ div.dn_arrow {
     top: 32px;
     left: -15px;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 36px;
-    font-weight: bold;
+    font: 36px/38px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
 
 #CCM-02 p.block_text {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 110%;
 }
 
 #CCM-0202 {
@@ -4830,19 +4353,15 @@ div.dn_arrow {
 #CCM-02 #CCM-0203 {
     position: absolute;
     top: 611px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 33px;
-    font-weight: bold;
+    font: 33px/35px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
 
 #CCM-02 h2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 29px;
-    font-weight: bold;
+    font: 29px/31px 'LatoBold', sans-serif;
     text-align: center;
 }
 
@@ -4854,10 +4373,8 @@ div.dn_arrow {
 }
 
 #CCM-02 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 110%;
 }
 
 #CCM-0205 {
@@ -4954,11 +4471,9 @@ div.dn_arrow {
 #CCM-0301 {
     position: absolute;
     top: 37px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -4966,20 +4481,15 @@ div.dn_arrow {
 #CCM-0302 {
     position: absolute;
     top: 72px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 24px;
-    font-weight: normal;
+    font: 24px/26px 'LatoItalic', sans-serif;
     text-align: center;
 }
 
 #CCM-03 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/110% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 20px;
-    line-height: 110%;
 }
 
 #CCM-0303 {
@@ -5001,18 +4511,12 @@ div.dn_arrow {
     top: 90px;
     left: 695px;
     width: 430px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 17px;
-    font-weight: normal;
-    line-height: 90%;
+    font: 17px/90% 'Lato', sans-serif;
 }
 
 #CCM-03 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 21px/110% 'Lato', sans-serif;
     text-align: left;
-    font-size: 21px;
-    line-height: 110%;
 }
 
 #CCM-0306 {
@@ -5037,10 +4541,8 @@ div.dn_arrow {
 }
 
 #CCM-03 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 21px/110% 'Lato', sans-serif;
     text-align: center;
-    font-size: 21px;
-    line-height: 110%;
 }
 
 #CCM-0309 {
@@ -5055,9 +4557,7 @@ div.dn_arrow {
     top: 32px;
     left: 42px;
     width: 495px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
@@ -5067,16 +4567,11 @@ div.dn_arrow {
     top: 64px;
     left: 79px;
     width: 560px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 30px;
-    font-weight: normal;
+    font: 30px/32px 'Lato', sans-serif;
 }
 
 #CCM-04 h2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 27px;
-    font-weight: bold;
+    font: 27px/29px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -5088,19 +4583,13 @@ div.dn_arrow {
 }
 
 #CCM-04 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 15px;
-    font-style: italic;
-    font-weight: normal;
-    line-height: 110%;
+    font: 15px/110% 'LatoItalic', sans-serif;
     text-align: justify;
 }
 
 #CCM-04 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/110% 'Lato', sans-serif;
     text-align: left;
-    font-size: 20px;
-    line-height: 110%;
 }
 
 #CCM-0404 {
@@ -5160,7 +4649,7 @@ div.dn_arrow {
 }
 
 #CCM-04 h2#CCM-0411 {
-    font-size: 22px;
+    font: 22px/24px 'Lato', sans-serif;
 }
 
 #CCM-0412 {
@@ -5175,9 +4664,7 @@ div.dn_arrow {
     top: 875px;
     left: 640px;
     width: 170px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font: 20px/22px 'LatoBold', sans-serif;
     text-align: left
 }
 
@@ -5186,9 +4673,7 @@ div.dn_arrow {
     top: 875px;
     left: 848px;
     width: 120px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font: 20px/22px 'LatoBold', sans-serif;
     text-align: left
 }
 
@@ -5197,9 +4682,7 @@ div.dn_arrow {
     top: 875px;
     left: 1009px;
     width: 160px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font: 20px/22px 'LatoBold', sans-serif;
     text-align: left
 }
 
@@ -5250,11 +4733,7 @@ div.dn_arrow {
 }
 
 #CCM-04 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: normal;
-    line-height: 110%;
+    font: 18px/110% 'LatoItalic', sans-serif;
     text-align: justify;
 }
 
@@ -5270,17 +4749,13 @@ div.dn_arrow {
     top: 34px;
     left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
 
 #CCM-05 h2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -5292,19 +4767,14 @@ div.dn_arrow {
 }
 
 #CCM-05 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #CCM-05 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'LatoItalic', sans-serif;
     text-align: left;
-    font-size: 18px;
-    line-height: 120%;
     font-weight: normal;
-    font-style: italic;
 }
 
 #CCM-0503 {
@@ -5350,12 +4820,8 @@ div.dn_arrow {
 }
 
 #CCM-05 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'LatoItalic', sans-serif;
     text-align: center;
-    font-size: 18px;
-    line-height: 110%;
-    font-weight: normal;
-    font-style: italic;
 }
 
 #CCM-0509 {
@@ -5363,10 +4829,7 @@ div.dn_arrow {
     top: 927px;
     left: 32px;
     width: 555px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 27px;
-    font-weight: bold;
-    text-align: center;
+    font: 27px/29px 'LatoBold', sans-serif;
 }
 
 #CCM-0510 {
@@ -5374,9 +4837,7 @@ div.dn_arrow {
     top: 1412px;
     left: 149px;
     width: 350px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 27px;
-    font-weight: bold;
+    font: 27px/29px 'LatoBold', sans-serif;
     text-align: center;
 }
 
@@ -5402,10 +4863,8 @@ div.dn_arrow {
 }
 
 #CCM-05 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/120% 'Lato', sans-serif;
     text-align: center;
-    font-size: 19px;
-    line-height: 120%;
 }
 
 #CCM-0514 {
@@ -5420,15 +4879,13 @@ div.dn_arrow {
     top: 35px;
     left: 280px;
     width: 525px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 38px;
-    font-weight: bold;
+    font: 38px/40px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
 
 #CCM-06 span.superscript {
-    font-size: 11px;
+    font: 11px/13px 'Lato', sans-serif;
     vertical-align: baseline;
     position: relative;
     top: -24px;
@@ -5436,10 +4893,8 @@ div.dn_arrow {
 }
 
 #CCM-06 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #CCM-0604 {
@@ -5454,15 +4909,12 @@ div.dn_arrow {
     top: 235px;
     left: 568px;
     width: 535px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/95% 'LatoBold', sans-serif;
     text-align: center;
-    line-height: 95%
 }
 
 #CCM-06 span.superscript2 {
-    font-size: 11px;
+    font: 11px/13px 'Lato', sans-serif;
     vertical-align: baseline;
     position: relative;
     top: -17px;
@@ -5474,28 +4926,20 @@ div.dn_arrow {
     top: 288px;
     left: 545px;
     width: 680px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 130%;
+    font: 15px/130% 'Lato', sans-serif;
 }
 
 #CCM-06 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #CCM-0612 {
     position: absolute;
     top: 776px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -5522,10 +4966,8 @@ div.dn_arrow {
 }
 
 #CCM-06 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 23px/130% 'Lato', sans-serif;
     text-align: center;
-    font-size: 23px;
-    line-height: 130%;
 }
 
 #CCM-0616 {
@@ -5547,15 +4989,13 @@ div.dn_arrow {
     top: 32px;
     left: 627px;
     width: 310px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+    font: 40px/42px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
 
 #CCM-07 span.superscript {
-    font-size: 11px;
+    font: 11px/13px 'Lato', sans-serif;
     vertical-align: baseline;
     position: relative;
     top: -24px;
@@ -5563,12 +5003,8 @@ div.dn_arrow {
 }
 
 #CCM-07 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 21px/120% 'LatoItalic', sans-serif;
     text-align: justify;
-    font-size: 21px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 120%;
 }
 
 #CCM-0702 {
@@ -5579,12 +5015,8 @@ div.dn_arrow {
 }
 
 #CCM-07 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/120% 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 15px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 120%;
 }
 
 #CCM-0703 {
@@ -5623,13 +5055,9 @@ div.dn_arrow {
 }
 
 #CCM-07 p.label_gray1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
+    font: 15px/110% 'LatoBoldItalic', sans-serif;
     color: rgb(138, 142, 145);
-    line-height: 110%;
+    text-align: center;
 }
 
 #CCM-0708 {
@@ -5647,13 +5075,9 @@ div.dn_arrow {
 }
 
 #CCM-07 p.block_quote {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 13px/110% 'LatoBoldItalic', sans-serif;
     text-align: center;
-    font-style: italic;
-    font-size: 13px;
-    font-weight: bold;
     color: rgb(79, 85, 83);
-    line-height: 110%;
 }
 
 #CCM-0710 {
@@ -5682,19 +5106,13 @@ div.dn_arrow {
     top: 1036px;
     left: 59px;
     width: 370px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #CCM-07 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 26px/120% 'LatoItalic', sans-serif;
     text-align: left;
-    font-size: 26px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 120%;
 }
 
 #CCM-0714 {
@@ -5705,11 +5123,7 @@ div.dn_arrow {
 }
 
 #CCM-07 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 110%;
+    font: 20px/110% 'LatoItalic', sans-serif;
 }
 
 #CCM-0715 {
@@ -5739,11 +5153,9 @@ div.dn_arrow {
 #CCM-0801 {
     position: absolute;
     top: 38px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -5753,17 +5165,13 @@ div.dn_arrow {
     top: 85px;
     left: 130px;
     width: 350px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #CCM-08 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #CCM-0803 {
@@ -5806,11 +5214,8 @@ div.dn_arrow {
     top: 768px;
     left: 396px;
     width: 170px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/115% 'LatoBold', sans-serif;
     text-align: center;
-    font-size: 15px;
-    line-height: 115%;
-    font-weight: bold;
 }
 
 #CCM-0809 {
@@ -5818,24 +5223,18 @@ div.dn_arrow {
     top: 882px;
     left: 54px;
     width: 250px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 31px;
-    font-weight: bold;
+    font: 31px/33px 'LatoBold', sans-serif;;
     text-align: left;
 }
 
 #CCM-08 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #CCM-08 p.block_text8 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 120%;
 }
 
 #CCM-0810 {
@@ -5857,9 +5256,7 @@ div.dn_arrow {
     top: 87px;
     left: 632px;
     width: 460px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -5871,10 +5268,8 @@ div.dn_arrow {
 }
 
 #CCM-08 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/110% 'Lato', sans-serif;
     text-align: left;
-    font-size: 19px;
-    line-height: 110%;
 }
 
 #CCM-0814 {
@@ -5889,18 +5284,13 @@ div.dn_arrow {
     top: 458px;
     left: 681px;
     width: 400px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #CCM-08 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'LatoItalic', sans-serif;
     text-align: center;
-    font-size: 18px;
-    line-height: 110%;
-    font-style: italic;
 }
 
 #CCM-0816 {
@@ -5915,9 +5305,7 @@ div.dn_arrow {
     top: 605px;
     left: 625px;
     width: 540px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -5940,18 +5328,12 @@ div.dn_arrow {
     top: 732px;
     left: 657px;
     width: 558px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 115%;
+    font: 15px/115% 'Lato', sans-serif;
 }
 
 #CCM-08 p.block_text5 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #CCM-0821 {
@@ -5976,21 +5358,14 @@ div.dn_arrow {
 }
 
 #CCM-08 p.block_text6 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/115% 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 20px;
-    line-height: 115%;
-    font-style: normal;
-    font-weight: bold;
 }
 
 #CCM-08 p.block_text7 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 19px;
-    line-height: 115%;
     font-style: normal;
-    font-weight: bold;
 }
 
 #CCM-0824 {
@@ -6017,11 +5392,9 @@ div.dn_arrow {
 #CCM-0901 {
     position: absolute;
     top: 35px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+    font: 40px/42px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -6031,17 +5404,13 @@ div.dn_arrow {
     top: 96px;
     left: 69px;
     width: 270px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 27px;
-    font-weight: bold;
+    font: 27px/29px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #CCM-09 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #CCM-0903 {
@@ -6077,16 +5446,13 @@ div.dn_arrow {
     top: 394px;
     left: 163px;
     width: 519px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 35px;
-    font-weight: bold;
+    font: 35px/37px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #CCM-09 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 27px/29px 'Lato', sans-serif;
     text-align: justify;
-    font-size: 27px;
 }
 
 #CCM-0908 {
@@ -6097,18 +5463,13 @@ div.dn_arrow {
 }
 
 #CCM-09 p.block_label1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/105% 'Lato', sans-serif;
     text-align: center;
-    font-size: 18px;
-    line-height: 105%;
 }
 
 #CCM-09 p.block_label2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 12px/105% 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 105%;
 }
 
 #CCM-0909 {
@@ -6130,9 +5491,7 @@ div.dn_arrow {
     top: 715px;
     left: 207px;
     width: 420px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 35px;
-    font-weight: bold;
+    font: 35px/37px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -6158,10 +5517,8 @@ div.dn_arrow {
 }
 
 #CCM-09 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/105% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 105%;
 }
 
 #CCM-0915 {
@@ -6183,9 +5540,7 @@ div.dn_arrow {
     top: 1038px;
     left: 36px;
     width: 430px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
@@ -6195,9 +5550,7 @@ div.dn_arrow {
     top: 1068px;
     left: 35px;
     width: 380px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 23px;
+    font: 23px/25px 'LatoItalic', sans-serif;
     text-align: left;
 }
 
@@ -6304,18 +5657,14 @@ div.dn_arrow {
     top: 359px;
     left: 43px;
     width: 360px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+    font: 40px/42px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
 
 #CCM-10 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: left;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #CCM-1002 {
@@ -6351,17 +5700,13 @@ div.dn_arrow {
     top: 795px;
     left: 34px;
     width: 260px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/32px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #CCM-10 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #CCM-1007 {
@@ -6390,9 +5735,7 @@ div.dn_arrow {
     top: 1242px;
     left: 32px;
     width: 395px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/32px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -6413,11 +5756,9 @@ div.dn_arrow {
 #CCM-1101 {
     position: absolute;
     top: 36px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 41px;
-    font-weight: bold;
+    font: 41px/43px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -6427,9 +5768,7 @@ div.dn_arrow {
     top: 562px;
     left: 249px;
     width: 130px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 29px;
-    font-weight: bold;
+    font: 29px/31px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -6438,26 +5777,18 @@ div.dn_arrow {
     top: 562px;
     left: 792px;
     width: 200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 29px;
-    font-weight: bold;
+    font: 29px/31px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #CCM-11 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/135% 'LatoBold', sans-serif;
     text-align: right;
-    font-size: 15px;
-    line-height: 135%;
-    font-weight: bold;
 }
 
 #CCM-11 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/135% 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 15px;
-    line-height: 135%;
-    font-weight: bold;
 }
 
 #CCM-1104 {
@@ -6583,11 +5914,8 @@ div.dn_arrow {
     top: 729px;
     left: 410px;
     width: 115px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
+    font: 13px/155% 'LatoBold', sans-serif;
     text-align: left;
-    line-height: 155%;
 }
 
 #CCM-1121 {
@@ -6609,11 +5937,8 @@ div.dn_arrow {
     top: 729px;
     left: 1001px;
     width: 115px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
+    font: 13px/155% 'LatoBold', sans-serif;
     text-align: left;
-    line-height: 155%;
 }
 
 #CCM-1124 {
@@ -6647,28 +5972,20 @@ div.dn_arrow {
 #CCM-1128 {
     position: absolute;
     top: 815px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 27px;
-    font-weight: bold;
+    font: 27px/29px 'LatoBold', sans-serif;
     text-align: center;
 }
 
 #CCM-11 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/125% 'LatoBold', sans-serif;
     text-align: right;
-    font-size: 15px;
-    line-height: 125%;
-    font-weight: bold;
 }
 
 #CCM-11 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/115% 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 15px;
-    line-height: 115%;
-    font-weight: bold;
 }
 
 #CCM-1129 {
@@ -6802,46 +6119,34 @@ div.dn_arrow {
     top: 1184px;
     left: 383px;
     width: 580px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 150%;
-    font-weight: bold;
+    font: 12px/150% 'LatoBold', sans-serif;
 }
 
 #CCM-1201 {
     position: absolute;
     top: 29px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 41px;
-    font-weight: bold;
+    font: 41px/43px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
 
 #CCM-12 p.block_text1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
+    font: 18px/115% 'LatoItalic', sans-serif;
     text-align: center;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #CCM-1202 {
     position: absolute;
     top: 70px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #CCM-12 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
+    font: 18px/20px 'LatoBold', sans-serif;
     text-align: center;
-    font-size: 18px;
-    font-weight: bold;
 }
 
 #CCM-1203 {
@@ -6886,23 +6191,21 @@ div.dn_arrow {
 }
 
 #CCM-13 h2 {
+    font: 70px/84px 'LatoBold', sans-serif;
     text-align: center;
-    font-size: 70px;
 }
 
 #CCM-13 span {
     text-align: center;
     display: block;
     color: #21abcc;
-    font-style: italic;
-    font-size: 42px;
+    font: 42px/50px 'LatoItalic', sans-serif;
     margin-top: -12px;
     padding-bottom: 30px;
 }
 
 #CCM-13 p {
-    font-size: 28px;
-    line-height: 33px;
+    font: 28px/33px 'Lato', sans-serif;
     width: 88%;
 }
 
@@ -6939,7 +6242,7 @@ div.dn_arrow {
     position: absolute;
     top: 820px;
     left: 525px;
-    font-size: 35px;
+    font: 35px/37px 'LatoBold', sans-serif;
 }
 
 #CCM-13 p:nth-of-type(4) {
@@ -6965,7 +6268,7 @@ div.dn_arrow {
 
 #CCM-14 p:nth-of-type(1) img {
     float: right;
-    padding: 0px 70px 5px 40px;
+    padding: 0 70px 5px 40px;
 }
 
 #CCM-14 p:nth-of-type(2) img {
@@ -6981,13 +6284,12 @@ div.dn_arrow {
 
 #CCM-14 h3 {
     padding-left: 85px;
-    font-size: 35px;
+    font: 35px/37px 'LatoBold', sans-serif;
     margin-bottom: 0;
 }
 
 #CCM-14 p {
-    font-size: 28px;
-    line-height: 33px;
+    font: 28px/33px 'Lato', sans-serif;
     padding-left: 85px;
 }
 
@@ -7014,23 +6316,18 @@ div.dn_arrow {
 
 #CCM-14 span {
     color: #21abcc;
-    font-size: 26px;
+    font: 26px/28px 'LatoBoldItalic', sans-serif;
     width: 50%;
     display: block;
     margin: 0 auto;
-    font-weight: bold;
-    font-style: italic;
     padding-top: 30px;
-    line-height: 28px;
-    font-family: Arial
 }
 
 #CCM-14 ul {
-    font-size: 22px;
+    font: 22px/18px 'Lato', sans-serif;
     position: absolute;
     bottom: 30px;
     padding-left: 70px;
-    line-height: 18px;
     width: 100%;
     margin: 0;
 }
@@ -7040,10 +6337,7 @@ div.dn_arrow {
 }
 
 #BE4-01 h2.blue-header-1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 26px;
-    font-weight: bold;
+    font: 26px/28px 'LatoBold', sans-serif;
 }
 
 #BE4-0101 {
@@ -7057,10 +6351,7 @@ div.dn_arrow {
     top: 185px;
     left: 575px;
     width: 480px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 32px;
-    font-weight: normal;
+    font: 32px/34px 'LatoItalic', sans-serif;
 }
 
 #BE4-0103 {
@@ -7068,10 +6359,7 @@ div.dn_arrow {
     top: 220px;
     left: 630px;
     width: 140px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 32px;
-    font-weight: normal;
+    font: 32px/34px 'LatoItalic', sans-serif;
 }
 
 #BE4-0104 {
@@ -7079,10 +6367,7 @@ div.dn_arrow {
     top: 230px;
     left: 760px;
     width: 20px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 15px;
-    font-weight: bold;
+    font: 15px/17px 'LatoBoldItalic', sans-serif;
 }
 
 #BE4-0105 {
@@ -7090,17 +6375,12 @@ div.dn_arrow {
     top: 220px;
     left: 782px;
     width: 230px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 32px;
-    font-weight: normal;
+    font: 32px/34px 'LatoItalic', sans-serif;
 }
 
 #BE4-01 p.block_quote {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 21px/23px 'LatoBold', sans-serif;
     text-align: center;
-    font-size: 21px;
-    font-weight: bold;
     color: rgb(79, 85, 83);
 }
 
@@ -7112,11 +6392,8 @@ div.dn_arrow {
 }
 
 #BE4-01 p.block_author {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/17px 'LatoBoldItalic', sans-serif;
     text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-    font-style: italic;
     color: rgb(79, 85, 83);
 }
 
@@ -7129,20 +6406,16 @@ div.dn_arrow {
 #BE4-0108 {
     position: absolute;
     top: 1087px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 46px;
-    font-weight: bold;
+    font: 46px/48px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
 
 #BE4-01 p.block_text {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 110%;
 }
 
 #BE4-0109 {
@@ -7150,7 +6423,7 @@ div.dn_arrow {
     top: 1144px;
     left: 50px;
     width: 524px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif;
 }
 
 #BE4-0110 {
@@ -7158,7 +6431,7 @@ div.dn_arrow {
     top: 1280px;
     left: 220px;
     width: 352px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif;
 }
 
 #BE4-0111 {
@@ -7166,7 +6439,7 @@ div.dn_arrow {
     top: 1144px;
     left: 612px;
     width: 520px;
-    font-weight: bold
+    font-family: 'LatoBold', sans-serif;
 }
 
 #BE4-0112 {
@@ -7174,7 +6447,7 @@ div.dn_arrow {
     top: 1280px;
     left: 612px;
     width: 522px;
-    font-weight: bold
+    font-family: 'LatoBold', sans-serif;
 }
 
 #BE4-02 #BE4-0201 {
@@ -7183,17 +6456,13 @@ div.dn_arrow {
     top: 32px;
     left: -15px;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 36px;
-    font-weight: bold;
+    font: 36px/38px 'LatoBold', sans-serif;
     text-align: center;
 }
 
 #BE4-02 p.block_text {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 110%;
 }
 
 #BE4-0202 {
@@ -7201,7 +6470,7 @@ div.dn_arrow {
     top: 74px;
     left: 63px;
     width: 1037px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif;
 }
 
 #BE4-02 #BE4-0203 {
@@ -7210,16 +6479,12 @@ div.dn_arrow {
     left: 0;
     margin: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 33px;
-    font-weight: bold;
+    font: 33px/35px 'LatoBold', sans-serif;
     text-align: center;
 }
 
 #BE4-02 h2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 29px;
-    font-weight: bold;
+    font: 29px/31px 'LatoBold', sans-serif;
     text-align: center;
 }
 
@@ -7231,10 +6496,8 @@ div.dn_arrow {
 }
 
 #BE4-02 p.block_text2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/110% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 110%;
 }
 
 #BE4-0205 {
@@ -7333,9 +6596,7 @@ div.dn_arrow {
     top: 37px;
     left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -7345,18 +6606,13 @@ div.dn_arrow {
     top: 72px;
     left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 24px;
-    font-weight: normal;
+    font: 24px/26px 'LatoItalic', sans-serif;
     text-align: center;
 }
 
 #BE4-03 p.block_text3 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/110% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 20px;
-    line-height: 110%;
 }
 
 #BE4-0303 {
@@ -7378,18 +6634,12 @@ div.dn_arrow {
     top: 90px;
     left: 695px;
     width: 430px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 17px;
-    font-weight: normal;
-    line-height: 90%;
+    font: 17px/90% 'Lato', sans-serif;
 }
 
 #BE4-03 p.block_text4 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/110% 'Lato', sans-serif;
     text-align: left;
-    font-size: 20px;
-    line-height: 110%;
 }
 
 #BE4-0306 {
@@ -7414,10 +6664,8 @@ div.dn_arrow {
 }
 
 #BE4-03 p.block_text5 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/110% 'Lato', sans-serif;
     text-align: center;
-    font-size: 20px;
-    line-height: 110%;
 }
 
 #BE4-0309 {
@@ -7429,10 +6677,8 @@ div.dn_arrow {
 }
 
 #BE4-04 p.block_text6 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/110% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 110%;
 }
 
 #BE4-04 #BE4-0401 {
@@ -7440,9 +6686,7 @@ div.dn_arrow {
     top: 32px;
     left: 42px;
     width: 495px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -7451,16 +6695,11 @@ div.dn_arrow {
     top: 64px;
     left: 79px;
     width: 560px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 30px;
-    font-weight: normal;
+    font: 30px/32px 'Lato', sans-serif;
 }
 
 #BE4-04 h2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 27px;
-    font-weight: bold;
+    font: 27px/29px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -7472,10 +6711,8 @@ div.dn_arrow {
 }
 
 #BE4-04 p.block_text7 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 20px/110% 'Lato', sans-serif;
     text-align: left;
-    font-size: 20px;
-    line-height: 110%;
 }
 
 #BE4-0404 {
@@ -7535,7 +6772,7 @@ div.dn_arrow {
 }
 
 #BE4-04 h2#BE4-0411 {
-    font-size: 22px;
+    font: 22px/24px 'LatoBold', sans-serif;
 }
 
 #BE4-0412 {
@@ -7550,9 +6787,7 @@ div.dn_arrow {
     top: 875px;
     left: 640px;
     width: 165px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font: 20px/22px 'LatoBold', sans-serif;
     text-align: left
 }
 
@@ -7561,9 +6796,7 @@ div.dn_arrow {
     top: 875px;
     left: 848px;
     width: 120px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font: 20px/22px 'LatoBold', sans-serif;
     text-align: left
 }
 
@@ -7572,9 +6805,7 @@ div.dn_arrow {
     top: 875px;
     left: 1009px;
     width: 155px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font: 20px/22px 'LatoBold', sans-serif;
     text-align: left
 }
 
@@ -7623,16 +6854,12 @@ div.dn_arrow {
     left: 0;
     margin: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 36px;
-    font-weight: bold;
+    font: 36px/38px 'LatoBold', sans-serif;
     text-align: center;
 }
 
 #BE4-05 h2 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 31px;
-    font-weight: bold;
+    font: 31px/33px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -7644,10 +6871,8 @@ div.dn_arrow {
 }
 
 #BE4-05 p.block_text8 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #BE4-0503 {
@@ -7679,12 +6904,8 @@ div.dn_arrow {
 }
 
 #BE4-05 p.block_text9 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/120% 'LatoItalic', sans-serif;
     text-align: center;
-    font-size: 19px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 120%;
 }
 
 #BE4-0507 {
@@ -7695,12 +6916,8 @@ div.dn_arrow {
 }
 
 #BE4-05 p.block_text10 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 17px/115% 'LatoBoldItalic', sans-serif;
     text-align: center;
-    font-size: 17px;
-    font-weight: bold;
-    font-style: italic;
-    line-height: 115%;
 }
 
 #BE4-0508 {
@@ -7711,12 +6928,8 @@ div.dn_arrow {
 }
 
 #BE4-05 p.block_text11 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'LatoItalic', sans-serif;
     text-align: left;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 120%;
 }
 
 #BE4-0509 {
@@ -7738,26 +6951,20 @@ div.dn_arrow {
     top: 1032px;
     left: -20px;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
 
 #BE4-05 p.block_text12 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'LatoItalic', sans-serif;
     text-align: center;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 120%;
 }
 
 #BE4-0512 {
     position: absolute;
     top: 1064px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
@@ -7794,9 +7001,7 @@ div.dn_arrow {
     top: 41px;
     left: 468px;
     width: 285px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -7806,19 +7011,12 @@ div.dn_arrow {
     top: 40px;
     left: 752px;
     width: 20px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 10px;
-    font-weight: bold;
+    font: 10px/12px 'LatoBold', sans-serif;
 }
 
 #BE4-06 p.block_text13 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/120% 'LatoItalic', sans-serif;
     text-align: center;
-    font-size: 19px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 120%;
 }
 
 #BE4-0603 {
@@ -7833,19 +7031,12 @@ div.dn_arrow {
     top: 1036px;
     left: 59px;
     width: 370px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
-    text-align: left;
+    font: 39px/41px 'LatoBold', sans-serif;
 }
 
 #BE4-06 p.block_text14 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 26px/120% 'LatoItalic', sans-serif;
     text-align: left;
-    font-size: 26px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 120%;
 }
 
 #BE4-0605 {
@@ -7856,11 +7047,7 @@ div.dn_arrow {
 }
 
 #BE4-06 p.block_text15 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 110%;
+    font: 20px/110% 'LatoItalic', sans-serif;
 }
 
 #BE4-0606 {
@@ -7892,9 +7079,7 @@ div.dn_arrow {
     top: 40px;
     left: 283px;
     width: 250px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
@@ -7904,10 +7089,7 @@ div.dn_arrow {
     top: 35px;
     left: 516px;
     width: 20px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 10px;
-    font-weight: bold;
+    font: 10px/12px 'LatoBold', sans-serif;
 }
 
 #BE4-0703 {
@@ -7915,18 +7097,14 @@ div.dn_arrow {
     top: 40px;
     left: 547px;
     width: 270px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
 
 #BE4-07 p.block_text16 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #BE4-0704 {
@@ -7962,9 +7140,7 @@ div.dn_arrow {
     top: 467px;
     left: 618px;
     width: 270px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 31px;
-    font-weight: bold;
+    font: 31px/33px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
@@ -7974,10 +7150,7 @@ div.dn_arrow {
     top: 467px;
     left: 874px;
     width: 20px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 10px;
-    font-weight: bold;
+    font: 10px/12px 'LatoBold', sans-serif;
 }
 
 #BE4-0710 {
@@ -7985,9 +7158,7 @@ div.dn_arrow {
     top: 467px;
     left: 900px;
     width: 220px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 31px;
-    font-weight: bold;
+    font: 31px/33px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
@@ -7997,9 +7168,7 @@ div.dn_arrow {
     top: 500px;
     left: 613px;
     width: 550px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 31px;
-    font-weight: bold;
+    font: 31px/33px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
@@ -8009,7 +7178,7 @@ div.dn_arrow {
     top: 502px;
     left: 550px;
     width: 650px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 14px/16px 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 130%;
@@ -8020,9 +7189,7 @@ div.dn_arrow {
     top: 957px;
     left: 215px;
     width: 790px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
     margin: 0;
 }
@@ -8049,10 +7216,8 @@ div.dn_arrow {
 }
 
 #BE4-07 p.block_text17 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 23px/130% 'Lato', sans-serif;
     text-align: center;
-    font-size: 23px;
-    line-height: 130%;
 }
 
 #BE4-0717 {
@@ -8075,9 +7240,7 @@ div.dn_arrow {
     left: 0;
     margin: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: center;
 }
 
@@ -8086,17 +7249,13 @@ div.dn_arrow {
     top: 70px;
     left: 136px;
     width: 350px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE4-08 p.block_text18 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #BE4-0803 {
@@ -8139,11 +7298,8 @@ div.dn_arrow {
     top: 741px;
     left: 405px;
     width: 170px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/115% 'LatoBold', sans-serif;
     text-align: center;
-    font-size: 15px;
-    line-height: 115%;
-    font-weight: bold;
 }
 
 #BE4-0809 {
@@ -8151,17 +7307,13 @@ div.dn_arrow {
     top: 828px;
     left: 42px;
     width: 530px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/32px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE4-08 p.block_text19 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/120% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 120%;
 }
 
 #BE4-0810 {
@@ -8183,9 +7335,7 @@ div.dn_arrow {
     top: 70px;
     left: 630px;
     width: 460px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 31px;
-    font-weight: bold;
+    font: 31px/33px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -8197,10 +7347,8 @@ div.dn_arrow {
 }
 
 #BE4-08 p.block_text20 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/110% 'Lato', sans-serif;
     text-align: left;
-    font-size: 19px;
-    line-height: 110%;
 }
 
 #BE4-0814 {
@@ -8215,18 +7363,13 @@ div.dn_arrow {
     top: 504px;
     left: 658px;
     width: 400px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE4-08 p.block_text21 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/110% 'LatoItalic', sans-serif;
     text-align: center;
-    font-size: 18px;
-    line-height: 110%;
-    font-style: italic;
 }
 
 #BE4-0816 {
@@ -8241,9 +7384,7 @@ div.dn_arrow {
     top: 662px;
     left: 608px;
     width: 540px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+    font: 32px/34px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -8266,18 +7407,12 @@ div.dn_arrow {
     top: 822px;
     left: 600px;
     width: 600px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 115%;
+    font: 15px/115% 'Lato', sans-serif;
 }
 
 #BE4-08 p.block_text22 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #BE4-0821 {
@@ -8307,10 +7442,7 @@ div.dn_arrow {
     left: 0;
     margin: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
-    text-align: center;
+    font: 39px/41px 'LatoBold', sans-serif;
 }
 
 #BE4-0902 {
@@ -8318,17 +7450,12 @@ div.dn_arrow {
     top: 94px;
     left: 73px;
     width: 270px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 27px;
-    font-weight: bold;
-    text-align: left;
+    font: 27px/29px 'LatoBold', sans-serif;
 }
 
 #BE4-09 p.block_text23 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #BE4-0903 {
@@ -8364,16 +7491,13 @@ div.dn_arrow {
     top: 385px;
     left: 205px;
     width: 330px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 35px;
-    font-weight: bold;
+    font: 35px/37px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE4-09 p.block_text24 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 27px/29px 'Lato', sans-serif;
     text-align: justify;
-    font-size: 27px;
 }
 
 #BE4-0908 {
@@ -8384,10 +7508,8 @@ div.dn_arrow {
 }
 
 #BE4-09 p.block_label1 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/105% 'Lato', sans-serif;
     text-align: center;
-    font-size: 18px;
-    line-height: 105%;
 }
 
 #BE4-0909 {
@@ -8409,9 +7531,7 @@ div.dn_arrow {
     top: 706px;
     left: 219px;
     width: 283px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 35px;
-    font-weight: bold;
+    font: 35px/37px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -8455,9 +7575,7 @@ div.dn_arrow {
     top: 1038px;
     left: 40px;
     width: 430px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font: 39px/41px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
@@ -8467,9 +7585,7 @@ div.dn_arrow {
     top: 1068px;
     left: 41px;
     width: 380px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 23px;
+    font: 23px/25px 'LatoItalic', sans-serif;
     text-align: left;
 }
 
@@ -8499,18 +7615,14 @@ div.dn_arrow {
     top: 325px;
     left: 54px;
     width: 360px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+    font: 40px/42px 'LatoBold', sans-serif;
     text-align: left;
     margin: 0;
 }
 
 #BE4-10 p.block_text25 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: left;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #BE4-1002 {
@@ -8546,17 +7658,13 @@ div.dn_arrow {
     top: 768px;
     left: 45px;
     width: 260px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/32px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE4-10 p.block_text26 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 19px/115% 'Lato', sans-serif;
     text-align: justify;
-    font-size: 19px;
-    line-height: 115%;
 }
 
 #BE4-1007 {
@@ -8585,9 +7693,7 @@ div.dn_arrow {
     top: 1207px;
     left: 44px;
     width: 395px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    font: 30px/32px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -8611,9 +7717,7 @@ div.dn_arrow {
     left: 0;
     margin: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 41px;
-    font-weight: bold;
+    font: 41px/43px 'LatoBold', sans-serif;
     text-align: center;
 }
 
@@ -8622,9 +7726,7 @@ div.dn_arrow {
     top: 139px;
     left: 366px;
     width: 250px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 29px;
-    font-weight: bold;
+    font: 29px/31px 'LatoBold', sans-serif;
     text-align: left;
 }
 
@@ -8633,24 +7735,18 @@ div.dn_arrow {
     top: 139px;
     left: 800px;
     width: 250px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 29px;
-    font-weight: bold;
+    font: 29px/31px 'LatoBold', sans-serif;
     text-align: left;
 }
 
 #BE4-11 p.block_text27 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: right;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #BE4-11 p.block_text28 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 18px/115% 'Lato', sans-serif;
     text-align: left;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #BE4-1104 {
@@ -8790,22 +7886,18 @@ div.dn_arrow {
 #BE4-1123 {
     position: absolute;
     top: 1045px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 28px;
-    font-weight: bold;
+    font: 28px/30px 'LatoBold', sans-serif;
     text-align: center;
 }
 
 #BE4-1124 {
     position: absolute;
     top: 1082px;
-    left: 0px;
+    left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: normal;
+    font: 20px/22px 'Lato', sans-serif;
     text-align: center;
 }
 
@@ -8814,11 +7906,8 @@ div.dn_arrow {
     top: 904px;
     left: 520px;
     width: 90px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
+    font: 13px/155% 'LatoBold', sans-serif;
     text-align: left;
-    line-height: 155%;
 }
 
 #BE4-1126 {
@@ -8826,27 +7915,18 @@ div.dn_arrow {
     top: 904px;
     left: 950px;
     width: 90px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
+    font: 13px/155% 'LatoBold', sans-serif;
     text-align: left;
-    line-height: 155%;
 }
 
 #BE4-11 p.block_text29 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/120% 'LatoBold', sans-serif;
     text-align: right;
-    font-size: 15px;
-    line-height: 120%;
-    font-weight: bold;
 }
 
 #BE4-11 p.block_text30 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 15px/120% 'LatoBold', sans-serif;
     text-align: left;
-    font-size: 15px;
-    line-height: 120%;
-    font-weight: bold;
 }
 
 #BE4-1127 {
@@ -8966,11 +8046,7 @@ div.dn_arrow {
     top: 1127px;
     left: 647px;
     width: 530px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    line-height: 165%;
-    font-weight: bold;
+    font: 11px/165% 'LatoBold', sans-serif;
 }
 
 #BE4-1201 {
@@ -8979,33 +8055,25 @@ div.dn_arrow {
     left: 0;
     margin: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 41px;
-    font-weight: bold;
+    font: 41px/43px 'LatoBold', sans-serif;
     text-align: center;
 }
 
 #BE4-12 p.block_text31 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
+    font: 18px/115% 'LatoItalic', sans-serif;
     text-align: center;
-    font-size: 18px;
-    line-height: 115%;
 }
 
 #BE4-1202 {
     position: absolute;
     top: 60px;
-    left: 0px;
+    left: 0;
     width: 1200px;
 }
 
 #BE4-12 p.block_text32 {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
+    font: 18px/20px 'LatoBold', sans-serif;
     text-align: center;
-    font-size: 18px;
-    font-weight: bold;
 }
 
 #BE4-1203 {
@@ -9083,15 +8151,13 @@ div.dn_arrow {
 
 .infoblock__opus-freeflow-freedom {
     color: #2c89c6;
-    line-height: 38px;
-    font-size: 36px;
+    font: 36px/38px 'LatoBold', sans-serif;
 }
 
 .infoblock_photos_documents {
     padding-bottom: 5px;
     display: block;
-    font-size: 24px;
-    line-height: 26px;
+    font: 24px/26px 'LatoBoldItalic', sans-serif;
 }
 
 /*new opus ff*/
@@ -9102,9 +8168,8 @@ div.dn_arrow {
 
 .brochure-block-new .block-title {
     margin: 0 0 0.5em 0;
-    font-size: 300%;
+    font: 300%/1.2em 'LatoBold', sans-serif;
     text-align: center;
-    line-height: 1.2em;
     color: #333;
     z-index: 10;
 }
@@ -9113,8 +8178,7 @@ div.dn_arrow {
     margin-bottom: 3px;
     padding-bottom: 10px;
     text-align: left;
-    line-height: 1.3em;
-    font-size: 150%;
+    font: 150%/1.3em 'Lato', sans-serif;
     color: #000;
 }
 
@@ -9124,26 +8188,22 @@ div.dn_arrow {
     top: 30px;
     left: 0;
     width: 1200px;
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-size: 41px;
-    font-weight: bold;
+    font: 41px/43px 'LatoBold', sans-serif;
     text-align: center;
 }
 
-#BE-07 .block-title--bookedge{
+#BE-07 .block-title--bookedge {
     margin: 0;
 }
 
 .sub-title-bookedge {
-    font-style: italic;
-    font-size: 22px;
+    font: 22px/1.1 'LatoItalic', sans-serif;
     margin: 0 auto;
     position: absolute;
     top: 77px;
     left: 0;
     right: 0;
     width: 453px;
-    line-height: 1.1;
 }
 
 .smart-dok-text {
@@ -9152,16 +8212,15 @@ div.dn_arrow {
     color: #888;
     left: 191px;
     top: 924px;
-    font-size: 20px;
+    font: 20px/22px 'LatoItalic', sans-serif;
     width: 332px;
-    font-style: italic;
 }
 
 .bookedge-all-text {
     position: absolute;
     top: 806px;
     right: 102px;
-    font-size: 13px;
+    font: 13px/15px 'Lato', sans-serif;
 }
 
 .bookedge-all-text p {

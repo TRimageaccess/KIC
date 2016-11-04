@@ -1,5 +1,55 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700';
 
+@font-face {
+    font-family: 'LatoBlack';
+    src: url('../fonts/LatoBlack.eot');
+    src: url('../fonts/LatoBlack.eot') format('embedded-opentype'),
+    url('../fonts/LatoBlack.woff2') format('woff2'),
+    url('../fonts/LatoBlack.woff') format('woff'),
+    url('../fonts/LatoBlack.ttf') format('truetype'),
+    url('../fonts/LatoBlack.svg#LatoBlack') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url('../fonts/LatoBold.eot');
+    src: url('../fonts/LatoBold.eot') format('embedded-opentype'),
+    url('../fonts/LatoBold.woff2') format('woff2'),
+    url('../fonts/LatoBold.woff') format('woff'),
+    url('../fonts/LatoBold.ttf') format('truetype'),
+    url('../fonts/LatoBold.svg#LatoBold') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoItalic';
+    src: url('../fonts/LatoItalic.eot');
+    src: url('../fonts/LatoItalic.eot') format('embedded-opentype'),
+    url('../fonts/LatoItalic.woff2') format('woff2'),
+    url('../fonts/LatoItalic.woff') format('woff'),
+    url('../fonts/LatoItalic.ttf') format('truetype'),
+    url('../fonts/LatoItalic.svg#LatoItalic') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('../fonts/LatoRegular.eot');
+    src: url('../fonts/LatoRegular.eot') format('embedded-opentype'),
+    url('../fonts/LatoRegular.woff2') format('woff2'),
+    url('../fonts/LatoRegular.woff') format('woff'),
+    url('../fonts/LatoRegular.ttf') format('truetype'),
+    url('../fonts/LatoRegular.svg#LatoRegular') format('svg')
+}
+
+@font-face {
+    font-family: 'LatoBoldItalic';
+    src: url('../fonts/LatoBoldItalic.eot');
+    src: url('../fonts/LatoBoldItalic.eot') format('embedded-opentype'),
+    url('../fonts/LatoBoldItalic.woff2') format('woff2'),
+    url('../fonts/LatoBoldItalic.woff') format('woff'),
+    url('../fonts/LatoBoldItalic.ttf') format('truetype'),
+    url('../fonts/LatoBoldItalic.svg#LatoBoldItalic') format('svg')
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -2948,6 +2998,7 @@ div.cycle div {
 #commentForm legend {
     font-size: 150%;
     font-style: italic;
+    padding: 0 10px;
 }
 
 #commentForm h3 {
@@ -3828,12 +3879,51 @@ span.align-right.padding-bottom-none.feature-table {
     height: 100%;
 }
 
-.builder_frame_kic{position: relative; margin: 0 auto; color: black; width: 100%; background-color: white; overflow: hidden;}
-.iframe_builder_kic{margin-top:17px; min-width: 1200px; min-height:800px; height:4750px; border: 0;}
-.customers_video_block{display: block; margin: 0 auto;}
-.dlos_usb_h3{font-weight: bold; text-align: center;}
-.saw_style {font-style: italic; text-align: center; line-height: 30px;}
-.img-IFLA img.IFLA {width: 300px;}
-.awardbox-wrapper-title-style {margin-top: 19px;}
-.span-italic {font-style: italic;}
-.width_67_percents {width: 67%;}
+.builder_frame_kic {
+    position: relative;
+    margin: 0 auto;
+    color: black;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.iframe_builder_kic {
+    margin-top: 17px;
+    min-width: 1200px;
+    min-height: 800px;
+    height: 4750px;
+    border: 0;
+}
+
+.customers_video_block {
+    display: block;
+    margin: 0 auto;
+}
+
+.dlos_usb_h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.saw_style {
+    font-style: italic;
+    text-align: center;
+    line-height: 30px;
+}
+
+.img-IFLA img.IFLA {
+    width: 300px;
+}
+
+.awardbox-wrapper-title-style {
+    margin-top: 19px;
+}
+
+.span-italic {
+    font-style: italic;
+}
+
+.width_67_percents {
+    width: 67%;
+}
