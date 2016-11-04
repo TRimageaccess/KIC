@@ -84,7 +84,7 @@
 }
 
 .list-nav li a, .list-nav li li a, .list-nav li li li a {
-    font: bold 16px/24px 'Lato', helvetica, sans-serif;
+    font: 16px/24px 'LatoBold', sans-serif;
     display: block;
     color: #000;
     text-decoration: none;
@@ -164,7 +164,7 @@
 
 .lower-nav p {
     color: #888;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif;
 }
 
 .lower-nav a {
@@ -173,5 +173,5 @@
 }
 
 .lower-nav li.label p {
-    font-style: normal;
+    font-family: 'Lato', sans-serif;
 }
