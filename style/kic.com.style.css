@@ -2893,8 +2893,7 @@ div.cycle div {
 }
 
 #show_postcard_block_2a p {
-    font-size: 1.9em;
-    font-weight: bold;
+    font: 1.9em 'LatoBold', sans-serif;
 }
 
 #show_postcard_block_2b {
@@ -3258,12 +3257,8 @@ div#kic-slide-features1 ul {
 }
 
 .pane_text_overlay3 ul {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 170%;
+    font: 170%/38px "LatoBoldItalic", sans-serif;
     text-align: left;
-    line-height: 38px;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -3309,9 +3304,7 @@ div#kic-slide-features1 ul {
     background: -ms-linear-gradient(top, #c9eadb, #449a5a);
     background: linear-gradient(top, #c9eadb, #449a5a);
     padding: 4px;
-    font-size: 100%;
-    font-weight: bold;
-    line-height: 20px;
+    font: 100%/20px 'LatoBold',sans-serif;
     border: 1px solid #888;
     border-radius: 4px;
     text-align: center;
@@ -3330,9 +3323,7 @@ div#kic-slide-features1 ul {
     background: linear-gradient(top, #c9eadb, #449a5a);
     margin: 0 2px 2px !important;
     padding: 4px 10px;
-    font-size: 100%;
-    font-weight: bold;
-    line-height: 20px;
+    font: 100%/20px 'LatoBold',sans-serif;
     border-radius: 4px;
     text-align: center;
     box-shadow: 1px 2px 1px 1px #ccc;
@@ -3563,7 +3554,7 @@ span.align-right.padding-bottom-none.feature-table {
 }
 
 .bold-dollar {
-    font-family: 'LatoBold',sans-serif;
+    font-family: 'LatoBold', sans-serif;
     font-size: 1.6rem;
 }
 
@@ -3595,13 +3586,11 @@ span.align-right.padding-bottom-none.feature-table {
 }
 
 .sitalic.infoblock__center--text {
-    font-weight: normal;
-    font-size: 20px;
     text-align: center;
     padding-bottom: 20px;
     width: 90%;
     margin: 0 auto;
-    font-style: italic;
+    font: 20px 'LatoItalic', sans-serif;
 }
 
 .big-star {
@@ -3664,12 +3653,12 @@ span.align-right.padding-bottom-none.feature-table {
 }
 
 .dlos_usb_h3 {
-    font-family: 'LatoBold',sans-serif;
+    font-family: 'LatoBold', sans-serif;
     text-align: center;
 }
 
 .saw_style {
-    font-family: 'LatoItalic',sans-serif;
+    font-family: 'LatoItalic', sans-serif;
     text-align: center;
     line-height: 30px;
 }
@@ -3683,7 +3672,7 @@ span.align-right.padding-bottom-none.feature-table {
 }
 
 .span-italic {
-    font-family: 'LatoItalic',sans-serif;
+    font-family: 'LatoItalic', sans-serif;
 }
 
 .width_67_percents {
