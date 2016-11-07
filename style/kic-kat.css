@@ -85,10 +85,8 @@
 }
 
 .infoblock .infoblock__huge-header {
-    font-family: AudiowideRegular, helvetica, arial, sans-serif;
+    font: 92px/95px AudiowideRegular, helvetica, arial, sans-serif;
     text-transform: uppercase;
-    font-size: 92px;
-    line-height: 95px;
     text-align: center;
     text-shadow: none;
     color: black;
@@ -120,11 +118,11 @@
 }
 
 .infoblock .infoblock__sub-header--bold {
-    font-family: LatoBlack; /* font-weight: bold; */
+    font-family: 'LatoBlack', sans-serif; /* font-weight: bold; */
 }
 
 .infoblock .infoblock__sub-header--italic {
-    font-family: LatoItalic; /* font-style: italic; */
+    font-family: 'LatoItalic', sans-serif; /* font-style: italic; */
 }
 
 .infoblock .figure__image {
@@ -134,14 +132,12 @@
 
 .infoblock .image-title {
     position: relative;
-    font-family: LatoBlack; /* font-weight: bold; */
+    font-family: 'LatoBlack', sans-serif; /* font-weight: bold; */
 }
 
 .infoblock .image-text {
     margin-left: 40px;
-    font-family: LatoItalic;
-    /* font-style: italic; */
-    font-size: 21px;
+    font: 21px 'LatoItalic', sans-serif;
     margin-top: -20px;
 }
 
@@ -172,7 +168,7 @@
 .infoblock .right-middle-block__text {
     width: 34%;
     text-align: right;
-    font-family: LatoItalic;
+    font-family: 'LatoItalic', sans-serif;
     /* font-style: italic; */
     position: relative;
     margin-top: 45px;
@@ -208,9 +204,8 @@
 }
 
 .infoblock .kat-phones__note--left {
-    font-family: LatoItalic; /* font-style: italic; */
+    font: 18px 'LatoItalic', sans-serif; /* font-style: italic; */
     text-align: center;
-    font-size: 18px;
 }
 
 .infoblock .note--left__top {
@@ -228,8 +223,7 @@
 }
 
 .infoblock .kat-phones__note--right {
-    font-size: 19px;
-    font-family: LatoItalic;
+    font: 19px 'LatoItalic', sans-serif;
     position: relative;
     left: 980px;
     top: 158px;
@@ -248,9 +242,7 @@
 
 .infoblock .reading-list__header {
     position: relative;
-    font-family: LatoBlack;
-    /* font-weight: bold; */
-    font-size: 23px;
+    font: 23px 'LatoBlack', sans-serif;
     left: 55px;
     top: 5px;
     margin-bottom: -20px;
@@ -278,13 +270,11 @@
 
 .infoblock .infoblock__header {
     color: black;
-    font-family: LatoBlack; /* font-weight: bold; */
-    font-size: 45px;
+    font: 45px/60px 'LatoBlack', sans-serif; /* font-weight: bold; */
     text-shadow: none;
     margin-bottom: 25px;
     text-align: center;
     padding: 15px 0;
-    line-height: 60px;
     margin-top: 20px;
 }
 
@@ -295,12 +285,10 @@
 }
 
 .infoblock .infoblock__sub-header--APIWTW {
-    font-family: LatoItalic;
+    font: 27px/27px 'LatoItalic', sans-serif;
     /* font-style: italic; */
     margin-left: 204px;
     width: 75%;
-    font-size: 27px;
-    line-height: 27px;
 }
 
 .infoblock .infoblock__centered-text {
@@ -319,13 +307,11 @@
 /*************************************************************************************************************/
 
 .infoblock .infoblock__sub-header--STW {
-    font-family: LatoItalic;
+    font: 27px/27px 'LatoItalic', sans-serif;
     /* font-style: italic; */
     margin-bottom: -25px;
     margin-left: 168px;
     width: 75%;
-    font-size: 27px;
-    line-height: 27px;
     text-align: center;
 }
 
@@ -334,13 +320,11 @@
 /*************************************************************************************************************/
 
 .infoblock .infoblock__sub-header--WIYS {
-    font-family: LatoItalic; /* font-style: italic; */
+    font: 27px 'LatoBoldItalic', sans-serif; /* font-style: italic; */
     text-align: center;
     margin-left: 144px;
     margin-bottom: 20px;
     width: 75%;
-    font-size: 27px;
-    font-weight: bold;
 }
 
 .infoblock .infoblock__image--WIYS {
@@ -371,14 +355,13 @@
 }
 
 .infoblock .infoblock__sub-header--PYPC-SBDB {
-    font-family: LatoBlack; /* font-weight: bold; */
-    font-size: 44px;
+    font: 44px 'LatoBlack', sans-serif; /* font-weight: bold; */
     margin-top: 165px;
     margin-bottom: 20px;
 }
 
 .infoblock .infoblock__sub-header--MBDE {
-    font-family: LatoItalic; /* font-style: italic; */
+    font-family: 'LatoItalic', sans-serif; /* font-style: italic; */
     margin-top: -25px;
     margin-left: 144px;
     width: 80%;
@@ -391,16 +374,15 @@
     top: 34px;
 }
 
-.infoblock__search-screen img{
+.infoblock__search-screen img {
     margin-bottom: 30px;
 }
 
 .infoblock .image-title--PYPC {
+    font: 19px "LatoBold", sans-serif;
     position: relative;
     left: 504px;
     margin-bottom: -45px;
-    font-weight: bold;
-    font-size: 19px;
 }
 
 .infoblock .bibliography-view-screen__bvs-info-block {
@@ -417,23 +399,24 @@
 }
 
 .infoblock .search-screen__info {
-    font-family: LatoItalic;
+    font-family: 'LatoItalic', sans-serif;
     width: 44%;
     position: absolute;
     bottom: 100px;
     left: 47%;
 }
 
-.infoblock .screen__info-one-column{
+.infoblock .screen__info-one-column {
     width: 12%;
     left: 55%;
 }
 
-.infoblock .screen__info-two-column{
+.infoblock .screen__info-two-column {
     width: 12%;
     left: 79%;
     bottom: 117px;
 }
+
 .infoblock .professor-photo__text {
     position: relative;
     left: 864px;
@@ -467,10 +450,9 @@
 }
 
 .infoblock .infoblock__sub-header--GHH {
-    font-family: LatoItalic;
+    font: 27px 'LatoItalic', sans-serif;
     /* font-style: italic; */
     text-align: center;
-    font-size: 27px;
     padding-bottom: 10px;
     margin-left: 144px;
     width: 74%;
@@ -481,20 +463,16 @@
 }
 
 .infoblock .kit-kat-go__image-title--kic-stations {
-    font-family: LatoBlack;
+    font: 19px 'LatoBlack', sans-serif;
     /* font-weight: bold; */
     position: relative;
     left: 204px;
     margin-bottom: -22px;
     padding-bottom: 20px;
-    font-weight: bold;
-    font-size: 19px;
 }
 
 .infoblock .kit-kat-go__image-title--kic-srs {
-    font-family: LatoBlack;
-    font-weight: bold;
-    font-size: 19px;
+    font: 19px 'LatoBlack', sans-serif;
     position: relative;
     left: 804px;
     margin-top: -360px;
@@ -508,17 +486,15 @@
     margin-left: 30px;
     margin-top: -225px;
     padding-bottom: 15px;
-    font-family: LatoRegular;
+    font-family: 'LatoRegular', sans-serif;
 }
 
 .infoblock .bvs-section__image-title {
-    font-family: LatoBlack;
-    font-weight: bold;
+    font: 19px 'LatoBlack', sans-serif;
     position: relative;
     left: 540px;
     margin-top: -287px;
     padding-bottom: 200px;
-    font-size: 19px;
 }
 
 .infoblock .bvs-section__image-text {
@@ -692,11 +668,9 @@
 
 .infoblock .infoblock__sub-header--AYPCCE-H2 {
     text-align: center;
-    font-family: LatoBlack; /* font-weight: bold; */
-    font-size: 3.2rem;
+    font: 3.2rem/3.2rem 'LatoBlack', sans-serif; /* font-weight: bold; */
     width: 82%;
     padding-left: 21%;
-    line-height: 3.2rem;
 }
 
 .infoblock .infoblock__sub-header--AYPCCE {
@@ -736,9 +710,8 @@
 }
 
 .infoblock .requirements-section__req-header {
-    font-family: LatoBlack; /* font-weight: bold; */
+    font: 2.5rem 'LatoBlack', sans-serif; /* font-weight: bold; */
     text-align: center;
-    font-size: 2.5rem;
     color: black;
     margin: 0 0 10px 0;
 }
@@ -789,7 +762,7 @@
 }
 
 .infoblock .req-table__table-headers {
-    font-family: LatoBlack; /* font-weight: bold; */
+    font-family: 'LatoBlack',sans-serif; /* font-weight: bold; */
     text-align: center;
 }
 
@@ -872,10 +845,8 @@ h3.block__title {
 
 /*****************big title block***********************/
 .big-title {
-    font-size: 4rem;
-    line-height: 4.2rem;
     text-align: center;
-    font-weight: bold;
+    font: 4rem/4.2rem 'LatoBold', sans-serif;
     margin-top: 30px;
     margin-bottom: 25px;
 }
@@ -897,7 +868,7 @@ h3.block__title {
 .kat-tabs-links li {
     float: left;
     width: calc(100% / 3);
-    font-weight: bold;
+    font-family: "LatoBold", sans-serif;
     padding: 15px 0;
     cursor: pointer;
     text-align: center;
@@ -978,7 +949,7 @@ h3.block__title {
     width: 64%;
     margin: -30px auto 30px;
     font-weight: normal;
-    font-style: italic;
+    font-family: "LatoItalic", sans-serif;
 }
 
 .infoblock__search-screen {
