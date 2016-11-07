@@ -8,8 +8,7 @@
 }
 
 .odam-big-title {
-    font-size: 72px;
-    font-weight: bold;
+    font:72px 'LatoBold',sans-serif;
     text-align: center;
 }
 
@@ -176,8 +175,7 @@
     width: 38%;
     float: right;
     text-align: center;
-    font-weight: bold;
-    font-size: 42px;
+    font: 42px 'LatoBold', sans-serif;
 }
 
 .block-2-right p {
@@ -241,7 +239,7 @@
 }
 
 .mini-phone div{
-    font-weight: bold;
+    font: 60px 'LatoBold', sans-serif;
     padding-left: 60px;
     font-size: 42px;
 }

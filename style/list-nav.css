@@ -28,7 +28,7 @@
     clear: left;
     float: left;
     right: 50%;
-    padding: 0px;
+    padding: 0;
     text-align: left;
     z-index: 51;
     width: 1140px;
@@ -136,7 +136,7 @@
     margin: 5px auto 2px auto;
     width: 1200px;
     border: 1px solid #888;
-    border-bottom: 0px;
+    border-bottom: 0;
     border-radius: 5px 5px 0 0;
 }
 
@@ -152,8 +152,7 @@
 
 .lower-nav p {
     color: #888;
-    font-weight: bold;
-    font-style: italic;
+    font-family: "LatoBoldItalic", sans-serif;
 }
 
 .lower-nav a {

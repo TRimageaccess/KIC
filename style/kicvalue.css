@@ -36,10 +36,10 @@
 #kic_value .intro .reset{cursor:pointer;position:absolute;top:10px;right:0;height:20px;width:auto;padding:0 10px;line-height:20px;background:url("http://upload.ted-kteam.com/KIC/images/greengreenstrip-text.png") repeat-x scroll 0 0 #A2B3A1;border:1px solid #888;border-radius:3px;}
 #kic_value td div {width:70px;margin-left: auto;margin-right:auto;border:none;}
 #kic_value td div input{width:70px;}                 
-#kic_value div.usage{width:auto;padding:0px;}
+#kic_value div.usage{width:auto;padding:0;}
 #kic_value div.usage p{line-height:15px;}
 #kic_value div.usage p.label{margin:14px 8px 0 8px;}
-#kic_value div.usage input{margin:6px 0px 0px 12px;}
+#kic_value div.usage input{margin:6px 0 0 12px;}
 #kic_value .print_note {border:none;}
 #kic_value .print_note p {width:100%;text-align:center;}
 #kic_value #footnotes {height:25px;overflow:hidden;}
@@ -75,7 +75,7 @@
 #kic_value #footnotes .variables table td p{float:left;}
 #kic_value #footnotes .variables .right-col {float:right;width:540px;}
 #kic_value #footnotes .variables p{float:left;width:auto;}
-#kic_value #footnotes .variables div.costs{width:100%;margin:0px;}
+#kic_value #footnotes .variables div.costs{width:100%;margin:0;}
 #kic_value #footnotes .variables div.costs p.label{width:350px;}
 #kic_value #footnotes .variables div.costs.note {width:520px;margin:10px;}
 #kic_value .data div{width: 340px;float:left;margin:2px 10px;}
@@ -85,51 +85,51 @@
 #kic_value .summary {position:relative;height:270px;border:none;}
 #kic_value .summary div{display:block;position:absolute;margin:0;padding:0 0 20px 0;width:200px; height:180px;z-index:4;}
 #kic_value .summary div p.grouplabel{width:100%;height:40px;text-align:center;background:#aaa;margin: 0;line-height:180%;font-size:160%;}
-#kic_value .summary div.highlight p.grouplabel{background:#ddd;font-weight:bold;}
+#kic_value .summary div.highlight p.grouplabel{background:#ddd;font-family:'LatoBold',sans-serif;}
 #kic_value .summary div p.toplabel{width:100%;height:auto;text-align:center;margin: 0;line-height:180%;}
 #kic_value .summary div p.label{clear:both;line-height:20px;margin: 5px 0 0 0;height:20px;font-size:12px;}
-#kic_value .summary div p.sublabel{position:absolute;bottom:0;width:100%;text-align:center;clear:both;font-style:italic;font-size:80%; line-height:20px;}
-#kic_value .summary div input{float:left;width:65px;margin: 5px 5px 0px 0px;height:20px;font-size:10px;}
-#kic_value .summary div input.total{float:left;width:68px;margin: 5px 5px 0px 18px;height:20px;}
-#kic_value .summary .copier{left:0px;}
+#kic_value .summary div p.sublabel{position:absolute;bottom:0;width:100%;text-align:center;clear:both;font: 80%/20px 'LatoItalic',sans-serif;}
+#kic_value .summary div input{float:left;width:65px;margin: 5px 5px 0 0;height:20px;font-size:10px;}
+#kic_value .summary div input.total{float:left;width:68px;margin: 5px 5px 0 18px;height:20px;}
+#kic_value .summary .copier{left:0;}
 #kic_value .summary .bookedge{left:220px;}
 #kic_value .summary .bookclick{left:440px;}
 #kic_value .summary .bookeye{left:660px;}
 #kic_value .summary .mix{left:880px;background:#ccc;}
-#kic_value .summary .legend{position:relative;width:15px;height:15px;margin:5px 0px 0 6px;padding:0;float:left;border:none; border-radius:0px;}
+#kic_value .summary .legend{position:relative;width:15px;height:15px;margin:5px 0 0 6px;padding:0;float:left;border:none; border-radius:0;}
 #kic_value .summary .legend.bar_equip{background:#833;background:rgba(128,48,48,1);}
 #kic_value .summary .legend.bar_paper{background:#fc2;background:rgba(240,192,32,1);}
 #kic_value .summary .legend.bar_labor{background:#018;background:rgba(0,16,128,1);}
-#kic_value .summary .legend .bar_cover{margin:0;padding:0;height:100%;width:100%;background:url(http://upload.ted-kteam.com/KIC/images/bar-overlay-sm_round.png) 0 0 repeat-y;border:none;border-radius:0px;}
-#kic_value .summary .legend .bar_cover.highlight{margin:0;padding:0;height:100%;width:100%;background:url(http://upload.ted-kteam.com/KIC/images/bar-overlay-sm_round_bright.png) 0 0 repeat-y;border:none;border-radius:0px;}
+#kic_value .summary .legend .bar_cover{margin:0;padding:0;height:100%;width:100%;background:url(http://upload.ted-kteam.com/KIC/images/bar-overlay-sm_round.png) 0 0 repeat-y;border:none;border-radius:0;}
+#kic_value .summary .legend .bar_cover.highlight{margin:0;padding:0;height:100%;width:100%;background:url(http://upload.ted-kteam.com/KIC/images/bar-overlay-sm_round_bright.png) 0 0 repeat-y;border:none;border-radius:0;}
 #kic_value .summary p.caption{position:absolute;width:64%;left:18%;text-align:left;bottom:6px;line-height:12px;}
 #kic_value #graph_header{height:70px;border:none;z-index:1;background:none;margin-top:25px;}
-#kic_value #graph_header p.grouplabel{width:100%;height:auto;text-align:center;background:none;margin: 0;font-size:300%;font-weight:bold;line-height:40px;}
+#kic_value #graph_header p.grouplabel{width:100%;height:auto;text-align:center;background:none;margin: 0;font:300%/40px 'LatoBold',sans-serif;}
 #kic_value #graph_header p.caption{width:100%;text-align:center; margin:0;line-height:30px;font-size:120%;}
 #kic_value #graph_header p.caption.explanation{width:1000px;text-align:left; margin:0 50px 0 50px;line-height:16px;font-size:90%;}
 #kic_value #cost_graph{position:relative;width:1100px; height:400px;margin: 25px 50px 0 50px;border:none;overflow:visible;z-index:2;}
-#kic_value #cost_graph .cell_wrap{position:absolute;border:none;border-radius:0;width:140px;margin: 0px 30px;height:100%;z-index:3;}
+#kic_value #cost_graph .cell_wrap{position:absolute;border:none;border-radius:0;width:140px;margin: 0 30px;height:100%;z-index:3;}
 #kic_value #cost_graph .bar_cover{margin:0;height:100%;width:100%;background:url(http://upload.ted-kteam.com/KIC/images/bar-overlay_round_for-IE.png) 0 0 no-repeat;border:none;}
 #kic_value #cost_graph .highlight .bar_cover{margin:0;height:100%;width:100%;background:url(http://upload.ted-kteam.com/KIC/images/bar-overlay_round_bright_for-IE.png) 0 0 repeat-y;border:none;border-radius:5px;}
-#kic_value #cost_graph .cell_wrap.copier{left:0px;}
+#kic_value #cost_graph .cell_wrap.copier{left:0;}
 #kic_value #cost_graph .cell_wrap.bookedge{left:220px;}
 #kic_value #cost_graph .cell_wrap.bookclick{left:440px;}
 #kic_value #cost_graph .cell_wrap.bookeye{left:660px;}
 #kic_value #cost_graph .cell_wrap.mix{width:138px;left:880px;background:#eee;background:rgba(0,0,0,.1);margin:0 5px;padding:0 25px;border:1px solid #aaa;border-radius:5px 5px 0 0;}
 #kic_value #cost_graph .cell_comp{position:relative;border:none;width:138px;margin:0;border-radius:5px;min-height:0;}
-#kic_value #cost_graph .top_fill p{position:absolute;top:95%;font-size:150%;font-weight:bold;height:auto;width:100%;text-align:center;line-height:100%;z-index:5;}
-#kic_value #cost_graph .top_fill p.sub{font-size:120%;font-style:italic;font-weight:normal;top:100%;}
+#kic_value #cost_graph .top_fill p{position:absolute;top:95%;font:150%/100% 'LatoBold',sans-serif;height:auto;width:100%;text-align:center;z-index:5;}
+#kic_value #cost_graph .top_fill p.sub{font:120% 'LatoItalic',sans-serif;font-weight:normal;top:100%;}
 #kic_value #cost_graph .top_fill{z-index:3;height:100%;background:none;}
 #kic_value #cost_graph .bar_equip{background:#833;background:rgba(128,48,48,1);border:1px solid #833;}
 #kic_value #cost_graph .bar_paper{background:#fc2;background:rgba(240,192,32,1);border:1px solid #fc2;}
 #kic_value #cost_graph .bar_labor{background:#018;background:rgba(0,16,128,1);border:1px solid #018;}
-#kic_value #cost_graph .cell_comp .bar_cover p.label{position:absolute;width:100%;text-align:center;font-size:9pt;font-weight:bold;color:#eee;}
+#kic_value #cost_graph .cell_comp .bar_cover p.label{position:absolute;width:100%;text-align:center;font:9pt 'LatoBold', sans-serif;color:#eee;}
 #kic_value #cost_graph .cell_comp.bar_paper .bar_cover p.label{display:none;}
 #kic_value #cost_graph .cell_comp.bar_equip .bar_cover p.label{display:none;}
 #kic_value #cost_graph div{position:relative;}
 #kic_value #cost_graph .vertical{position:absolute; left:0;height:20px;width:auto;text-align:right;background:none;margin:0;padding:0;border:none;}
 #kic_value #cost_graph .vertical.max{width:100%;height:40px;margin:0;bottom:5px;z-index:6;}
-#kic_value #cost_graph .cell_wrap .vertical.max p {color:#000;font-size:150%;font-weight:bold;width:100%;text-align:center;z-index:7;}
-#kic_value #cost_graph .cell_wrap .vertical.max p.unit_cost{font-size:10pt;line-height:12px;font-weight:normal;font-style:italic;width:100%;text-align:center;z-index:7;}
-#kic_value #cost_graph .green-line{position:absolute;bottom:0px;left:-50px;width:1200px;background:none;margin:0;padding:0;border:none;border-radius:0;z-index:4;border-bottom:2px dashed #080;border-bottom-color:rgba(0,128,0,.5);}
+#kic_value #cost_graph .cell_wrap .vertical.max p {color:#000;font:150% 'LatoBold',sans-serif;width:100%;text-align:center;z-index:7;}
+#kic_value #cost_graph .cell_wrap .vertical.max p.unit_cost{font-weight:normal;font:10pt/12px 'LatoItalic',sans-serif;width:100%;text-align:center;z-index:7;}
+#kic_value #cost_graph .green-line{position:absolute;bottom:0;left:-50px;width:1200px;background:none;margin:0;padding:0;border:none;border-radius:0;z-index:4;border-bottom:2px dashed #080;border-bottom-color:rgba(0,128,0,.5);}
 #kic_value #cost_graph .green-line p{font-size:8pt;line-height:10pt;}

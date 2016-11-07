@@ -1,13 +1,13 @@
 #build_your_opus{height:auto; }
 #build_your_opus p.warning{color:#f00; text-align:center; }
 #build_your_opus .intro{width:540px; margin:0 10px 0 50px; float: left; }
-#build_your_opus .intro h1{font:bolder 35px/48px "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;text-align: left;float: clear;margin: 3px 0 3px 0;}
+#build_your_opus .intro h1{font: 35px/48px "LatoBold", sans-serif;text-align: left;float: clear;margin: 3px 0 3px 0;}
 #build_your_opus .intro p{font-size: 100%; text-align: left;float: clear;margin:0 10px;line-height:120%;}
 #build_your_opus #notifier {position:absolute; top:35px; left:700px; width:450px; height:75px; border: 1px solid #000; border-radius: 20px; z-index: 10; background:rgba(222,222,222,0.9);}
 #build_your_opus #notifier p {color:#f00; padding:28px 20px; font-size:140%; text-align:center;}
 #build_your_opus .page-summary{position:relative;width: 580px; height: 160px; margin: 20px 50px 0 600px; border: 1px solid #aaa; border-radius: 5px; background: #c9ddff;}
 #build_your_opus .page-summary .flabel{position:absolute;width:auto;bottom:-7px; left:-7px;border:1px solid #f00;border-radius:7px;padding:5px;background: #c9ddff;}
-#build_your_opus .page-summary .flabel p.caption {color:#e11;font-size: 120%;font-weight:bold;margin: 2px 15px 2px 10px; }
+#build_your_opus .page-summary .flabel p.caption {color:#e11;font:120% 'LatoBold',sans-serif; margin: 2px 15px 2px 10px; }
 #build_your_opus .flabel.highlight{color:#e11;}
 #build_your_opus .page-summary .sys-count {float: left; height: 100%; width:230px; }
 #build_your_opus .page-summary .sys-count label p {width:160px; height: 18px; margin: 3px; text-align: right; float: left;}
@@ -45,7 +45,7 @@
 #build_your_opus .build-fieldset.expand.print legend{background:url(http://upload.ted-kteam.com/KIC/images/showhide-minus.green.png) 5px 5px no-repeat; }
 #build_your_opus .build-fieldset div{float:left; height: 835px; margin:10px 10px; border:1px solid #aaa; border-radius:5px; }
 #build_your_opus .build-fieldset div.options{width:280px; }
-#build_your_opus .build-fieldset div.options p.label{height:25px;text-align:center; font-size:125%; font-style:italic; margin:0; background:#ddd; border:0px solid #aaa; border-radius:3px; }
+#build_your_opus .build-fieldset div.options p.label{height:25px;text-align:center; font:125% 'LatoItalic',sans-serif; margin:0; background:#ddd; border:0 solid #aaa; border-radius:3px; }
 #build_your_opus .build-fieldset div.options div.workflows{height:140px; width: 100%;margin:0; border:none; }
 #build_your_opus .build-fieldset div.options div.workflow {height:115px; width: 92px; margin:0; border:none; }
 #build_your_opus .build-fieldset div.options div.workflow p{text-align:center; font-size:95%;}
@@ -70,21 +70,21 @@
 #build_your_opus .build-fieldset div.options div.service {height:21px; width: 100%; margin: 0 0 0 7px; border:none;}
 #build_your_opus .build-fieldset div.options div.service input{float:left; margin:5px; }
 #build_your_opus .build-fieldset div.options div.service p{float:left; margin:5px; }
-#build_your_opus .build-fieldset div.images{width:480px; height:500px; margin:10px 0px 10px 0px; border: 1px solid #aaa; border-radius: 5px; }
+#build_your_opus .build-fieldset div.images{width:480px; height:500px; margin:10px 0 10px 0; border: 1px solid #aaa; border-radius: 5px; }
 #build_your_opus .build-fieldset div.images .img-model{width:480px; height:500px; margin:0 5px; border:none; }
 #build_your_opus .build-fieldset div.images .img-model img{width:470px; height:500px; }
 #build_your_opus .build-fieldset div.images .active{display:block; }
 #build_your_opus .build-fieldset div.images .inactive{display:none; }
-#build_your_opus .build-fieldset div.images .img-heading{ position:absolute; width:auto; height:auto; min-width: 250px; max-width: 480px; min-height: 20px; margin:0px 0px; border:none; background: #c9ddff; border-radius:0px; }
-#build_your_opus .build-fieldset div.images .img-heading p{ font-weight:bold ; font-size:15pt; margin:4px 12px; }     
-#build_your_opus .build-fieldset div.option-images{ position:relative; margin:0px; width: 480px; height: 100px; border: 1px solid #aaa; border-radius: 5px;} 
-#build_your_opus .build-fieldset div.option-images div{margin:0px; border:0px;}
-#build_your_opus .build-fieldset div.option-images div.optionlabel{height:auto; position: absolute; left: 170px; width: 140px; border: 1px solid #aaa; border-radius: 5px; margin:-10px 0px 0 auto; background: #fff;}
+#build_your_opus .build-fieldset div.images .img-heading{ position:absolute; width:auto; height:auto; min-width: 250px; max-width: 480px; min-height: 20px; margin:0 0; border:none; background: #c9ddff; border-radius:0; }
+#build_your_opus .build-fieldset div.images .img-heading p{ font:15pt 'LatoBold, sans-serif'; margin:4px 12px; }
+#build_your_opus .build-fieldset div.option-images{ position:relative; margin:0; width: 480px; height: 100px; border: 1px solid #aaa; border-radius: 5px;}
+#build_your_opus .build-fieldset div.option-images div{margin:0; border:0;}
+#build_your_opus .build-fieldset div.option-images div.optionlabel{height:auto; position: absolute; left: 170px; width: 140px; border: 1px solid #aaa; border-radius: 5px; margin:-10px 0 0 auto; background: #fff;}
 #build_your_opus .build-fieldset div.option-images div.optionlabel p {text-align: center;}
 #build_your_opus .build-fieldset div.option-images .active{display:block; }
 #build_your_opus .build-fieldset div.option-images .inactive{display:none; }
-#build_your_opus .build-fieldset div.option-images div.option-item{ height: 100px ;margin:0px 14px; }   
-#build_your_opus .build-fieldset div.summary{margin: 0px 10px; width:293px; height: 700px; position:relative; float:right; overflow:hidden; background: #c9ddff;}
+#build_your_opus .build-fieldset div.option-images div.option-item{ height: 100px ;margin:0 14px; }
+#build_your_opus .build-fieldset div.summary{margin: 0 10px; width:293px; height: 700px; position:relative; float:right; overflow:hidden; background: #c9ddff;}
 #build_your_opus .build-fieldset div.summary .nameplate p {font-size: 120%; text-align: center;}
 #build_your_opus .build-fieldset div.summary div{width:100%; height:auto; margin:0; border:none; text-align:right;line-height:100%;}
 #build_your_opus .build-fieldset div.summary .caption.sysdisc {text-align: right;font-size: 14px;margin-right:5px;}
@@ -103,19 +103,19 @@
 #build_your_opus .build-fieldset div.summary .quantity p.amount {width: 90px; display:inline;font-size: 14px;}
 #build_your_opus .build-fieldset div.summary .quantity input {height:17px;}
 #build_your_opus .build-fieldset div.summary .discount {height:19px;}
-#build_your_opus .build-fieldset div.summary .discount p.label {font-weight:bold;float: left;font-size: 15px;}
-#build_your_opus .build-fieldset div.summary .discount p.amount {font-weight:bold;width: 90px; display:inline;font-size: 15px;}
-#build_your_opus .build-fieldset div.summary .totalprice.ad p.label {color:#383;font-weight:bold;float: left;font-size: 14px;height:19px;}
-#build_your_opus .build-fieldset div.summary .totalprice.ad p.amount {color:#383;font-weight:bold;width: 90px; display:inline;font-size: 15px;height:19px;}
+#build_your_opus .build-fieldset div.summary .discount p.label {font:15px 'LatoBold',sans-serif;float: left;}
+#build_your_opus .build-fieldset div.summary .discount p.amount {font:15px 'LatoBold',sans-serif;width: 90px; display:inline;}
+#build_your_opus .build-fieldset div.summary .totalprice.ad p.label {color:#383;font:14px 'LatoBold',sans-serif;float: left;height:19px;}
+#build_your_opus .build-fieldset div.summary .totalprice.ad p.amount {color:#383;font:15px 'LatoBold',sans-serif;width: 90px; display:inline;height:19px;}
 #build_your_opus .build-fieldset div.summary .totalprice.final p.label {float: left;font-size: 14px;}
 #build_your_opus .build-fieldset div.summary label{width: 150px;float: left;}
 #build_your_opus .build-fieldset div.summary input{width: 80px; margin-right: 10px;text-align:right;}
 #build_your_opus .build-fieldset div.summary .discount .discount input {color: #080; font-size: 120%;}
 #build_your_opus .build-fieldset div.summary .spacer{height:10px; }
 #build_your_opus .build-fieldset div.summary .mathbar{width: 125px;height:1px;border: 1px solid #000; float: right; margin: 2px 7px 0 0;}
-#build_your_opus .build-fieldset div.lic_note{width:482px; height: 115px; margin: 5px 0px 3px 0px; border:none; }
+#build_your_opus .build-fieldset div.lic_note{width:482px; height: 115px; margin: 5px 0 3px 0; border:none; }
 #build_your_opus .build-fieldset div.lic_note p {font-size:11px;color:rgb(256,0,0); }
-#build_your_opus .build-fieldset div.logo.dlsg{margin:0px; padding: 30px 150px 0 150px; width:180px; height: 50px; position:relative; overflow:hidden; background: #fff;border:none;}
+#build_your_opus .build-fieldset div.logo.dlsg{margin:0; padding: 30px 150px 0 150px; width:180px; height: 50px; position:relative; overflow:hidden; background: #fff;border:none;}
 #build_your_opus .build-fieldset div.logo.opus{margin: 10px;width:295px; height: 126px; float: right; overflow:hidden; background: #fff;border:none;}
 #build_your_opus .discount-box{width:600px; height:70px; margin-left:300px; border:1px solid #aaa; border-radius:5px; }
 #build_your_opus .discount-box h3{margin:10px 20px 5px 20px; padding:0; float:left; }
@@ -125,5 +125,5 @@
 #build_your_opus .discount-box .captchabox .code{margin:0 30px;}
 #build_your_opus .discount-box .discount-rates{width: 200px;}
 #build_your_opus .discount-box input.apply-discount{margin:13px 10px 10px 10px; float:left; }
-#build_your_opus .discount-box p.caption{clear: both; width:100%; text-align: center; font-style: italic; font-size: 80%;}
-#build_your_opus .discount-box p.notification{text-align:center; font-style:italic; color:#888; font-size:80%;padding: 8px;}
+#build_your_opus .discount-box p.caption{clear: both; width:100%; text-align: center; font:80% 'LatoItalic',sans-serif;}
+#build_your_opus .discount-box p.notification{text-align:center; font:80% 'LatoItalic',sans-serif; color:#888;padding: 8px;}
