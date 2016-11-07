@@ -227,9 +227,7 @@
 
 #product-5tab div.panes h2.product-techspec {
     clear: left;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 120%;
+    font: 120% 'LatoBoldItalic', sans-serif;
     color: #454;
 }
 
@@ -350,8 +348,7 @@ div.panes input.submit {
 }
 
 span.feature-label {
-    font-weight: bold;
-    font-size: 120%;
+    font: 120% 'LatoBold', sans-serif;
     padding: 2px 4px;
 }
 
@@ -360,8 +357,7 @@ span.feature-label {
 }
 
 #product-content h2 {
-    font: 16px 'Lato', Helvetica, Arial, Verdana, sans-serif;
-    font-weight: bold;
+    font: 16px 'LatoBold', sans-serif;
     padding: 10px 25px;
     clear: both;
 }
@@ -372,7 +368,7 @@ span.feature-label {
 }
 
 #product-content li {
-    font: 13.5px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 13.5px 'Lato', sans-serif;
 }
 
 .product-techspec #click_label {

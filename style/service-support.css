@@ -36,8 +36,7 @@ fieldset {
 }
 
 input {
-    font-size: 1.6rem;
-    line-height: 3rem;
+    font: 1.6rem/3rem 'Lato', sans-serif;
     height: 30px;
     padding: 2px 5px;
     color: #202020;
@@ -50,21 +49,19 @@ input {
 }
 
 label {
+    font: 1.8rem/2rem 'Lato', sans-serif;
     display: block;
-    font-size: 1.8rem;
-    line-height: 2rem;
     margin: 5px 2px;
 }
 
 button {
+    font: 1.4rem/2rem 'Lato', sans-serif;
     background: #33b74b;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     color: #fff;
     border: none;
-    font-size: 1.4rem;
-    line-height: 2rem;
     padding: 5px 10px;
     cursor: pointer;
 }
@@ -175,8 +172,7 @@ button {
     top: -15px;
     right: 1px;
     transition: all 200ms;
-    font-size: 3rem;
-    font-weight: bold;
+    font: 3rem 'LatoBold', sans-serif;
     text-decoration: none;
     color: #333;
 }
@@ -313,8 +309,7 @@ a:hover {
 }
 
 .infoblock .infoblock__support-team-header-h2 {
-    font-size: 3.6rem;
-    line-height: 3.8rem;
+    font: 3.6rem/3.8rem 'LatoBold', 'sans-serif';
     padding: 15px 0 25px 0;
     position: absolute;
     top: 25px;
@@ -339,11 +334,12 @@ a:hover {
     padding: 15px 0 25px 25px;
 }
 
-.footer-bg{
+.footer-bg {
     padding: 0 20px 20px;
     box-sizing: border-box;
     margin-top: -100px;
 }
+
 /*Hybrid Library Educators*/
 .soft-team {
     padding: 20px 0 0;
@@ -367,11 +363,11 @@ a:hover {
     margin: 0 0 30px;
 }
 
-._advisory > div{
+._advisory > div {
     margin: 0 0 50px;
 }
 
-._bottom-container{
+._bottom-container {
     width: 80%;
     margin: 0 auto;
 }
@@ -422,7 +418,7 @@ a:hover {
 }
 
 .team-avatar .green-block p,
-.team-avatar .green-block strong{
+.team-avatar .green-block strong {
     transform: translateY(0);
     transition: 0.6s linear;
     padding: 0 3px;
@@ -438,7 +434,8 @@ a:hover {
 .team-avatar:hover .green-block strong {
     top: 203px;
 }
-.team-avatar:hover .green-block p{
+
+.team-avatar:hover .green-block p {
     transform: translateY(-50%);
     top: 50%;
 }
@@ -463,12 +460,12 @@ a:hover {
 }
 
 .name-team strong {
-    font-size: 20px;
+    font: 20px 'LatoBold', sans-serif;
     padding-top: 10%;
     display: block;
 }
 
-.pull-left-team{
+.pull-left-team {
     width: 50%;
     float: left;
     background-size: cover;
@@ -479,7 +476,7 @@ a:hover {
     margin-top: 10%;
 }
 
-.support-girl{
+.support-girl {
     position: relative;
     display: inline-block;
     background: url("http://upload.ted-kteam.com/KIC/images/support-girl.png") no-repeat;
@@ -487,20 +484,20 @@ a:hover {
     height: 508px;
 }
 
-.support-girl:after{
+.support-girl:after {
     content: '';
     position: absolute;
     top: 105px;
     left: 154px;
     background: url("http://upload.ted-kteam.com/KIC/images/hand.png");
-    width:111px;
+    width: 111px;
     height: 60px;
     background-size: auto;
     transform-origin: bottom left;
     transition: 1.5s;
 }
 
-.pull-left-team:hover .support-girl:after{
+.pull-left-team:hover .support-girl:after {
     left: 151px;
     transform: rotate(20deg);
 }
