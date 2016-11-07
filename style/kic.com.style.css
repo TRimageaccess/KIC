@@ -53,7 +53,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font: 13.5px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 13.5px 'Lato', sans-serif;
     background: #fff;
 }
 
@@ -77,12 +77,11 @@ h3 {
 }
 
 p {
-    font: 14px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 14px 'Lato', sans-serif;
 }
 
 .caption {
-    font-size: 90%;
-    font-style: italic;
+    font: 90% 'LatoItalic', sans-serif;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
 }
@@ -93,20 +92,19 @@ span.redflag {
 }
 
 span.emphasis {
-    font-weight: bold;
-    font-style: italic;
+    font-family: "LatoBoldItalic", sans-serif;
 }
 
 span.slanty {
-    font-style: italic;
+    font-family: "LatoItalic", sans-serif;
 }
 
 .mint {
-    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
+    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
 }
 
 .peppermint {
-    text-shadow: 2px 3px 7px #8ad, 1px 2px 3px #8ad, 0px 1px 2px #8ad, 0px 0px 1px #8ad;
+    text-shadow: 2px 3px 7px #8ad, 1px 2px 3px #8ad, 0 1px 2px #8ad, 0 0 1px #8ad;
 }
 
 ul.peppermint {
@@ -136,8 +134,7 @@ hr {
 
 .page-title h1 {
     text-align: center;
-    font-size: 200%;
-    font-style: italic;
+    font: 200% "LatoItalic", sans-serif;
 }
 
 .container {
@@ -156,8 +153,8 @@ hr {
 .viewport {
     width: 1200px;
     height: 720px;
-    margin: 0px 0px 0px 0px;
-    border: solid 0px #ccc;
+    margin: 0 0 0 0;
+    border: solid 0 #ccc;
     overflow: hidden;
     position: relative;
     color: #000;
@@ -183,8 +180,7 @@ hr {
 .f5-tab-wrap, .g5-tab-wrap {
     position: relative;
     display: block;
-    margin: 0;
-    margin-top: -130px;
+    margin: -130px 0 0;
     height: 140px;
     padding: 0;
     clear: left;
@@ -241,7 +237,7 @@ hr {
 .f5-tab li.active, .g5-tab li.active {
     cursor: default;
     background: #fff;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .f5-tab li:hover h2, .g5-tab li:hover h2, .f5-ov-buttons li:hover {
@@ -253,8 +249,7 @@ hr {
 .f5-tab li h2, .g5-tab li h2, .f5-ov-buttons li h2 {
     color: #000;
     width: 100%;
-    text-align: center;
-    margin: 0px 5px;
+    margin: 0 5px;
     line-height: 18px;
     font-size: 16px;
     text-align: center;
@@ -270,13 +265,10 @@ hr {
 .f5-pane, .g5-pane {
     width: 1200px;
     height: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 auto;
     overflow: hidden;
     position: relative;
-    border: 0px solid #888;
+    border: 0 solid #888;
     border-radius: 5px;
     box-shadow: 2px 3px 5px 5px #ccc;
     display: block;
@@ -338,17 +330,14 @@ hr {
 .pane_text_overlay ul {
     font-size: 210%;
     text-align: left;
-    padding: 4px;
     line-height: 38px;
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .pane_text_overlay ul li {
-    background-image: url(http://upload.ted-kteam.com/KIC/images/blue-bullet.png);
-    background-repeat: no-repeat;
-    background-position: 0px 15px;
+    background: url(http://upload.ted-kteam.com/KIC/images/blue-bullet.png) no-repeat 0 15px;
     padding-left: 24px;
 }
 
@@ -364,22 +353,15 @@ hr {
 }
 
 .pane_text_overlay2 ul {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 185%;
+    font: 185%/30px "LatoBoldItalic", sans-serif;
     text-align: left;
-    padding: 4px;
-    line-height: 30px;
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .pane_text_overlay2 ul li {
-    background-image: url(http://upload.ted-kteam.com/KIC/images/blue-bullet.png);
-    background-repeat: no-repeat;
-    background-position: 0px 10px;
+    background: url(http://upload.ted-kteam.com/KIC/images/blue-bullet.png) no-repeat 0 10px;
     padding-left: 24px;
 }
 
@@ -389,19 +371,15 @@ hr {
 }
 
 .pane_text_overlay.quote p {
-    font-size: 140%;
+    font: 140% "LatoBoldItalic", sans-serif;
     text-align: left;
     padding: 4px;
-    font-style: italic;
-    font-weight: bold;
 }
 
 .pane_text_overlay.quote p.attrib {
-    font-size: 110%;
+    font: 110% "Lato", sans-serif;
     text-align: right;
     padding: 4px;
-    font-style: normal;
-    font-weight: normal;
 }
 
 .pane_text_overlay.quote.centered_quote p {
@@ -464,7 +442,7 @@ hr {
 }
 
 .f5-navi a.active {
-    background-position: 0 0px;
+    background-position: 0 0;
 }
 
 #product-content {
@@ -495,7 +473,7 @@ hr {
 #product-content p {
     border-radius: 4px;
     box-shadow: 2px 3px 2px 1px #ddd;
-    font: 13.5px/18px 'Lato', Helvetica, Arial, Verdana, sans-serif;
+    font: 13.5px/18px 'Lato', sans-serif;
     padding: 5px 10px 5px 10px;
     background: #eee;
     margin: 8px 3px;
@@ -552,7 +530,7 @@ div.family-list-label {
     right: 50%;
     margin-top: 10px;
     padding: 2px 10px;
-    border: 0px solid #ddd;
+    border: 0 solid #ddd;
     border-radius: 6px;
     z-index: 20;
     background-color: #fff;
@@ -561,23 +539,20 @@ div.family-list-label {
 
 h2.family-list, h2.mint {
     right: 50%;
-    background: #fff;
     padding: 0 10px;
-    font-size: 180%;
-    line-height: 120%;
+    font: 180%/120% 'LatoBold', sans-serif;
     /* font-style:italic;text-decoration:underline;*/
-    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
-    background-color: #fff;
+    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
+    background: #fff;
 }
 
 h3.family-list, h3.mint {
     margin-left: -.1em;
     margin-right: 0.3em;
     margin-bottom: .5em;
-    font-size: 150%;
-    line-height: 120%;
+    font: 150%/120% 'LatoBold', sans-serif;
     /* font-style:italic;text-decoration:none;*/
-    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
+    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
 }
 
 h3.peppermint {
@@ -587,8 +562,7 @@ h3.peppermint {
     font-size: 150%;
     line-height: 120%;
     /* font-style:italic;text-decoration:none;*/
-    text-shadow: none;
-    text-shadow: 2px 3px 7px #8ad, 1px 2px 3px #8ad, 0px 1px 2px #8ad, 0px 0px 1px #8ad;
+    text-shadow: 2px 3px 7px #8ad, 1px 2px 3px #8ad, 0 1px 2px #8ad, 0 0 1px #8ad;
 }
 
 h2.family-list a, h2.mint a {
@@ -630,16 +604,14 @@ div.family-list li a p {
     background: linear-gradient(top, #c9eadb, #449a5a);
     margin: 0 4px;
     padding: 4px;
-    font-size: 100%;
-    font-weight: bold;
-    line-height: 20px;
+    font: 100%/20px 'LatoBold', sans-serif;
     border-radius: 4px;
     text-align: center;
     box-shadow: 1px 2px 1px 1px #ccc;
 }
 
 div.family-list li a:hover p {
-    margin: 0 0px;
+    margin: 0 0;
     padding: 4px 8px;
     line-height: 22px;
     border-radius: 8px;
@@ -664,18 +636,17 @@ div.family-list li a:hover p {
     width: 100%;
     padding: 0;
     border-collapse: collapse;
-    border: 0px;
+    border: 0;
 }
 
 .w3c tr {
-    border: 0px;
+    border: 0;
 }
 
 .w3c td {
-    font-size: 12px;
     color: #333;
-    font-style: italic;
-    border: 0px;
+    font: 12px 'LatoItalic', sans-serif;
+    border: 0;
     background-color: #fff;
 }
 
@@ -685,7 +656,7 @@ ul.copyright li {
 }
 
 ul.copyright li p a {
-    font: 11px 'Lato', arial, helvetica, sans-serif;
+    font: 11px 'Lato', sans-serif;
     float: left;
     padding: 3px 4px;
 }
@@ -696,8 +667,7 @@ ul.copyright li img {
 }
 
 ul.copyright li.copy a {
-    font: bold 13px 'Lato', arial, helvetica, sans-serif;
-    line-height: 14px;
+    font: 13px/14px 'LatoBold', sans-serif;
     padding: 4px 4px;
 }
 
@@ -706,10 +676,8 @@ ul.copyright li.copy a {
     margin-top: 5px;
     margin-left: 100px;
     width: 1100px;
-    background-image: url(http://upload.ted-kteam.com/KIC/images/family-scan.png);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    font: 14px Helvetica, Arial, Verdana, sans-serif;
+    background: url(http://upload.ted-kteam.com/KIC/images/family-scan.png) no-repeat 0 0;
+    font: 14px "Lato", sans-serif;
 }
 
 #about h3 {
@@ -727,9 +695,7 @@ ul.copyright li.copy a {
 #about_logo {
     width: 350px;
     height: 105px;
-    background-image: url(http://upload.ted-kteam.com/KIC/images/DSLG-and-IA-Logos.png);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background: url(http://upload.ted-kteam.com/KIC/images/DSLG-and-IA-Logos.png) no-repeat 0 0;
     margin: 20px 10px;
     float: left;
     clear: right;
@@ -741,7 +707,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 640px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask2 {
@@ -749,7 +715,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 640px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask3 {
@@ -757,7 +723,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 640px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask4 {
@@ -765,7 +731,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 610px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask5 {
@@ -773,7 +739,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 570px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask6 {
@@ -781,7 +747,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 520px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask7 {
@@ -789,7 +755,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 470px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask8 {
@@ -797,7 +763,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 450px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask9 {
@@ -805,7 +771,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 460px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask10 {
@@ -813,7 +779,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 470px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask11 {
@@ -821,7 +787,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 450px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask12 {
@@ -829,7 +795,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 440px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask13 {
@@ -837,7 +803,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 430px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask14 {
@@ -845,7 +811,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 460px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask15 {
@@ -853,7 +819,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 480px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask16 {
@@ -861,7 +827,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 510px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask17 {
@@ -869,7 +835,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 580px;
     height: 34px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask18 {
@@ -877,7 +843,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 620px;
     height: 38px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask19 {
@@ -885,7 +851,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 660px;
     height: 38px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #about_mask20 {
@@ -893,7 +859,7 @@ ul.copyright li.copy a {
     clear: right;
     width: 1080px;
     height: 275px;
-    border: solid 0px #eee;
+    border: solid 0 #eee;
 }
 
 #history {
@@ -916,8 +882,7 @@ ul.copyright li.copy a {
     text-align: center;
     width: 553px;
     height: 255px;
-    border-style: solid;
-    border-width: 0px;
+    border: 0 solid;
 }
 
 .support-address {
@@ -925,7 +890,7 @@ ul.copyright li.copy a {
     width: 400px;
     float: left;
     height: auto;
-    border: 0px solid #aaa;
+    border: 0 solid #aaa;
     margin: 0;
     border-radius: 5px;
     padding: 20px;
@@ -936,10 +901,9 @@ ul.copyright li.copy a {
 }
 
 .support-address .support-address-1 {
-    font-size: 18px;
-    font-weight: bold;
+    font: 18px 'LatoBold', sans-serif;
     margin-top: 18px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .support-address .support-address-2 {
@@ -961,7 +925,7 @@ ul.copyright li.copy a {
 }
 
 .support-button img {
-    border-width: 0px;
+    border-width: 0;
     margin-top: -7px;
 }
 
@@ -980,13 +944,13 @@ ul.copyright li.copy a {
 }
 
 .support-photo {
-    margin: 120px 0px 20px 20px;
+    margin: 120px 0 20px 20px;
     float: right;
     text-align: center;
     width: 355px;
     height: 270px;
     border-style: solid;
-    border-width: 0px
+    border-width: 0
 }
 
 .support-triple {
@@ -1079,8 +1043,7 @@ h2.ov_title {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.75em;
+    font: 0.75em 'Lato', sans-serif;
 }
 
 .mid-panel {
@@ -1103,8 +1066,7 @@ h2.ov_title {
 
 .mid-panel ul {
     margin: 10px 25px;
-    list-style-type: square;
-    list-style-image: url(http://upload.ted-kteam.com/KIC/images/green-bullet.png);
+    list-style: square url(http://upload.ted-kteam.com/KIC/images/green-bullet.png);
 }
 
 .mid-panel p {
@@ -1128,11 +1090,8 @@ tr {
 
 th {
     color: #000;
-    background-color: #ccc;
-    background-image: url(http://upload.ted-kteam.com/KIC/images/greengreenstrip.png);
-    background-repeat: repeat-x;
-    font-weight: bold;
-    font-size: 110%;
+    background: #ccc url(http://upload.ted-kteam.com/KIC/images/greengreenstrip.png) repeat-x;
+    font: 110% 'LatoBold', sans-serif;
     padding: .4em 5px .2em 5px;
 }
 
@@ -1238,35 +1197,28 @@ td {
 }
 
 #kic_pane_popular_01 p {
-    font-style: italic;
-    font-size: 150%;
+    font: 150%/1.7em 'LatoItalic', sans-serif;
     color: #000;
-    line-height: 1.7em;
 }
 
 #kic_pane_popular_02 p {
-    font-style: italic;
-    font-size: 80%;
+    font: 80% 'LatoItalic', sans-serif;
     color: #000;
 }
 
 #kic_pane_easy_01 p {
-    font-style: italic;
-    font-size: 250%;
+    font: 250% 'LatoItalic', sans-serif;
     color: #000;
 }
 
 #kic_pane_easy_02 p {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 150%;
+    font: 150% 'LatoBoldItalic', sans-serif;
     color: #afa;
     padding: 8px;
 }
 
 #kic_pane_versatile_01 p {
-    font-style: italic;
-    font-size: 150%;
+    font: 150% 'LatoItalic', sans-serif;
     color: #f00;
 }
 
@@ -1284,8 +1236,7 @@ td {
 }
 
 .items div.pane_text_overlay-kic p {
-    font-size: 225%;
-    line-height: 35px;
+    font: 225%/35px 'Lato', sans-serif;
     text-align: center;
 }
 
@@ -1394,10 +1345,7 @@ td {
 }
 
 .pane_text_overlay.quote.opus_bar p {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 9pt;
+    font: 9pt "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.opus_block {
@@ -1405,11 +1353,7 @@ td {
 }
 
 .pane_text_overlay.quote.opus_block p {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 8pt;
-    line-height: 100%;
+    font: 8pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag {
@@ -1417,207 +1361,109 @@ td {
 }
 
 .pane_text_overlay.quote.product_tag p {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14pt;
-    line-height: 100%;
+    font: 14pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag2 p {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17pt;
-    line-height: 100%;
+    font: 17pt/100% "LatoBold", sans-serif;
     color: #555;
-    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;
+    text-shadow: 2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0 1px 2px #a2b3a1, 0 0 1px #a2b3a1;
 }
 
 .pane_text_overlay.quote.product_tag3 p {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10pt;
-    line-height: 100%;
+    font: 10pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag3 h1 {
-    font: 14px "Arial Black", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 84pt;
-    line-height: 100%;
+    font: 84pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag3 h2 {
-    font: 14px "Arial Black", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25pt;
-    line-height: 100%;
+    font: 25pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag3 sup {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15pt;
-    line-height: 100%;
+    font: 15pt/100% "Lato", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag4 h2 {
-    font-style: italic;
-    font-size: 34pt;
-    line-height: 100%;
+    font: 34pt/100% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag5 p {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10pt;
-    line-height: 100%;
+    font: 10pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag6 h1 {
-    font: 14px "Arial Black", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 69pt;
-    line-height: 100%;
+    font: 69pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag6 h2 {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23pt;
-    line-height: 100%;
+    font: 23pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag7 h1 {
-    font: 14px "Arial Black", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 78pt;
-    line-height: 100%;
+    font: 78pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag7 h2 {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26pt;
-    line-height: 100%;
+    font: 26pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag8 h1 {
-    font: 14px "Arial Black", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 65pt;
-    line-height: 100%;
+    font: 65pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag9 p {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14pt;
-    line-height: 100%;
+    font: 14pt/100% "Lato", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag9 sup {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18pt;
-    line-height: 100%;
+    font: 18pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.product_tag9 h2 {
-    font: 14px "Arial Black", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 37.5pt;
-    line-height: 100%;
+    font: 37.5pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag h2 {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50pt;
-    line-height: 100%;
+    font: 50pt/100% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag2 h2 {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 37pt;
-    line-height: 100%;
+    font: 37pt/100% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag2 p {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 25pt;
-    line-height: 105%;
+    font: 25pt/105% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag3 p {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 23pt;
-    line-height: 105%;
+    font: 23pt/105% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag4 p {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 23pt;
-    line-height: 105%;
+    font: 23pt/105% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag5 p {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 18pt;
-    line-height: 105%;
+    font: 18pt/105% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag6 h2 {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 34pt;
+    font: 34pt "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag7 h2 {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 21pt;
-    line-height: 95%;
+    font: 21pt/95% "LatoBoldItalic", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag8 h2 {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22pt;
-    line-height: 95%;
+    font: 22pt/95% "LatoBold", sans-serif;
 }
 
 .pane_text_overlay.quote.slide_tag9 h1 {
-    font: 14px "Arial Narrow", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 90pt;
-    line-height: 95%;
+    font: 90pt/95% "LatoBold", sans-serif;
 }
 
 #quote-001 {
@@ -1721,15 +1567,12 @@ td {
 }
 
 #quote-016 h1 {
-    font-style: italic;
+    font: 27pt "LatoBoldItalic", sans-serif;
     font-weight: 900;
-    font-size: 27pt;
 }
 
 #quote-016 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt "Lato", sans-serif;
 }
 
 #quote-017 {
@@ -1739,9 +1582,7 @@ td {
 }
 
 #quote-017 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt "Lato", sans-serif;
 }
 
 #quote-018 {
@@ -1751,15 +1592,12 @@ td {
 }
 
 #quote-018 h1 {
-    font-style: italic;
+    font: 27pt "LatoBoldItalic", sans-serif;
     font-weight: 900;
-    font-size: 27pt;
 }
 
 #quote-018 p {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt "LatoItalic", sans-serif;
 }
 
 #quote-019 {
@@ -1769,15 +1607,12 @@ td {
 }
 
 #quote-019 h1 {
-    font-style: italic;
+    font: 27pt "LatoItalic", sans-serif;
     font-weight: 900;
-    font-size: 27pt;
 }
 
 #quote-019 p {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt "LatoItalic", sans-serif;
 }
 
 #quote-020 {
@@ -1787,15 +1622,12 @@ td {
 }
 
 #quote-020 h1 {
-    font-style: italic;
+    font: 24pt "LatoItalic", sans-serif;
     font-weight: 900;
-    font-size: 24pt;
 }
 
 #quote-020 p {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt "LatoItalic", sans-serif;
 }
 
 #quote-021 {
@@ -1805,9 +1637,7 @@ td {
 }
 
 #quote-021 p {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt "LatoItalic", sans-serif;
 }
 
 #quote-022 {
@@ -1817,16 +1647,12 @@ td {
 }
 
 #quote-022 h1 {
-    font-style: normal;
+    font: 600%/80px "LatoBold", sans-serif;
     font-weight: 900;
-    font-size: 600%;
-    line-height: 80px;
 }
 
 #quote-022 p {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16pt;
+    font: 16pt "LatoItalic", sans-serif;
 }
 
 #quote-023 {
@@ -1836,9 +1662,7 @@ td {
 }
 
 #quote-023 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10pt;
+    font: 10pt "Lato", sans-serif;
 }
 
 #quote-024 {
@@ -1848,9 +1672,7 @@ td {
 }
 
 #quote-024 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10pt;
+    font: 10pt "Lato", sans-serif;
 }
 
 #quote-025 {
@@ -1860,9 +1682,7 @@ td {
 }
 
 #quote-025 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 8pt;
+    font: 8pt "Lato", sans-serif;
 }
 
 #quote-026 {
@@ -1872,9 +1692,7 @@ td {
 }
 
 #quote-026 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12pt;
+    font: 12pt "Lato", sans-serif;
 }
 
 #quote-027 {
@@ -1884,15 +1702,11 @@ td {
 }
 
 #quote-027 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12pt;
+    font: 12pt "Lato", sans-serif;
 }
 
 #quote-027 p.star {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 8pt;
+    font: 8pt "Lato", sans-serif;
     margin-top: 8px;
 }
 
@@ -1903,9 +1717,7 @@ td {
 }
 
 #quote-028 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 8pt;
+    font: 8pt "Lato", sans-serif;
 }
 
 #quote-029 {
@@ -1915,9 +1727,7 @@ td {
 }
 
 #quote-029 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 8pt;
+    font: 8pt "Lato", sans-serif;
 }
 
 #quote-030 {
@@ -1927,6 +1737,7 @@ td {
 }
 
 #quote-030 p {
+    font: 8pt "Lato", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 8pt;
@@ -1939,18 +1750,14 @@ td {
 }
 
 #quote-031 h1 {
-    font-style: italic;
+    font: 27pt/100% "LatoBoldItalic", sans-serif;
     font-weight: 900;
-    font-size: 27pt;
-    line-height: 100%;
 }
 
 #quote-031 h1.shift {
-    font-style: italic;
+    font: 27pt/100% "LatoBoldItalic", sans-serif;
     font-weight: 900;
-    font-size: 27pt;
     margin-left: 150px;
-    line-height: 100%;
 }
 
 #quote-032 {
@@ -1960,9 +1767,7 @@ td {
 }
 
 #quote-032 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt "Lato", sans-serif;
     text-indent: 50px;
 }
 
@@ -1973,9 +1778,7 @@ td {
 }
 
 #quote-033 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10pt;
+    font: 10pt "Lato", sans-serif;
 }
 
 #quote-034 {
@@ -1985,9 +1788,7 @@ td {
 }
 
 #quote-034 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt "Lato", sans-serif;
     text-indent: 50px;
 }
 
@@ -1998,9 +1799,7 @@ td {
 }
 
 #quote-035 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt "Lato", sans-serif;
     text-indent: 50px;
 }
 
@@ -2011,9 +1810,7 @@ td {
 }
 
 #quote-036 p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11pt;
+    font: 11pt "Lato", sans-serif;
     text-indent: 50px;
 }
 
@@ -2024,18 +1821,11 @@ td {
 }
 
 #quote-037 h2 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40pt;
-    line-height: 100%;
+    font: 40pt/100% "LatoBold", sans-serif;
 }
 
 #quote-037 p {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20pt;
-    line-height: 100%;
+    font: 20pt/100% "LatoBold", sans-serif;
 }
 
 #quote-038 {
@@ -2045,10 +1835,7 @@ td {
 }
 
 #quote-038 p {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23pt;
+    font: 23pt "LatoBold", sans-serif;
 }
 
 #quote-039 {
@@ -2058,20 +1845,14 @@ td {
 }
 
 #quote-039 h2 {
-    font-style: normal;
+    font: 23pt/100% "LatoBold", sans-serif;
     font-weight: 900;
-    font-size: 23pt;
     text-align: center;
-    line-height: 100%;
 }
 
 #quote-039 p {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14pt;
+    font: 14pt/100% "LatoBold", sans-serif;
     text-align: center;
-    line-height: 100%;
 }
 
 #quote-040 {
@@ -2568,7 +2349,7 @@ td {
 
 #NewsEvents #cycle-control {
     top: 686px;
-    left: 0px;
+    left: 0;
 }
 
 #cycle-control div {
@@ -2586,15 +2367,15 @@ td {
 }
 
 #cycle-control .play.active {
-    background: url(http://upload.ted-kteam.com/KIC/images/play-pause.jpg) 0px -20px no-repeat;
+    background: url(http://upload.ted-kteam.com/KIC/images/play-pause.jpg) 0 -20px no-repeat;
 }
 
 #cycle-control .pause {
-    background: url(http://upload.ted-kteam.com/KIC/images/play-pause.jpg) -20px 0px no-repeat;
+    background: url(http://upload.ted-kteam.com/KIC/images/play-pause.jpg) -20px 0 no-repeat;
 }
 
 #cycle-control .pause.active {
-    background: url(http://upload.ted-kteam.com/KIC/images/play-pause.jpg) 0px 0px no-repeat;
+    background: url(http://upload.ted-kteam.com/KIC/images/play-pause.jpg) 0 0 no-repeat;
 }
 
 div.cycle {
@@ -2636,7 +2417,7 @@ div.cycle div {
 }
 
 #cyclenav a.activeSlide, .cyclenav a.activeSlide {
-    background-position: 0 0px;
+    background-position: 0 0;
 }
 
 #cyclenav a:hover, .cyclenav a:hover {
@@ -2687,12 +2468,11 @@ div.cycle div {
 
 #news_story_box p {
     margin: 6px;
-    font-size: 100%;
+    font: 100% "Lato", sans-serif;
 }
 
 #news_story_box p.news_location {
-    font-style: italic;
-    font-size: 110%;
+    font: 110% "LatoItalic", sans-serif;
 }
 
 #news_story_box .close_btn {
@@ -2761,7 +2541,7 @@ div.cycle div {
     top: 0;
     left: 0;
     padding: 0;
-    margin: 60px 0px 0px 0px;
+    margin: 60px 0 0 0;
     z-index: 3;
     border: 1px solid #888;
     border-radius: 4px;
@@ -2784,8 +2564,7 @@ div.cycle div {
 }
 
 .news_header h2 {
-    font-size: 200%;
-    font-style: italic;
+    font: 200% "LatoItalic", sans-serif;
     text-align: center;
     text-decoration: none;
     margin: 5px 10px 15px 10px;
@@ -2845,8 +2624,7 @@ div.cycle div {
     right: 0;
     width: 285px;
     height: 330px;
-    padding: 10px;
-    padding-right: 0;
+    padding: 10px 0 10px 10px;
     z-index: 2;
     border: 1px solid #888;
     border-radius: 4px;
@@ -2866,8 +2644,7 @@ div.cycle div {
 }
 
 .event_header h2 {
-    font-size: 150%;
-    font-style: italic;
+    font: 150% 'LatoBoldItalic', sans-serif;
     text-align: center;
     text-decoration: none;
     margin: 2px 0 5px 0;
@@ -2940,12 +2717,11 @@ div.cycle div {
 }
 
 .event_content p.news_location {
-    font-style: italic;
-    font-size: 110%;
+    font: 110% 'LatoItalic', sans-serif;
 }
 
 .event_title {
-    font-size: 120%;
+    font: 120% 'LatoBold', sans-serif;
     float: left;
     margin: 4px 15px;
     text-align: left;
@@ -2955,8 +2731,8 @@ div.cycle div {
 }
 
 .event_date {
+    font: 100% 'Lato', sans-serif;
     width: 7em;
-    font-size: 100%;
     float: right;
     margin: 4px 15px;
     text-align: right;
@@ -2971,8 +2747,7 @@ div.cycle div {
 }
 
 .build-a-kic p {
-    font-size: 150%;
-    font-style: italic;
+    font: 150% 'LatoItalic', sans-serif;
     text-align: center;
     width: 670px;
     float: left;
@@ -2985,7 +2760,7 @@ div.cycle div {
 .formset {
     width: 670px;
     float: left;
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 
 #commentForm fieldset {
@@ -2996,8 +2771,7 @@ div.cycle div {
 }
 
 #commentForm legend {
-    font-size: 150%;
-    font-style: italic;
+    font: 150% 'LatoItalic', sans-serif;
     padding: 0 10px;
 }
 
@@ -3007,7 +2781,7 @@ div.cycle div {
 
 #commentForm em {
     float: left;
-    width: 0px;
+    width: 0;
     color: #f00;
 }
 
@@ -3062,29 +2836,26 @@ div.cycle div {
 }
 
 #commentForm em {
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif;
     padding-right: 1em;
     vertical-align: top;
 }
 
 #show_postcard {
-    background-image: url(http://upload.ted-kteam.com/KIC/images/invite-kic.jpg);
-    background-repeat: no-repeat;
+    background: url(http://upload.ted-kteam.com/KIC/images/invite-kic.jpg) no-repeat;
     height: 1152px;
     width: 603px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.75em;
+    font: 0.75em 'Lato', sans-serif;
 }
 
 #show_postcard_title {
     padding-top: 50px;
     padding-left: 330px;
-    font-size: 1.6em;
+    font: 1.6em 'LatoBold', sans-serif;
     color: #666666;
-    font-weight: bold;
 }
 
 #show_postcard_top_reg {
@@ -3096,19 +2867,15 @@ div.cycle div {
 #show_postcard_block_1a p {
     margin-top: 40px;
     padding-left: 40px;
-    font-family: Georgia, Times, serif;
-    font-size: 2.1em;
+    font: 2.1em 'LatoBold', serif;
     color: #fff;
-    font-weight: bold;
 }
 
 #show_postcard_block_1b p {
     margin-top: 15px;
     padding-left: 160px;
-    font-family: Georgia, Times, serif;
-    font-size: 2.0em;
+    font: 2.0em 'LatoBold', sans-serif;
     color: #fff;
-    font-weight: bold;
     font-style: oblique;
 }
 
@@ -3157,11 +2924,8 @@ div.cycle div {
 }
 
 #show_postcard_privacy {
-    margin-top: 1px;
     width: 520px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    margin: 1px auto 10px;
 }
 
 #show_postcard_privacy .privacy_policy {
@@ -3171,10 +2935,9 @@ div.cycle div {
 }
 
 #show_postcard_privacy .privacy_policy_slanty p {
-    font-size: 0.9em;
+    font: 0.9em 'LatoItalic', sans-serif;
     color: #336666;
     padding: 2px;
-    font-style: italic;
 }
 
 .gallery-intro {
@@ -3198,7 +2961,7 @@ div.cycle div {
 
 span.mildHL {
     text-decoration: underline;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif;
 }
 
 #newsTicker {
@@ -3214,8 +2977,7 @@ span.mildHL {
     float: left;
     margin: 0;
     padding: 0;
-    font-size: 14pt;
-    font-style: italic;
+    font: 14pt 'LatoItalic', sans-serif;
     color: #0000ff;
     white-space: nowrap;
 }
@@ -3248,7 +3010,7 @@ span.mildHL {
 }
 
 #contact_large_image p {
-    font: 34pt "Arial Narrow", Arial, Verdana, sans-serif;
+    font: 34pt 'Lato', sans-serif;
     color: #eee;
 }
 
@@ -3285,7 +3047,7 @@ span.mildHL {
 }
 
 #contact_infobox p {
-    font: 18pt "Arial Narrow", Arial, Verdana, sans-serif;
+    font: 18pt "Lato", sans-serif;
     text-align: right;
 }
 
@@ -3330,7 +3092,7 @@ span.mildHL {
 }
 
 #contact_infobox div.button p.caption {
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif;
     margin-top: 18px;
 }
 
@@ -3801,7 +3563,7 @@ span.align-right.padding-bottom-none.feature-table {
 }
 
 .bold-dollar {
-    font-weight: bold;
+    font-family: 'LatoBold',sans-serif;
     font-size: 1.6rem;
 }
 
@@ -3902,12 +3664,12 @@ span.align-right.padding-bottom-none.feature-table {
 }
 
 .dlos_usb_h3 {
-    font-weight: bold;
+    font-family: 'LatoBold',sans-serif;
     text-align: center;
 }
 
 .saw_style {
-    font-style: italic;
+    font-family: 'LatoItalic',sans-serif;
     text-align: center;
     line-height: 30px;
 }
@@ -3921,7 +3683,7 @@ span.align-right.padding-bottom-none.feature-table {
 }
 
 .span-italic {
-    font-style: italic;
+    font-family: 'LatoItalic',sans-serif;
 }
 
 .width_67_percents {
