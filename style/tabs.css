@@ -384,3 +384,8 @@ span.feature-label {
     left: 635px;
     width: 90px;
 }
+
+#product-content div.product-techspec p.product-techspec-data-size {
+    margin: 0;
+    padding: 0 20px 0 0;
+}

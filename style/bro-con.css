@@ -5950,9 +5950,9 @@ div.dn_arrow {
 
 #CCM-1125 {
     position: absolute;
-    top: 778px;
+    top: 771px;
     left: 238px;
-    width: 120px;
+    width: 200px;
 }
 
 #CCM-1126 {
@@ -5964,9 +5964,9 @@ div.dn_arrow {
 
 #CCM-1127 {
     position: absolute;
-    top: 778px;
+    top: 771px;
     left: 832px;
-    width: 120px;
+    width: 200px;
 }
 
 #CCM-1128 {
@@ -8229,4 +8229,9 @@ div.dn_arrow {
 
 .title-hidden {
     display: none;
+}
+
+.container .brochure-block-wrap #CCM-11 .power-kic-click{
+    font-size: 13px;
+    line-height: 14px;
 }
