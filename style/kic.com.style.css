@@ -2334,6 +2334,13 @@ td {
     padding: 0;
 }
 
+#quote-127 {
+    top: 110px;
+    left: 220px;
+    width: 500px;
+    color: rgb(130, 130, 130);
+}
+
 #cycle-control {
     position: absolute;
     display: block;
@@ -3304,7 +3311,7 @@ div#kic-slide-features1 ul {
     background: -ms-linear-gradient(top, #c9eadb, #449a5a);
     background: linear-gradient(top, #c9eadb, #449a5a);
     padding: 4px;
-    font: 100%/20px 'LatoBold',sans-serif;
+    font: 100%/20px 'LatoBold', sans-serif;
     border: 1px solid #888;
     border-radius: 4px;
     text-align: center;
@@ -3323,7 +3330,7 @@ div#kic-slide-features1 ul {
     background: linear-gradient(top, #c9eadb, #449a5a);
     margin: 0 2px 2px !important;
     padding: 4px 10px;
-    font: 100%/20px 'LatoBold',sans-serif;
+    font: 100%/20px 'LatoBold', sans-serif;
     border-radius: 4px;
     text-align: center;
     box-shadow: 1px 2px 1px 1px #ccc;
