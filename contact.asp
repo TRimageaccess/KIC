@@ -34,17 +34,19 @@
     <link href="style/smoothDivScroll.css" rel="stylesheet" />
 </head>
 <body>
-<div class="container">
+<div class="container" itemscope itemtype="http://schema.org/Organization">
     <header id="header"></header>
     <div class="viewport" id="contact_vp">
-<div id="contact_logobox"><img width="300" height="80" src="http://upload.ted-kteam.com/KIC/images/DSLG-and-IA-Logos.png" alt="DLSG and Image Access Logos"></div>
+<div id="contact_logobox">
+<img width="300" height="80" src="http://upload.ted-kteam.com/KIC/images/DSLG-and-IA-Logos.png" alt="DLSG and Image Access Logos" itemprop="logo">
+</div>
 <div id="contact_headsetpeople"><img src="http://upload.ted-kteam.com/KIC/images/headset_people.jpg" alt="several support personnel wearing telephone headsets"></div>
 <div id="contact_techvanbox"><img src="http://upload.ted-kteam.com/KIC/images/service_tech_with_van.png" alt="Van with service Technician"></div>
 <div id="contact_large_image">
   <img src="http://upload.ted-kteam.com/KIC/images/parking_lot.jpg" alt="street level view of DLSG headquarters">
-  <p class="contact image_overlay title"> DLSG is a division of Image Access, Inc. </p>
-  <p class="contact image_overlay address"> 543 NW 77th Street, Boca Raton, FL 33487 </p>
-  <p class="contact image_overlay subtitle"> Image Access, Inc. </p>
+  <p class="contact image_overlay title" itemprop="brand"> DLSG is a division of Image Access, Inc. </p>
+  <p class="contact image_overlay address" itemprop="address"> 543 NW 77th Street, Boca Raton, FL 33487 </p>
+  <p class="contact image_overlay subtitle" itemprop="department"> Image Access, Inc. </p>
   <img src="http://upload.ted-kteam.com/KIC/images/contact-lower.jpg" alt="collage of corporate images">
 </div>
 
@@ -55,8 +57,8 @@
     <p class="tag"> Email</p>
   </div>
   <div class="phone">
-    <p class="phone"> 800.378.5432 </p>
-    <p class="email_link"> <a href="mailto:contactus@dlsg.com">ContactUs@DLSG.com</a> </p>
+    <p class="phone" itemprop="telephone"> 800.378.5432 </p>
+    <p class="email_link"> <a href="mailto:contactus@dlsg.com" itemprop="email">ContactUs@DLSG.com</a> </p>
   </div>
   <div class="button">
     <a href="mailto:contactus@dlsg.com"> <img src="http://upload.ted-kteam.com/KIC/images/Email-green.jpg" alt="email button"></a>

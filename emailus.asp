@@ -34,16 +34,16 @@
     <link href="style/smoothDivScroll.css" rel="stylesheet" />
 </head>
 <body>
-  <div class="container">
+  <div class="container" itemscope itemtype="http://schema.org/Organization">
     <header id="header"></header>
     <div class="viewport" id="contact_vp">
         <div class="support-address">
-  <img src="http://upload.ted-kteam.com/KIC/images/DSLG and IA Logos.jpg" alt="DSLG and IA Logos">
-  <p class="support-address-1"> Digital Library Systems Group </p>
-  <p class="support-address-2"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
-  <p> Telephone: (561) 995-6939 <br>
+  <img src="http://upload.ted-kteam.com/KIC/images/DSLG and IA Logos.jpg" alt="DSLG and IA Logos" itemprop="logo">
+  <p class="support-address-1" itemprop="brand"> Digital Library Systems Group </p>
+  <p class="support-address-2" itemprop="address"> 543 NW 77th Street <br> Boca Raton, FL. USA 33487 </p>
+  <p itemprop="telephone"> Telephone: (561) 995-6939 <br>
       Fax: (561) 431-2766<br>
-      Email: <a href="mailto:support@dlsg.net">support@dlsg.net</a>
+      Email: <a href="mailto:support@dlsg.net" itemprop="email">support@dlsg.net</a>
   </p>
   <p class="caption"> Note: a red asterisk, (<span class="redflag">*</span>), denotes a required field. </p>  
   <img src="http://upload.ted-kteam.com/KIC/images/Collage_3_Products.jpg" alt="Collage Products" width="300">
