@@ -77,10 +77,8 @@
 </div>
 
 <div class="formset">
-<form class="contactform" id="commentForm" action="script/formmail.asp" method="post" >
-			 <input name="_recipients"  type="hidden" value="orders@dlsg.com">
-			 <input name="_subject"     type="hidden" value="Message from the how-to-order.html web-form">
-			 <input name="_redirectUrl" type="hidden" value="/thankyou.html">
+<form class="contactform" id="commentForm" action="php/form/form.php" method="post" >
+			 <input name="type"  type="hidden" value="RequestInfo">
        
 <% Session("MyBotCheckID234") = Now() %>
  
@@ -111,7 +109,7 @@
   </p>
   <p>
    <label for="telephone">Telephone #</label>
-   <em>*</em><input id="telephone" name="company_info--telephone" size="25" class="required phoneUS" />
+   <em>*</em><input id="telephone" name="company_info--telephone" size="25" class="required" />
   </p>
   <p>
    <label for="fax">Fax #</label>
