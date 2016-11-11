@@ -9,8 +9,8 @@
 abstract class Mailer
 {
     protected $subject = 'New Email';
-    //protected $to = 'contactus@dlsg.com';
-    protected $to = 'vadiktok@gmail.com';
+    protected $to = 'contactus@dlsg.com';
+    //protected $to = 'vadiktok@gmail.com';
     protected $redirect = '/';
 
     protected $data;
