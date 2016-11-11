@@ -50,6 +50,45 @@
     url('../fonts/LatoBoldItalic.svg#LatoBoldItalic') format('svg')
 }
 
+/*icon fonts*/
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?xc2vdr');
+    src: url('../fonts/icomoon.eot?xc2vdr#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?xc2vdr') format('truetype'),
+    url('../fonts/icomoon.woff?xc2vdr') format('woff'),
+    url('../fonts/icomoon.svg?xc2vdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google-plus:before {
+    content: "\ea8b";
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+
+.icon-linkedin2:before {
+    content: "\eaca";
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -3684,4 +3723,54 @@ span.align-right.padding-bottom-none.feature-table {
 
 .width_67_percents {
     width: 67%;
+}
+
+/*share*/
+.share {
+    position: fixed;
+    left: 0;
+    bottom: 10%;
+    font-size: 20px;
+    line-height: 0;
+}
+
+.share ul{
+    list-style: none;
+    position: relative;
+}
+.share_link {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.share a:hover{
+    width: 50px;
+}
+
+
+
+.share_link span{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.share_link--google {
+    background: #dc4e41;
+}
+
+.share_link--face {
+    background: #3b5998;
+}
+
+.share_link--link {
+    background: #1a85bc;
 }
