@@ -8,7 +8,8 @@
  */
 class ContactMailer extends Mailer
 {
-    protected $subject = 'Message from the contact.html web-form';
+    protected $subject = 'Message from the Contact page on KIC.com';
+    protected $to = 'contactus@dlsg.com';
     protected $redirect = '/thankyou.html';
 
     protected function getContent() {

@@ -8,9 +8,9 @@
  */
 class RequestInfoMailer extends Mailer
 {
-    protected $subject = 'Message from the how-to-order.html web-form';
+    protected $subject = 'Message from the How To Order page on KIC.com';
+    protected $to = 'orders@dlsg.com';
     protected $redirect = '/thankyou.html';
-    //protected $to = 'orders@dlsg.com';
 
     protected function getContent() {
         extract($this->data);
