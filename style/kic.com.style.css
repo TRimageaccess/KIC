@@ -3732,6 +3732,7 @@ span.align-right.padding-bottom-none.feature-table {
     bottom: 10%;
     font-size: 20px;
     line-height: 0;
+    display: none;
 }
 
 .share ul{
