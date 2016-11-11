@@ -8,9 +8,9 @@
  */
 class EmailUsMailer extends Mailer
 {
-    protected $subject = 'Message from the emailus.html web-form';
+    protected $subject = 'Message from the Contact Support page on KIC.com';
+    protected $to = 'support@dlsg.net';
     protected $redirect = '/thankyou.html';
-    //protected $to = 'support@dlsg.net';
 
     protected function getContent() {
         extract($this->data);

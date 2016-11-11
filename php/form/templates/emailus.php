@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Message from the emailus.html web-form</title>
+        <title>Message from the Contact Support page on KIC.com</title>
     </head>
     <body>
         <ul>About You

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Message from the how-to-order.html web-form</title>
+        <title>Message from the How To Order page on KIC.com</title>
     </head>
     <body>
         <ul>About You
