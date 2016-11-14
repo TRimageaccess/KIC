@@ -26,6 +26,34 @@
         <meta name="description" content="On this page you can easy find  our  Support. Telephone: (561) 995-6939
                                           Fax: (561) 431-2766
                                           Email: support@dlsg.net">
+
+    <!--facebook-->
+        <meta property="og:title" content="KIC.COM - Knowledge Imaging Centers">
+        <meta property="og:description" content="On this page you can easy find  our  Support. Telephone: (561) 995-6939
+                                                                                           Fax: (561) 431-2766
+                                                                                           Email: support@dlsg.net">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://kic.com/" >
+        <meta property="og:image" content="http://upload.ted-kteam.com/KIC/images/DSLG-and-IA-Logos.png">
+        <meta name="og:site_name" content="Knowledge Imaging Centers">
+        <meta property="og:see_also" content="https://kic.com/">
+        <!--googlePlus-->
+        <meta itemprop="name" content="Knowledge Imaging Centers"/>
+        <meta itemprop="description" content="On this page you can easy find  our  Support. Telephone: (561) 995-6939
+                                                                                        Fax: (561) 431-2766
+                                                                                        Email: support@dlsg.net"/>
+        <meta itemprop="image" content="http://upload.ted-kteam.com/KIC/images/DSLG-and-IA-Logos.png"/>
+        <!--google-->
+        <meta property="place:location:latitude" content="26.4181959"/>
+        <meta property="place:location:longitude" content="-80.0925649"/>
+        <meta property="business:contact_data:street_address" content="543 NW 77th Street">
+        <meta property="business:contact_data:locality" content="Boca Raton">
+        <meta property="business:contact_data:postal_code" content="FL 33487">
+        <meta property="business:contact_data:country_name" content="USA">
+        <meta property="business:contact_data:email" content="ContactUs@DLSG.com">
+        <meta property="business:contact_data:phone_number" content="800.378.5432">
+        <meta property="business:contact_data:website" content="https://kic.com/">
+
     <title>KIC.COM - Knowledge Imaging Centers</title>
     <link rel="icon" href="http://upload.ted-kteam.com/KIC/images/favicon.png">
     <link href="style/kic.com.style.css" rel="stylesheet" />
@@ -237,6 +265,13 @@
 <p id="QID71"> ........ The opportunities created for NSU students to enhance their studies and course materials will be unmatched by most institutions of comparable size---and by many that are much larger! - Northwestern State University </p>
 <p id="QID72"> ........ Each time I've had the opportunity to introduce a new student to this service, the response has generally been surprise and delight. - University of Washington </p>
   </div>
+  <div class="share">
+          <ul>
+              <li class="share_social "><a class="share_link share_link--google" href="#" data-network="googlePlus"><span class="icon-google-plus"></span></a></li>
+              <li class="share_social "><a class="share_link share_link--face" href="#" data-network="facebook"><span class="icon-facebook"></span></a></li>
+              <li class="share_social "><a class="share_link share_link--link" href="#" data-network="linkedin"><span class="icon-linkedin2"></span></a></li>
+          </ul>
+      </div>
 </div>
     <footer id="footer"></footer>
 </div>
@@ -250,6 +285,7 @@
 <script src="script/jquery.formatCurrency-1.4.0.min.js"></script>
 <script src="script/jquery.sortElements.js"></script>
 <script src="script/dlsg-form.js"></script>
+<script src="script/hideshare.js"></script>
 <script src="script/include.js"></script>
 </body>
 </html>
