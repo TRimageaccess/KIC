@@ -3478,6 +3478,12 @@ div#kic-slide-features1 ul {
     width: auto;
 }
 
+.table__footer,
+.table {
+    border: none;
+    width: 100%;
+}
+
 .table th {
     width: calc(100% / 6);
     height: auto;
@@ -3733,10 +3739,11 @@ span.align-right.padding-bottom-none.feature-table {
     display: none;
 }
 
-.share ul{
+.share ul {
     list-style: none;
     position: relative;
 }
+
 .share_link {
     text-decoration: none;
     color: #fff;
@@ -3748,17 +3755,15 @@ span.align-right.padding-bottom-none.feature-table {
     transition: 0.5s;
 }
 
-.share a:hover{
+.share a:hover {
     width: 50px;
 }
 
-
-
-.share_link span{
+.share_link span {
     position: absolute;
     left: 0;
     right: 0;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
 }
 
