@@ -3010,7 +3010,7 @@ span.mildHL {
 #newsTicker {
     position: relative;
     height: 25px;
-    margin: 0 auto;
+    margin: 2px auto;
     width: 950px;
     overflow: hidden;
 }
@@ -3777,4 +3777,21 @@ span.align-right.padding-bottom-none.feature-table {
 
 .share_link--link {
     background: #1a85bc;
+}
+
+.builder_frame_bscan {
+    position: relative;
+    margin: 0 auto;
+    color: black;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.iframe_builder_bscan {
+    margin: 17px auto;
+    min-width: 1200px;
+    min-height: 800px;
+    height: 1350px;
+    border: 0;
 }
